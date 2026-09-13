@@ -29,6 +29,10 @@
         {
             "id": "Inventory",
             "minVersion": "1.2.1"
+        },
+        {
+            "id": "WorkstationCrafting",
+            "minVersion": "2.0.0"
         }
     ],
     "isGameplay": "true",
