@@ -1,0 +1,36 @@
+{
+    "location": {},
+    "particleDataSprite": {
+        "texture": "CoreSampleGameplay:scrapeSoil"
+    },
+    "energyRangeGenerator": {
+        "minEnergy": 0.35,
+        "maxEnergy": 0.7
+    },
+    "velocityRangeGenerator": {
+        "minVelocity": [-1.8, 2.5, -1.8],
+        "maxVelocity": [1.8, 4.5, 1.8]
+    },
+    "scaleRangeGenerator": {
+        "minScale": [0.07, 0.07, 0.07],
+        "maxScale": [0.15, 0.15, 0.15]
+    },
+    "positionRangeGenerator": {
+        "minPosition": [-0.3, 0.0, -0.3],
+        "maxPosition": [0.3, 0.1, 0.3]
+    },
+    "accelerationAffector": {
+        "acceleration": [0, -14, 0]
+    },
+    "velocityAffector": {},
+    "particleEmitter": {
+        "lifeTime": 0.8,
+        "spawnRateMin": 200,
+        "spawnRateMax": 200,
+        "particleSpawnsLeft": 14,
+        "maxParticles": 14,
+        "particleCollision": false,
+        "destroyEntityWhenDead": true
+    },
+    "network": {}
+}

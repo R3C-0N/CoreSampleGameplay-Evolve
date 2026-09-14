@@ -5,6 +5,7 @@ package org.terasology.coresamplegameplay.equipment;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import org.joml.Vector3i;
+import org.terasology.engine.core.Time;
 import org.terasology.engine.entitySystem.entity.EntityManager;
 import org.terasology.engine.entitySystem.entity.EntityRef;
 import org.terasology.engine.entitySystem.systems.BaseComponentSystem;
@@ -20,41 +21,49 @@ import org.terasology.engine.world.block.BlockComponent;
 import java.util.Optional;
 
 /**
- * Shows how far a pass of scraping has gone, with the same marks as a block being broken — the way Health's
- * {@code BlockDamageRenderer} shows damage. Without it, holding the button would look like doing nothing.
+ * Shows how far a pass of scraping has gone: grooves raked across the face, one after another, never the cracks
+ * of a block being broken. The grooves stay full through the pause that ends a pass, then are wiped.
  */
 @RegisterSystem(RegisterMode.CLIENT)
 public class ScrapeRenderer extends BaseComponentSystem implements RenderSystem {
-    private static final String EFFECTS = "CoreAssets:blockDamageEffects#";
+    private static final String MARKS = "CoreSampleGameplay:scrapeMarks#";
+    private static final int FULL = 10;
 
     @In
     private EntityManager entityManager;
+    @In
+    private Time time;
 
     private BlockSelectionRenderer selectionRenderer;
 
     @Override
     public void renderOverlay() {
-        Multimap<Integer, Vector3i> byEffect = ArrayListMultimap.create();
+        long now = time.getGameTimeInMs();
+        Multimap<Integer, Vector3i> byFrame = ArrayListMultimap.create();
         for (EntityRef entity : entityManager.getEntitiesWith(ScrapingComponent.class, BlockComponent.class)) {
             ScrapingComponent scraping = entity.getComponent(ScrapingComponent.class);
-            if (scraping.progress <= 0 || scraping.hardness <= 0) {
+            int frame;
+            if (scraping.passEndTime > 0 && now - scraping.passEndTime < ScrapeAuthoritySystem.PAUSE_MS) {
+                frame = FULL;
+            } else if (scraping.progress > 0 && scraping.hardness > 0) {
+                frame = Math.max(1, Math.min(FULL - 1, Math.round((float) FULL * scraping.progress / scraping.hardness)));
+            } else {
                 continue;
             }
-            int effect = Math.max(1, Math.min(10, Math.round(10f * scraping.progress / scraping.hardness)));
-            byEffect.put(effect, entity.getComponent(BlockComponent.class).getPosition(new Vector3i()));
+            byFrame.put(frame, entity.getComponent(BlockComponent.class).getPosition(new Vector3i()));
         }
-        if (byEffect.isEmpty()) {
+        if (byFrame.isEmpty()) {
             return;
         }
         if (selectionRenderer == null) {
-            selectionRenderer = new BlockSelectionRenderer(Assets.getTextureRegion(EFFECTS + 1).get().getTexture());
+            selectionRenderer = new BlockSelectionRenderer(Assets.getTextureRegion(MARKS + 1).get().getTexture());
         }
         selectionRenderer.beginRenderOverlay();
-        for (Integer effect : byEffect.keySet()) {
-            Optional<TextureRegionAsset> texture = Assets.getTextureRegion(EFFECTS + effect);
+        for (Integer frame : byFrame.keySet()) {
+            Optional<TextureRegionAsset> texture = Assets.getTextureRegion(MARKS + frame);
             if (texture.isPresent()) {
                 selectionRenderer.setEffectsTexture(texture.get());
-                for (Vector3i position : byEffect.get(effect)) {
+                for (Vector3i position : byFrame.get(frame)) {
                     selectionRenderer.renderMark(position);
                 }
             }
