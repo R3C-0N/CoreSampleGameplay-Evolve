@@ -14,7 +14,10 @@ public class ArmorComponent implements Component<ArmorComponent> {
     @Replicate
     public String weight;
 
-    /** {@code head}, {@code chest}, {@code legs} or {@code feet}. */
+    /**
+     * {@code head}, {@code chest}, {@code legs}, {@code feet}, {@code cape}, {@code amulet} or {@code ring}: the
+     * equipment slot it goes into, see {@link EquipmentSlots}.
+     */
     @Replicate
     public String slot;
 
