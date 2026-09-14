@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières de cuir"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#HideLeggings",
+        "stackId": "CoreSampleGameplay:HideLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 2
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintScepter",
+        "stackId": "CoreSampleGameplay:FlintScepter",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

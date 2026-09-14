@@ -11,7 +11,7 @@
         ],
         "gridDimensions": [
             8,
-            3
+            7
         ],
         "gridOffset": [
             0,
@@ -41,7 +41,39 @@
             "LogChestplate",
             "LogLeggings",
             "LogBoots",
-            "WoodenShovel"
+            "WoodenShovel",
+            "FlintPickaxe",
+            "FlintAxe",
+            "FlintHoe",
+            "FlintKnife",
+            "FlintDagger",
+            "FlintSpear",
+            "FlintBattleAxe",
+            "BoneFocus",
+            "FlintArrow",
+            "FlintBolt",
+            "FlintScepter",
+            "FlintStaff",
+            "FlintGnarledStaff",
+            "HideHelmet",
+            "HideChestplate",
+            "HideLeggings",
+            "HideBoots",
+            "BoneStuddedHelmet",
+            "BoneStuddedChestplate",
+            "BoneStuddedLeggings",
+            "BoneStuddedBoots",
+            "BoneHelmet",
+            "BoneChestplate",
+            "BoneLeggings",
+            "BoneBoots",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
         ]
     }
 }

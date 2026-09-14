@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintDagger",
+        "stackId": "CoreSampleGameplay:FlintDagger",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 200
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

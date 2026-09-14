@@ -1,0 +1,17 @@
+{
+    "DropGrammar": {
+        "blockDrops": [
+            "CoreAssets:Dirt"
+        ],
+        "droppedWithTool": {
+            "soil": {
+                "blockDrops": [
+                    "CoreAssets:Dirt"
+                ],
+                "itemDrops": [
+                    "0.2|CoreAssets:Flint"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintKnife",
+        "stackId": "CoreSampleGameplay:FlintKnife",
+        "maxStackSize": 1,
+        "baseDamage": 2
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 1
+    }
+}

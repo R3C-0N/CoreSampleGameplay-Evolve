@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintHoe",
+        "stackId": "CoreSampleGameplay:FlintHoe",
+        "maxStackSize": 1,
+        "baseDamage": 1
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 1
+    }
+}

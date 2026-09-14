@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque de cuir"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#HideHelmet",
+        "stackId": "CoreSampleGameplay:HideHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "head",
+        "protection": 2
+    }
+}

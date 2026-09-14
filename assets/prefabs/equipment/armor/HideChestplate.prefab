@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron de cuir"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#HideChestplate",
+        "stackId": "CoreSampleGameplay:HideChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 3
+    }
+}

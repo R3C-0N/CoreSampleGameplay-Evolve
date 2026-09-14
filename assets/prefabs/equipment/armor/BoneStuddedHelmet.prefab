@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque clouté d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneStuddedHelmet",
+        "stackId": "CoreSampleGameplay:BoneStuddedHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "head",
+        "protection": 3
+    }
+}

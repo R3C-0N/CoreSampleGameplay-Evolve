@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintBolt",
+        "stackId": "CoreSampleGameplay:FlintBolt",
+        "maxStackSize": 99,
+        "baseDamage": 3
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

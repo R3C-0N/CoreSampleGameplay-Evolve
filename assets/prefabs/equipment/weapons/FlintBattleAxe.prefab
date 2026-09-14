@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache de guerre en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintBattleAxe",
+        "stackId": "CoreSampleGameplay:FlintBattleAxe",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 500
+    },
+    "Weapon": {
+        "type": "battleAxe",
+        "hands": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneChestplate",
+        "stackId": "CoreSampleGameplay:BoneChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 7
+    }
+}

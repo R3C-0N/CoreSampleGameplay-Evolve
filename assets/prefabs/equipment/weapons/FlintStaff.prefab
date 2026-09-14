@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton à pointe de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintStaff",
+        "stackId": "CoreSampleGameplay:FlintStaff",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "elementalStaff",
+        "hands": 2
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneBoots",
+        "stackId": "CoreSampleGameplay:BoneBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 3
+    }
+}

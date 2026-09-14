@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:Flint",
+            "4*CoreAssets:Stick",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:FlintArrow",
+        "count": 8,
+        "station": "workbench"
+    }
+}

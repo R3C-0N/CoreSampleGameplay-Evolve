@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes cloutées d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneStuddedBoots",
+        "stackId": "CoreSampleGameplay:BoneStuddedBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 2
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton noueux de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintGnarledStaff",
+        "stackId": "CoreSampleGameplay:FlintGnarledStaff",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "druidStaff",
+        "hands": 2
+    }
+}

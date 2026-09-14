@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintAxe",
+        "stackId": "CoreSampleGameplay:FlintAxe",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "damageType": "CoreAssets:axeDamage"
+    },
+    "Tool": {
+        "family": "axe",
+        "grade": 1
+    }
+}

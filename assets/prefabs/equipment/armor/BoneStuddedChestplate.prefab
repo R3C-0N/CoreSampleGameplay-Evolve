@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron clouté d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneStuddedChestplate",
+        "stackId": "CoreSampleGameplay:BoneStuddedChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 5
+    }
+}

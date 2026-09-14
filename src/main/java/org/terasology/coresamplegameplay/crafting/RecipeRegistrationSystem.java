@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.terasology.coresamplegameplay.equipment.ArmorComponent;
 import org.terasology.coresamplegameplay.equipment.CharacterStats;
 import org.terasology.coresamplegameplay.equipment.EquipmentSlots;
+import org.terasology.coresamplegameplay.equipment.ToolComponent;
 import org.terasology.coresamplegameplay.equipment.WeaponComponent;
 import org.terasology.engine.entitySystem.entity.EntityRef;
 import org.terasology.engine.entitySystem.prefab.Prefab;
@@ -57,8 +58,10 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
     /** Words that end a shared prefix without naming anything: "Tronc de chêne" and "Tronc de pin" share "Tronc". */
     private static final Set<String> CONNECTORS = Set.of("de", "du", "des", "d'", "en", "à");
 
-    /** Every item inherits this damage type; only a different one — a shovel's, an axe's — makes it a tool. */
-    private static final String DEFAULT_DAMAGE = "engine:physicalDamage";
+    private static final Map<String, String> TOOL_FAMILIES = Map.of("pickaxe", "Pioche", "axe", "Hache",
+            "shovel", "Pelle", "hoe", "Houe", "knife", "Couteau");
+    private static final List<String> TOOL_GRADES = List.of("bois", "silex", "cuivre", "bronze", "fer", "acier",
+            "métal fantastique", "étherium");
 
     private static final Map<String, String> WEAPON_TYPES = Map.ofEntries(
             Map.entry("oneHandedSword", "Épée à une main"), Map.entry("shield", "Bouclier"),
@@ -67,7 +70,8 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
             Map.entry("handCrossbow", "Arbalète à une main"), Map.entry("engineerKit", "Trousse d'ingénieur"),
             Map.entry("healingScepter", "Sceptre de soin"), Map.entry("elementalStaff", "Bâton élémentaire"),
             Map.entry("druidStaff", "Bâton druidique"), Map.entry("necromancerFocus", "Focus nécromantique"),
-            Map.entry("battleAxe", "Hache de guerre"), Map.entry("dagger", "Dague"), Map.entry("spear", "Lance"));
+            Map.entry("battleAxe", "Hache de guerre"), Map.entry("dagger", "Dague"), Map.entry("spear", "Lance"),
+            Map.entry("arrow", "Flèche"), Map.entry("bolt", "Carreau"));
     private static final Map<String, String> ARMOR_WEIGHTS = Map.of("light", "légère", "medium", "moyenne", "heavy", "lourde");
     private static final Map<String, String> ARMOR_SLOTS = Map.of("head", "tête", "chest", "torse", "legs", "jambes",
             "feet", "pieds", "cape", "dos", "amulet", "cou", "ring", "doigt");
@@ -231,17 +235,19 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
         String kind;
         WeaponComponent weapon = resultItem == null ? null : resultItem.getComponent(WeaponComponent.class);
         ArmorComponent armor = resultItem == null ? null : resultItem.getComponent(ArmorComponent.class);
+        ToolComponent tool = resultItem == null ? null : resultItem.getComponent(ToolComponent.class);
         ItemComponent item = resultItem == null ? null : resultItem.getComponent(ItemComponent.class);
         if (resultItem == null) {
             kind = "Bloc";
+        } else if (tool != null) {
+            kind = TOOL_FAMILIES.getOrDefault(tool.family, "Outil") + " · "
+                    + TOOL_GRADES.get(Math.max(0, Math.min(tool.grade, TOOL_GRADES.size() - 1)));
         } else if (weapon != null) {
             kind = WEAPON_TYPES.getOrDefault(weapon.type, "Arme") + (weapon.hands == 2 ? " à deux mains" : "")
                     + " · " + (item != null ? item.baseDamage : 1) + " dégâts";
         } else if (armor != null) {
             kind = "Armure " + ARMOR_WEIGHTS.getOrDefault(armor.weight, "") + " · " + ARMOR_SLOTS.getOrDefault(armor.slot, "")
                     + " · défense " + armor.protection;
-        } else if (item != null && item.damageType != null && !DEFAULT_DAMAGE.equals(item.damageType.getUrn().toString())) {
-            kind = "Outil";
         } else {
             kind = "Matériau";
         }

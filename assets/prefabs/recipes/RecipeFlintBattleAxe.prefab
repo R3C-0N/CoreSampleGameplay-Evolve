@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:Flint",
+            "1*CoreAssets:OakTrunk|CoreAssets:BirchTrunk|CoreAssets:PineTrunk",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:FlintBattleAxe",
+        "station": "workbench"
+    }
+}

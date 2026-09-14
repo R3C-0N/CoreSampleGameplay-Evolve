@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:Hide",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:HideBoots",
+        "station": "workbench"
+    }
+}

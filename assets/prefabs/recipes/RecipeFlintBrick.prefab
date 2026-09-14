@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:Flint",
+            "1*CoreAssets:Stone|CoreAssets:CobbleStone"
+        ],
+        "result": "CoreAssets:FlintBrick",
+        "count": 4,
+        "station": "workbench"
+    }
+}

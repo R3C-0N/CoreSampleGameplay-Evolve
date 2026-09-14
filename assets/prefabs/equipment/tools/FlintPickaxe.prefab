@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#FlintPickaxe",
+        "stackId": "CoreSampleGameplay:FlintPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "damageType": "CoreAssets:pickaxeDamage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 1
+    }
+}

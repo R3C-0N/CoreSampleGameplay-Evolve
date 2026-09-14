@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneHelmet",
+        "stackId": "CoreSampleGameplay:BoneHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 4
+    }
+}

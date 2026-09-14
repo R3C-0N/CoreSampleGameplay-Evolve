@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes de cuir"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#HideBoots",
+        "stackId": "CoreSampleGameplay:HideBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "feet",
+        "protection": 1
+    }
+}

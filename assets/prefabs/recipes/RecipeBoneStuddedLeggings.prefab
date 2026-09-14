@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "3*CoreAssets:Hide",
+            "3*CoreAssets:Bone",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:BoneStuddedLeggings",
+        "station": "workbench"
+    }
+}

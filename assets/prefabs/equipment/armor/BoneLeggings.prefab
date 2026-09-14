@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneLeggings",
+        "stackId": "CoreSampleGameplay:BoneLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 5
+    }
+}

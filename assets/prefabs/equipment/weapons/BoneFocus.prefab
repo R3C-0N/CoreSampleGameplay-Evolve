@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus d'os"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#BoneFocus",
+        "stackId": "CoreSampleGameplay:BoneFocus",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}

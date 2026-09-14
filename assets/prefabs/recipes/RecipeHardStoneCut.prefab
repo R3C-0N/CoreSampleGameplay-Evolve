@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:HardStone"
+        ],
+        "result": "CoreAssets:HardStoneCut",
+        "count": 2,
+        "station": "workbench"
+    }
+}
