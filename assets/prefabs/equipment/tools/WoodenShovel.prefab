@@ -9,5 +9,9 @@
         "maxStackSize": 1,
         "damageType": "CoreAssets:shovelDamage",
         "baseDamage": 2
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 0
     }
 }
