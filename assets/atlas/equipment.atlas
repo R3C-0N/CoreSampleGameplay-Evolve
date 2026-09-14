@@ -1,0 +1,47 @@
+{
+    "texture": "CoreSampleGameplay:equipment",
+    "textureSize": [
+        256,
+        256
+    ],
+    "grid": {
+        "tileSize": [
+            16,
+            16
+        ],
+        "gridDimensions": [
+            8,
+            3
+        ],
+        "gridOffset": [
+            0,
+            0
+        ],
+        "tileNames": [
+            "WoodenSword",
+            "PlankShield",
+            "WarMallet",
+            "Club",
+            "WoodenSabre",
+            "ShortBow",
+            "HandCrossbow",
+            "TinkerKit",
+            "WoodenScepter",
+            "NoviceStaff",
+            "GnarledStaff",
+            "WickerHelmet",
+            "WickerChestplate",
+            "WickerLeggings",
+            "WickerBoots",
+            "PlankHelmet",
+            "PlankChestplate",
+            "PlankLeggings",
+            "PlankBoots",
+            "LogHelmet",
+            "LogChestplate",
+            "LogLeggings",
+            "LogBoots",
+            "WoodenShovel"
+        ]
+    }
+}

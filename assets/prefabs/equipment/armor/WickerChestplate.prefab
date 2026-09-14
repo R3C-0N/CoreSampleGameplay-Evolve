@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron en osier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WickerChestplate",
+        "stackId": "CoreSampleGameplay:WickerChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 2
+    }
+}

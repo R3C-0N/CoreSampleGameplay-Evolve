@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque en rondins"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#LogHelmet",
+        "stackId": "CoreSampleGameplay:LogHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 3
+    }
+}

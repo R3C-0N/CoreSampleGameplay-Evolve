@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes en rondins"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#LogBoots",
+        "stackId": "CoreSampleGameplay:LogBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 2
+    }
+}

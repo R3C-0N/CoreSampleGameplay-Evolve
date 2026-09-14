@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron en rondins"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#LogChestplate",
+        "stackId": "CoreSampleGameplay:LogChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 5
+    }
+}

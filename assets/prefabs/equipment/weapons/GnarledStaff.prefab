@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton noueux"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#GnarledStaff",
+        "stackId": "CoreSampleGameplay:GnarledStaff",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "druidStaff",
+        "hands": 2
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Maillet de combat"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WarMallet",
+        "stackId": "CoreSampleGameplay:WarMallet",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse du bricoleur"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#TinkerKit",
+        "stackId": "CoreSampleGameplay:TinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 1,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

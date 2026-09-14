@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre de bois"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WoodenScepter",
+        "stackId": "CoreSampleGameplay:WoodenScepter",
+        "maxStackSize": 1,
+        "baseDamage": 1,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

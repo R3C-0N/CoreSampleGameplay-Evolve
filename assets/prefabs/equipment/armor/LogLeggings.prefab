@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières en rondins"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#LogLeggings",
+        "stackId": "CoreSampleGameplay:LogLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 4
+    }
+}

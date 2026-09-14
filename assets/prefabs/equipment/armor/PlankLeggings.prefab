@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières en planches"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#PlankLeggings",
+        "stackId": "CoreSampleGameplay:PlankLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 2
+    }
+}

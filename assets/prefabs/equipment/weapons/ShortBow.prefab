@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Arc court"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#ShortBow",
+        "stackId": "CoreSampleGameplay:ShortBow",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "bow",
+        "hands": 2
+    }
+}

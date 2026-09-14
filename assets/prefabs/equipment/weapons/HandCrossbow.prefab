@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Arbalète de poing"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#HandCrossbow",
+        "stackId": "CoreSampleGameplay:HandCrossbow",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 350
+    },
+    "Weapon": {
+        "type": "handCrossbow",
+        "hands": 1
+    }
+}

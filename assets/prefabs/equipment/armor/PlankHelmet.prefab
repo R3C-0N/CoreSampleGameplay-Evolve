@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque en planches"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#PlankHelmet",
+        "stackId": "CoreSampleGameplay:PlankHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "head",
+        "protection": 2
+    }
+}

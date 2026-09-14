@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier en planches"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#PlankShield",
+        "stackId": "CoreSampleGameplay:PlankShield",
+        "maxStackSize": 1,
+        "baseDamage": 1,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

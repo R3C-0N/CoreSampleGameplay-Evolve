@@ -1,0 +1,13 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en bois"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WoodenShovel",
+        "stackId": "CoreSampleGameplay:WoodenShovel",
+        "maxStackSize": 1,
+        "damageType": "CoreAssets:shovelDamage",
+        "baseDamage": 2
+    }
+}

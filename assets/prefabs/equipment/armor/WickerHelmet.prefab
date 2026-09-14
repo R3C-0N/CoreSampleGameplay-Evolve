@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque en osier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WickerHelmet",
+        "stackId": "CoreSampleGameplay:WickerHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "head",
+        "protection": 1
+    }
+}

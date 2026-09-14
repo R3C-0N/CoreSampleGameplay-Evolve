@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gourdin"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#Club",
+        "stackId": "CoreSampleGameplay:Club",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "cooldownTime": 450
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

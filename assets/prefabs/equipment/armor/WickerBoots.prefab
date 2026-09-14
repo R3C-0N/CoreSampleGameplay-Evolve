@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes en osier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WickerBoots",
+        "stackId": "CoreSampleGameplay:WickerBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "feet",
+        "protection": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières en osier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:equipment#WickerLeggings",
+        "stackId": "CoreSampleGameplay:WickerLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 1
+    }
+}
