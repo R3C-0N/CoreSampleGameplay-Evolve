@@ -21,13 +21,15 @@ import org.terasology.engine.world.block.BlockComponent;
 import java.util.Optional;
 
 /**
- * Shows how far a pass of scraping has gone: grooves raked across the face, one after another, never the cracks
- * of a block being broken. The grooves stay full through the pause that ends a pass, then are wiped.
+ * Shows a block being dug into, never the cracks of one being broken: up to four holes open in the face, each
+ * widening on its own, then fill with loose soil. Five frames of 110 ms, looped for as long as the scraping lasts;
+ * on letting go the holes are gone at once, and the next scraping opens them again from the first frame.
  */
 @RegisterSystem(RegisterMode.CLIENT)
 public class ScrapeRenderer extends BaseComponentSystem implements RenderSystem {
     private static final String MARKS = "CoreSampleGameplay:scrapeMarks#";
-    private static final int FULL = 10;
+    private static final int FRAMES = 5;
+    private static final long FRAME_MS = 110;
 
     @In
     private EntityManager entityManager;
@@ -42,14 +44,10 @@ public class ScrapeRenderer extends BaseComponentSystem implements RenderSystem 
         Multimap<Integer, Vector3i> byFrame = ArrayListMultimap.create();
         for (EntityRef entity : entityManager.getEntitiesWith(ScrapingComponent.class, BlockComponent.class)) {
             ScrapingComponent scraping = entity.getComponent(ScrapingComponent.class);
-            int frame;
-            if (scraping.passEndTime > 0 && now - scraping.passEndTime < ScrapeAuthoritySystem.PAUSE_MS) {
-                frame = FULL;
-            } else if (scraping.progress > 0 && scraping.hardness > 0) {
-                frame = Math.max(1, Math.min(FULL - 1, Math.round((float) FULL * scraping.progress / scraping.hardness)));
-            } else {
+            if (now - scraping.lastScrapeTime > ScrapeAuthoritySystem.STILL_SCRAPING_MS) {
                 continue;
             }
+            int frame = 1 + (int) (Math.max(0, now - scraping.startTime) / FRAME_MS % FRAMES);
             byFrame.put(frame, entity.getComponent(BlockComponent.class).getPosition(new Vector3i()));
         }
         if (byFrame.isEmpty()) {

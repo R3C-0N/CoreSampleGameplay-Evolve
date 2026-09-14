@@ -18,8 +18,6 @@ import org.terasology.gestalt.entitysystem.event.ReceiveEvent;
  */
 @RegisterSystem(RegisterMode.CLIENT)
 public class ScrapeAnimationClientSystem extends BaseComponentSystem {
-    /** Uses come every cooldown; past this without one, the hand is at rest again. */
-    private static final long STILL_SCRAPING_MS = 450;
     private static final float STROKE_MS = 380f;
 
     @In
@@ -37,7 +35,7 @@ public class ScrapeAnimationClientSystem extends BaseComponentSystem {
                 latest = scraping;
             }
         }
-        if (latest == null || now - latest.lastScrapeTime > STILL_SCRAPING_MS) {
+        if (latest == null || now - latest.lastScrapeTime > ScrapeAuthoritySystem.STILL_SCRAPING_MS) {
             return;
         }
 

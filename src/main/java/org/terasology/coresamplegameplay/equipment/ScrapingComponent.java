@@ -22,6 +22,10 @@ public class ScrapingComponent implements Component<ScrapingComponent> {
     @Replicate
     public int hardness;
 
+    /** Game time the scraping began, without letting go: the holes open from there. */
+    @Replicate
+    public long startTime;
+
     /** Game time of the last use on this block, pauses included. */
     @Replicate
     public long lastScrapeTime;
@@ -37,6 +41,7 @@ public class ScrapingComponent implements Component<ScrapingComponent> {
     public void copyFrom(ScrapingComponent other) {
         this.progress = other.progress;
         this.hardness = other.hardness;
+        this.startTime = other.startTime;
         this.lastScrapeTime = other.lastScrapeTime;
         this.passEndTime = other.passEndTime;
         this.scraper = other.scraper;

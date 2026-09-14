@@ -43,6 +43,8 @@ import java.util.Set;
 public class ScrapeAuthoritySystem extends BaseComponentSystem implements UpdateSubscriberSystem {
     /** Between two passes: uses in the meantime are taken, and put nothing in. */
     static final long PAUSE_MS = 300;
+    /** Uses come every cooldown; past this without one, the scraper has let go. */
+    static final long STILL_SCRAPING_MS = 450;
     /** A pass left alone this long starts over, as a damaged block heals. */
     private static final long FORGET_AFTER_MS = 1000;
     private static final float CLEANUP_INTERVAL = 0.5f;
@@ -84,6 +86,9 @@ public class ScrapeAuthoritySystem extends BaseComponentSystem implements Update
             scraping = new ScrapingComponent();
         } else if (now - scraping.lastScrapeTime > FORGET_AFTER_MS) {
             scraping.progress = 0;
+        }
+        if (fresh || now - scraping.lastScrapeTime > STILL_SCRAPING_MS) {
+            scraping.startTime = now;
         }
         scraping.scraper = event.getInstigator();
         scraping.hardness = block.getHardness();
