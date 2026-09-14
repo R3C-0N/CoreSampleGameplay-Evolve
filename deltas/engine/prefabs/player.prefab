@@ -4,49 +4,7 @@
   },
   "StartingInventory": {
     "items": [
-      { "uri": "CoreAssets:pickaxe" },
-      { "uri": "CoreAssets:axe" },
-      { "uri": "CoreAssets:shovel" },
-      { "uri": "CoreAssets:Torch", "quantity": 99 },
-      { "uri": "CoreSampleGameplay:companion" },
-      {
-        "uri": "CoreAdvancedAssets:Chest",
-        "items": [
-          { "uri": "CoreAssets:pickaxeImproved" },
-          { "uri": "CoreAssets:axeImproved" },
-          { "uri": "CoreAssets:shovelImproved" },
-          { "uri": "CoreAssets:gooeysFist" }
-        ]
-      },
-      {
-        "uri": "CoreAdvancedAssets:Chest",
-        "items": [
-          { "uri": "CoreAdvancedAssets:Tnt", "quantity": 99 },
-          { "uri": "CoreAdvancedAssets:fuseShort" },
-          { "uri": "CoreAdvancedAssets:fuseLong" },
-          { "uri": "CoreAdvancedAssets:dynamite" },
-          { "uri": "CoreAdvancedAssets:dynamiteBundle" },
-          { "uri": "CoreAdvancedAssets:gun" },
-          { "uri": "CoreAdvancedAssets:gunImproved" },
-        ]
-      },
-      {
-        "uri": "CoreAdvancedAssets:Chest",
-        "items": [
-          { "uri": "CoreAssets:Brick:engine:stair", "quantity": 99 },
-          { "uri": "CoreAssets:Cobblestone", "quantity": 99 },
-          { "uri": "CoreAssets:Plank", "quantity": 99 },
-          { "uri": "CoreAssets:Stone", "quantity": 99 },
-          { "uri": "CoreAssets:Lava", "quantity": 99 },
-          { "uri": "CoreAssets:Water", "quantity": 99 },
-          { "uri": "CoreAssets:Ice", "quantity": 99 },
-          { "uri": "CoreAssets:Iris", "quantity": 99 },
-          { "uri": "CoreAssets:Dandelion", "quantity": 99 },
-          { "uri": "CoreAssets:Tulip", "quantity": 99 },
-          { "uri": "CoreAssets:YellowFlower", "quantity": 99 },
-          { "uri": "CoreAdvancedAssets:Door", "quantity": 20 },
-        ]
-      }
+      { "uri": "CoreAssets:Torch", "quantity": 20 }
     ]
   }
 }
