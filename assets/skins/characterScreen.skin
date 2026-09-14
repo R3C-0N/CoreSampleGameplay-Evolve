@@ -1,0 +1,207 @@
+{
+    "inherit": "engine:mainmenu",
+    "elements": {
+        "UIScreenLayer": {
+            "background": "engine:scrim",
+            "background-scale-mode": "stretch"
+        },
+        "UIBox": {
+            "background": "engine:panelSlim",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 60,
+                "bottom": 60,
+                "left": 60,
+                "right": 60
+            },
+            "margin": {
+                "top": 36,
+                "bottom": 36,
+                "left": 36,
+                "right": 36
+            }
+        },
+        "InventoryCell": {
+            "background": "engine:slot",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+            },
+            "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "fixed-width": 48,
+            "fixed-height": 48,
+            "modes": {
+                "active": {
+                    "background": "engine:slotSelected"
+                }
+            }
+        },
+        "SlotCell": {
+            "background": "engine:slot",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+            },
+            "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "fixed-width": 48,
+            "fixed-height": 48,
+            "modes": {
+                "active": {
+                    "background": "engine:slotSelected"
+                }
+            }
+        },
+        "ItemIcon": {
+            "fixed-width": 36,
+            "fixed-height": 36,
+            "align-horizontal": "center",
+            "align-vertical": "middle",
+            "texture-scale-mode": "scale fit",
+            "text-align-horizontal": "right",
+            "text-align-vertical": "bottom",
+            "font": "Grenze-Strong",
+            "text-color": "FFF3DCFF"
+        },
+        "UILabel": {
+            "font": "Grenze-Body",
+            "text-color": "FFF3DCFF"
+        }
+    },
+    "families": {
+        "inset": {
+            "elements": {
+                "UIBox": {
+                    "background": "engine:area",
+                    "background-scale-mode": "tiled",
+                    "background-border": {
+                        "top": 12,
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12
+                    },
+                    "margin": {
+                        "top": 12,
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12
+                    }
+                }
+            }
+        },
+        "well": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Small",
+                    "text-color": "B49E7CFF",
+                    "text-align-horizontal": "center",
+                    "text-align-vertical": "middle",
+                    "background": "engine:panelSunken",
+                    "background-scale-mode": "tiled",
+                    "background-border": {
+                        "top": 12,
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12
+                    }
+                }
+            }
+        },
+        "stat-label": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Body",
+                    "text-color": "B49E7CFF",
+                    "text-align-horizontal": "left",
+                    "text-align-vertical": "middle"
+                }
+            }
+        },
+        "stat-value": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Strong",
+                    "text-color": "FFF3DCFF",
+                    "text-align-horizontal": "right",
+                    "text-align-vertical": "middle"
+                }
+            }
+        },
+        "small-secondary": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Small",
+                    "text-color": "F2E2C0FF",
+                    "text-align-horizontal": "left",
+                    "text-align-vertical": "middle"
+                }
+            }
+        },
+        "small-muted": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Small",
+                    "text-color": "B49E7CFF",
+                    "text-align-horizontal": "left",
+                    "text-align-vertical": "middle"
+                }
+            }
+        },
+        "count-ok": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Strong",
+                    "text-color": "7CC452FF",
+                    "text-align-horizontal": "right",
+                    "text-align-vertical": "middle"
+                }
+            }
+        },
+        "count-missing": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Strong",
+                    "text-color": "E2604AFF",
+                    "text-align-horizontal": "right",
+                    "text-align-vertical": "middle"
+                }
+            }
+        },
+        "ingredient": {
+            "elements": {
+                "UILabel": {
+                    "font": "Grenze-Body",
+                    "text-color": "F2E2C0FF",
+                    "text-align-horizontal": "left",
+                    "text-align-vertical": "middle"
+                },
+                "ItemIcon": {
+                    "fixed-width": 30,
+                    "fixed-height": 30,
+                    "align-horizontal": "center",
+                    "align-vertical": "middle",
+                    "texture-scale-mode": "scale fit",
+                    "text-align-horizontal": "right",
+                    "text-align-vertical": "bottom",
+                    "font": "Grenze-Strong",
+                    "text-color": "FFF3DCFF"
+                }
+            }
+        }
+    }
+}

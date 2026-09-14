@@ -15,10 +15,10 @@ import java.util.List;
 /**
  * A recipe that is only listed, and only made, next to a station of its type.
  * <p>
- * It reuses the hand-crafting window as it is: that window already lists what the player's own
- * inventory allows, which is exactly what a station must do. The station only adds recipes to it.
- * The check runs twice — when the client lists, and when the server crafts — because the listing is
- * the client's and the decision is the server's.
+ * Crafting itself is the hand-crafting path, which already takes the ingredients from the player's own
+ * inventory — exactly what a station must do. The station only adds recipes to what is offered. The check
+ * runs twice — when the client lists, and when the server crafts — because the listing is the client's and
+ * the decision is the server's.
  */
 public final class StationRecipe implements CraftInHandRecipe {
     /** How far, in blocks, a character may stand from the station it activated. */
@@ -36,7 +36,7 @@ public final class StationRecipe implements CraftInHandRecipe {
 
     @Override
     public List<CraftInHandResult> getMatchingRecipeResults(EntityRef character) {
-        return isAtStation(character) ? delegate.getMatchingRecipeResults(character) : null;
+        return isAvailableTo(character) ? delegate.getMatchingRecipeResults(character) : null;
     }
 
     @Override
@@ -49,7 +49,7 @@ public final class StationRecipe implements CraftInHandRecipe {
      * The character remembers a station of this type, stands within reach of it, and the block there
      * still is one. The memory alone would outlive a broken workbench.
      */
-    private boolean isAtStation(EntityRef character) {
+    public boolean isAvailableTo(EntityRef character) {
         AtStationComponent at = character.getComponent(AtStationComponent.class);
         LocationComponent location = character.getComponent(LocationComponent.class);
         if (at == null || location == null || !stationType.equals(at.type)) {
@@ -80,7 +80,7 @@ public final class StationRecipe implements CraftInHandRecipe {
 
         @Override
         public EntityRef craft(EntityRef character, int count) {
-            return isAtStation(character) ? result.craft(character, count) : EntityRef.NULL;
+            return isAvailableTo(character) ? result.craft(character, count) : EntityRef.NULL;
         }
 
         @Override
@@ -90,7 +90,7 @@ public final class StationRecipe implements CraftInHandRecipe {
 
         @Override
         public boolean isValidForCrafting(EntityRef entity, int multiplier) {
-            return isAtStation(entity) && result.isValidForCrafting(entity, multiplier);
+            return isAvailableTo(entity) && result.isValidForCrafting(entity, multiplier);
         }
 
         @Override

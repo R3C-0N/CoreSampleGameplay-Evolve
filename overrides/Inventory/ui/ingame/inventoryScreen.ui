@@ -1,0 +1,472 @@
+{
+    "type": "CoreSampleGameplay:CharacterScreen",
+    "skin": "CoreSampleGameplay:characterScreen",
+    "contents": {
+        "type": "relativeLayout",
+        "contents": [
+            {
+                "type": "UISpace",
+                "id": "row",
+                "layoutInfo": {
+                    "width": 1220,
+                    "height": 580,
+                    "position-horizontal-center": {},
+                    "position-top": {
+                        "offset": 104
+                    }
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "characterPanel",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "row",
+                        "target": "LEFT",
+                        "offset": 0
+                    },
+                    "position-top": {
+                        "widget": "row",
+                        "target": "TOP"
+                    },
+                    "width": 300,
+                    "height": 580
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "inventoryPanel",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "row",
+                        "target": "LEFT",
+                        "offset": 316
+                    },
+                    "position-top": {
+                        "widget": "row",
+                        "target": "TOP"
+                    },
+                    "width": 528,
+                    "height": 580
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "craftingPanel",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "row",
+                        "target": "LEFT",
+                        "offset": 860
+                    },
+                    "position-top": {
+                        "widget": "row",
+                        "target": "TOP"
+                    },
+                    "width": 360,
+                    "height": 580
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "equipLeft",
+                "columns": 1,
+                "verticalSpacing": 4,
+                "contents": [
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "head",
+                        "targetSlot": 46
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "chest",
+                        "targetSlot": 47
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "legs",
+                        "targetSlot": 48
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "feet",
+                        "targetSlot": 49
+                    }
+                ],
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "characterPanel",
+                        "target": "LEFT",
+                        "offset": 30
+                    },
+                    "position-top": {
+                        "widget": "characterPanel",
+                        "target": "TOP",
+                        "offset": 62
+                    },
+                    "width": 48,
+                    "height": 204
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "heroName",
+                "family": "well",
+                "text": "Personnage",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "characterPanel",
+                        "target": "LEFT",
+                        "offset": 86
+                    },
+                    "position-top": {
+                        "widget": "characterPanel",
+                        "target": "TOP",
+                        "offset": 62
+                    },
+                    "width": 128,
+                    "height": 204
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "equipRight",
+                "columns": 1,
+                "verticalSpacing": 4,
+                "contents": [
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "cape",
+                        "targetSlot": 50
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "amulet",
+                        "targetSlot": 51
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "ring1",
+                        "targetSlot": 52
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "ring2",
+                        "targetSlot": 53
+                    }
+                ],
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "characterPanel",
+                        "target": "LEFT",
+                        "offset": 222
+                    },
+                    "position-top": {
+                        "widget": "characterPanel",
+                        "target": "TOP",
+                        "offset": 62
+                    },
+                    "width": 48,
+                    "height": 204
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "stats",
+                "columns": 2,
+                "verticalSpacing": 6,
+                "columnWidths": [
+                    0.6,
+                    0.4
+                ],
+                "contents": [
+                    {
+                        "type": "UILabel",
+                        "family": "stat-label",
+                        "text": "Attaque"
+                    },
+                    {
+                        "type": "UILabel",
+                        "id": "attack",
+                        "family": "stat-value",
+                        "text": ""
+                    },
+                    {
+                        "type": "UILabel",
+                        "family": "stat-label",
+                        "text": "Défense"
+                    },
+                    {
+                        "type": "UILabel",
+                        "id": "defense",
+                        "family": "stat-value",
+                        "text": ""
+                    },
+                    {
+                        "type": "UILabel",
+                        "family": "stat-label",
+                        "text": "Vitesse"
+                    },
+                    {
+                        "type": "UILabel",
+                        "id": "speed",
+                        "family": "stat-value",
+                        "text": ""
+                    }
+                ],
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "characterPanel",
+                        "target": "LEFT",
+                        "offset": 30
+                    },
+                    "position-top": {
+                        "widget": "characterPanel",
+                        "target": "TOP",
+                        "offset": 286
+                    },
+                    "width": 240,
+                    "height": 96
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "grid",
+                "columns": 9,
+                "horizontalSpacing": 3,
+                "verticalSpacing": 3,
+                "contents": [],
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "inventoryPanel",
+                        "target": "LEFT",
+                        "offset": 36
+                    },
+                    "position-top": {
+                        "widget": "inventoryPanel",
+                        "target": "TOP",
+                        "offset": 62
+                    },
+                    "width": 456,
+                    "height": 201
+                }
+            },
+            {
+                "type": "ScrollableArea",
+                "id": "recipeScroll",
+                "content": {
+                    "type": "UIList",
+                    "id": "recipes"
+                },
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 30
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 62
+                    },
+                    "width": 300,
+                    "height": 196
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "detailBox",
+                "family": "inset",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 30
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 268
+                    },
+                    "width": 300,
+                    "height": 222
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "recipeName",
+                "family": "item-name",
+                "text": "",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 44
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 280
+                    },
+                    "width": 272,
+                    "height": 28
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "recipeDescription",
+                "family": "small-secondary",
+                "text": "",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 44
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 308
+                    },
+                    "width": 272,
+                    "height": 22
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "componentsLabel",
+                "family": "caps",
+                "text": "COMPOSANTS",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 44
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 334
+                    },
+                    "width": 272,
+                    "height": 18
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "ingredients",
+                "columns": 1,
+                "verticalSpacing": 4,
+                "contents": [],
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 44
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 356
+                    },
+                    "width": 272,
+                    "use-content-height": true
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "missing",
+                "family": "small-muted",
+                "text": "",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 30
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 500
+                    },
+                    "width": 164,
+                    "height": 44
+                }
+            },
+            {
+                "type": "UIButton",
+                "id": "craft",
+                "text": "Fabriquer",
+                "layoutInfo": {
+                    "position-left": {
+                        "widget": "craftingPanel",
+                        "target": "LEFT",
+                        "offset": 200
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": 496
+                    },
+                    "width": 130,
+                    "height": 50
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "characterPanelTitle",
+                "family": "panel-title",
+                "text": "Personnage",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "height": 60,
+                    "position-horizontal-center": {
+                        "widget": "characterPanel"
+                    },
+                    "position-top": {
+                        "widget": "characterPanel",
+                        "target": "TOP",
+                        "offset": -26
+                    }
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "inventoryPanelTitle",
+                "family": "panel-title",
+                "text": "Inventaire",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "height": 60,
+                    "position-horizontal-center": {
+                        "widget": "inventoryPanel"
+                    },
+                    "position-top": {
+                        "widget": "inventoryPanel",
+                        "target": "TOP",
+                        "offset": -26
+                    }
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "craftingPanelTitle",
+                "family": "panel-title",
+                "text": "Artisanat",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "height": 60,
+                    "position-horizontal-center": {
+                        "widget": "craftingPanel"
+                    },
+                    "position-top": {
+                        "widget": "craftingPanel",
+                        "target": "TOP",
+                        "offset": -26
+                    }
+                }
+            }
+        ]
+    }
+}

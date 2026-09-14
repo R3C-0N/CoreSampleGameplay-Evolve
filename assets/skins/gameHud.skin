@@ -1,0 +1,71 @@
+{
+    "inherit": "engine:default",
+    "elements": {
+        "InventoryCell": {
+            "background": "engine:slot",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+            },
+            "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "fixed-width": 48,
+            "fixed-height": 48,
+            "modes": {
+                "active": {
+                    "background": "engine:slotSelected"
+                }
+            }
+        },
+        "SlotCell": {
+            "background": "engine:slot",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+            },
+            "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "fixed-width": 48,
+            "fixed-height": 48,
+            "modes": {
+                "active": {
+                    "background": "engine:slotSelected"
+                }
+            }
+        },
+        "ItemIcon": {
+            "fixed-width": 36,
+            "fixed-height": 36,
+            "align-horizontal": "center",
+            "align-vertical": "middle",
+            "texture-scale-mode": "scale fit",
+            "text-align-horizontal": "right",
+            "text-align-vertical": "bottom",
+            "font": "Grenze-Strong",
+            "text-color": "FFF3DCFF"
+        },
+        "TransferItemCursor": {
+            "align-horizontal": "center",
+            "align-vertical": "top"
+        },
+        "UICrosshair": {
+            "background": "engine:gui#crosshair",
+            "fixed-width": 40,
+            "fixed-height": 40
+        }
+    }
+}

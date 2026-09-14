@@ -1,0 +1,106 @@
+{
+    "type": "InventoryHud",
+    "skin": "CoreSampleGameplay:gameHud",
+    "contents": {
+        "type": "relativeLayout",
+        "contents": [
+            {
+                "type": "ColumnLayout",
+                "id": "toolbar",
+                "columns": 10,
+                "horizontalSpacing": 4,
+                "contents": [
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar1",
+                        "targetSlot": 0,
+                        "hotkey": "1"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar2",
+                        "targetSlot": 1,
+                        "hotkey": "2"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar3",
+                        "targetSlot": 2,
+                        "hotkey": "3"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar4",
+                        "targetSlot": 3,
+                        "hotkey": "4"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar5",
+                        "targetSlot": 4,
+                        "hotkey": "5"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar6",
+                        "targetSlot": 5,
+                        "hotkey": "6"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar7",
+                        "targetSlot": 6,
+                        "hotkey": "7"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar8",
+                        "targetSlot": 7,
+                        "hotkey": "8"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar9",
+                        "targetSlot": 8,
+                        "hotkey": "9"
+                    },
+                    {
+                        "type": "CoreSampleGameplay:SlotCell",
+                        "id": "toolbar0",
+                        "targetSlot": 9,
+                        "hotkey": "0"
+                    }
+                ],
+                "layoutInfo": {
+                    "width": 516,
+                    "height": 48,
+                    "position-horizontal-center": {},
+                    "position-bottom": {
+                        "target": "BOTTOM",
+                        "offset": 20
+                    }
+                }
+            },
+            {
+                "type": "UICrosshair",
+                "id": "crosshair",
+                "chargeStages": [
+                    "engine:gui#crosshairCharge1",
+                    "engine:gui#crosshairCharge2",
+                    "engine:gui#crosshairCharge3",
+                    "engine:gui#crosshairCharge4",
+                    "engine:gui#crosshairCharge5",
+                    "engine:gui#crosshairCharge6",
+                    "engine:gui#crosshairCharge7",
+                    "engine:gui#crosshairCharge8"
+                ],
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "use-content-height": true,
+                    "position-horizontal-center": {},
+                    "position-vertical-center": {}
+                }
+            }
+        ]
+    }
+}

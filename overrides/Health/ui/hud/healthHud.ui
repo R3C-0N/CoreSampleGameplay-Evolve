@@ -1,0 +1,63 @@
+{
+    "type": "CoreSampleGameplay:ResourceOrbsHud",
+    "skin": "CoreSampleGameplay:gameHud",
+    "contents": {
+        "type": "relativeLayout",
+        "contents": [
+            {
+                "type": "CoreSampleGameplay:ResourceOrb",
+                "id": "mana",
+                "kind": "mana",
+                "label": "Mana",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "use-content-height": true,
+                    "position-top": {
+                        "offset": 24
+                    },
+                    "position-right": {
+                        "target": "RIGHT",
+                        "offset": 24
+                    }
+                },
+                "small": true
+            },
+            {
+                "type": "CoreSampleGameplay:ResourceOrb",
+                "id": "stamina",
+                "kind": "stamina",
+                "label": "Endurance",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "use-content-height": true,
+                    "position-top": {
+                        "offset": 24
+                    },
+                    "position-right": {
+                        "widget": "mana",
+                        "target": "LEFT",
+                        "offset": 14
+                    }
+                }
+            },
+            {
+                "type": "CoreSampleGameplay:ResourceOrb",
+                "id": "health",
+                "kind": "health",
+                "label": "Vie",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "use-content-height": true,
+                    "position-top": {
+                        "offset": 24
+                    },
+                    "position-right": {
+                        "widget": "stamina",
+                        "target": "LEFT",
+                        "offset": 14
+                    }
+                }
+            }
+        ]
+    }
+}

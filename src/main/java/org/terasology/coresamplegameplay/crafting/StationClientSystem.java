@@ -11,12 +11,12 @@ import org.terasology.engine.rendering.nui.NUIManager;
 import org.terasology.gestalt.entitysystem.event.ReceiveEvent;
 
 /**
- * Opens the crafting list when the server says a station was activated. It is the hand-crafting window:
- * the recipes the station adds show up in it on their own, through {@link StationRecipe}.
+ * Opens the character screen when the server says a station was activated. Its crafting panel lists what
+ * the station adds on its own, through {@link StationRecipe}.
  */
 @RegisterSystem(RegisterMode.CLIENT)
 public class StationClientSystem extends BaseComponentSystem {
-    private static final String SCREEN = "WorkstationCrafting:CraftInHand";
+    private static final String SCREEN = "Inventory:inventoryScreen";
 
     @In
     private NUIManager nuiManager;
