@@ -8,12 +8,12 @@
                 "type": "CoreSampleGameplay:ResourceOrb",
                 "id": "mana",
                 "kind": "mana",
-                "label": "Mana",
                 "layoutInfo": {
                     "use-content-width": true,
                     "use-content-height": true,
-                    "position-top": {
-                        "offset": 24
+                    "position-bottom": {
+                        "target": "BOTTOM",
+                        "offset": 20
                     },
                     "position-right": {
                         "target": "RIGHT",
@@ -26,12 +26,12 @@
                 "type": "CoreSampleGameplay:ResourceOrb",
                 "id": "stamina",
                 "kind": "stamina",
-                "label": "Endurance",
                 "layoutInfo": {
                     "use-content-width": true,
                     "use-content-height": true,
-                    "position-top": {
-                        "offset": 24
+                    "position-bottom": {
+                        "target": "BOTTOM",
+                        "offset": 20
                     },
                     "position-right": {
                         "widget": "mana",
@@ -44,12 +44,12 @@
                 "type": "CoreSampleGameplay:ResourceOrb",
                 "id": "health",
                 "kind": "health",
-                "label": "Vie",
                 "layoutInfo": {
                     "use-content-width": true,
                     "use-content-height": true,
-                    "position-top": {
-                        "offset": 24
+                    "position-bottom": {
+                        "target": "BOTTOM",
+                        "offset": 20
                     },
                     "position-right": {
                         "widget": "stamina",
