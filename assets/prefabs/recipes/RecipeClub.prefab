@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:OakTrunk|CoreAssets:BirchTrunk|CoreAssets:PineTrunk",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:Club",
+        "station": "workbench"
+    }
+}

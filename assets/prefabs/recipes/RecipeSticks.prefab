@@ -1,0 +1,9 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:Plank"
+        ],
+        "result": "CoreAssets:Stick",
+        "count": 4
+    }
+}

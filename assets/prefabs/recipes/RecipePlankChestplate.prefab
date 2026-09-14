@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "5*CoreAssets:Plank",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:PlankChestplate",
+        "station": "workbench"
+    }
+}

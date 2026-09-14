@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:Stick",
+            "8*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:WickerChestplate",
+        "station": "workbench"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "3*CoreAssets:Fibre"
+        ],
+        "result": "CoreAssets:Rope"
+    }
+}

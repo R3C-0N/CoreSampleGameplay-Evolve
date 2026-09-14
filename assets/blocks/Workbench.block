@@ -1,0 +1,14 @@
+/**
+ * The workbench: activating it lists what can be made there, from what the player carries.
+ * Nothing is put into it.
+ *
+ * TODO texture: A sturdy plank table on four legs, tools laid on top. The tiles are
+ * darkened copies of Plank.
+ */
+{
+    "basedOn": "CoreAssets:wood",
+    "displayName": "Établi",
+    "entity": {
+        "prefab": "CoreSampleGameplay:WorkbenchEntity"
+    }
+}

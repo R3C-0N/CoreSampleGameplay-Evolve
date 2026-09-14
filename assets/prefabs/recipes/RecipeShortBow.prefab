@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "3*CoreAssets:Stick",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:ShortBow",
+        "station": "workbench"
+    }
+}

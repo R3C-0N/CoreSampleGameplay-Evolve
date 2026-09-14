@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:Plank"
+        ],
+        "result": "CoreAssets:WoodPanel",
+        "count": 2,
+        "station": "workbench"
+    }
+}
