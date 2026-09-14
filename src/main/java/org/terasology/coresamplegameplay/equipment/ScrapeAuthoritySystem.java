@@ -34,10 +34,10 @@ import java.util.Set;
 /**
  * Scraping soil with a shovel, on the use button: it turns up flint without breaking the block.
  * <p>
- * A pass takes exactly as long as breaking the block would. Each use puts in the same strength as a hit — the
- * item's base damage, times its damage type's multiplier for the block — at the same cooldown, and a pass is
- * complete once that adds up to the block's hardness. Then a burst of soil and a short pause mark the end of it,
- * and one pass in five turns up a flint.
+ * Each use puts in the same strength as a hit — the item's base damage, times its damage type's multiplier for the
+ * block — at the same cooldown. A pass is complete once that adds up to the block's hardness times the shovel's
+ * slowness, which falls with its grade: a wooden shovel scrapes four times slower than it breaks. Then a burst of
+ * soil and a short pause mark the end of it, and one pass in five turns up a flint.
  */
 @RegisterSystem(RegisterMode.AUTHORITY)
 public class ScrapeAuthoritySystem extends BaseComponentSystem implements UpdateSubscriberSystem {
@@ -45,9 +45,11 @@ public class ScrapeAuthoritySystem extends BaseComponentSystem implements Update
     static final long PAUSE_MS = 300;
     /** Uses come every cooldown; past this without one, the scraper has let go. */
     static final long STILL_SCRAPING_MS = 450;
-    /** A pass left alone this long starts over, as a damaged block heals. */
+    /** A block left alone this long loses its component. */
     private static final long FORGET_AFTER_MS = 1000;
     private static final float CLEANUP_INTERVAL = 0.5f;
+    /** How many times slower than breaking a wooden shovel scrapes; one less per grade, never under one. */
+    private static final int WOODEN_SLOWNESS = 4;
 
     private static final float FLINT_CHANCE = 0.2f;
     private static final String FLINT = "CoreAssets:Flint";
@@ -84,18 +86,22 @@ public class ScrapeAuthoritySystem extends BaseComponentSystem implements Update
         boolean fresh = scraping == null;
         if (fresh) {
             scraping = new ScrapingComponent();
-        } else if (now - scraping.lastScrapeTime > FORGET_AFTER_MS) {
+        } else if (now - scraping.lastScrapeTime > STILL_SCRAPING_MS) {
+            // Let go, then taken up again: the pass starts over, as the holes do.
             scraping.progress = 0;
         }
-        if (fresh || now - scraping.lastScrapeTime > STILL_SCRAPING_MS) {
-            scraping.startTime = now;
-        }
         scraping.scraper = event.getInstigator();
-        scraping.hardness = block.getHardness();
+        int strength = Math.max(1, strength(itemComponent, block));
+        scraping.hardness = block.getHardness() * slowness(tool);
         boolean pausing = !fresh && now - scraping.passEndTime < PAUSE_MS;
         scraping.lastScrapeTime = now;
         if (!pausing) {
-            scraping.progress += strength(itemComponent, block);
+            if (scraping.progress == 0) {
+                int uses = Math.max(1, (scraping.hardness + strength - 1) / strength);
+                scraping.passStartTime = now;
+                scraping.passLength = (uses - 1) * (long) Math.max(1, itemComponent.cooldownTime);
+            }
+            scraping.progress += strength;
             if (scraping.progress >= scraping.hardness) {
                 scraping.progress = 0;
                 scraping.passEndTime = now;
@@ -131,6 +137,10 @@ public class ScrapeAuthoritySystem extends BaseComponentSystem implements Update
             }
         }
         forgotten.forEach(block -> block.removeComponent(ScrapingComponent.class));
+    }
+
+    private static int slowness(ToolComponent tool) {
+        return Math.max(1, WOODEN_SLOWNESS - tool.grade);
     }
 
     /** What a hit with this item would take off the block, see {@code BlockDamageAuthoritySystem}. */

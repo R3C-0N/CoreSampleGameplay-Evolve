@@ -22,14 +22,15 @@ import java.util.Optional;
 
 /**
  * Shows a block being dug into, never the cracks of one being broken: up to four holes open in the face, each
- * widening on its own, then fill with loose soil. Five frames of 110 ms, looped for as long as the scraping lasts;
- * on letting go the holes are gone at once, and the next scraping opens them again from the first frame.
+ * widening on its own, then fill with loose soil. The four frames of opening are spread evenly over a pass, so a
+ * slower shovel digs them slower; the filling lasts from the end of the pass to the start of the next. On letting
+ * go the holes are gone at once, and the next scraping opens them again from the first frame.
  */
 @RegisterSystem(RegisterMode.CLIENT)
 public class ScrapeRenderer extends BaseComponentSystem implements RenderSystem {
     private static final String MARKS = "CoreSampleGameplay:scrapeMarks#";
-    private static final int FRAMES = 5;
-    private static final long FRAME_MS = 110;
+    private static final int OPENING_FRAMES = 4;
+    private static final int FILLING_FRAME = 5;
 
     @In
     private EntityManager entityManager;
@@ -47,8 +48,7 @@ public class ScrapeRenderer extends BaseComponentSystem implements RenderSystem 
             if (now - scraping.lastScrapeTime > ScrapeAuthoritySystem.STILL_SCRAPING_MS) {
                 continue;
             }
-            int frame = 1 + (int) (Math.max(0, now - scraping.startTime) / FRAME_MS % FRAMES);
-            byFrame.put(frame, entity.getComponent(BlockComponent.class).getPosition(new Vector3i()));
+            byFrame.put(frameOf(scraping, now), entity.getComponent(BlockComponent.class).getPosition(new Vector3i()));
         }
         if (byFrame.isEmpty()) {
             return;
@@ -67,5 +67,13 @@ public class ScrapeRenderer extends BaseComponentSystem implements RenderSystem 
             }
         }
         selectionRenderer.endRenderOverlay();
+    }
+
+    private static int frameOf(ScrapingComponent scraping, long now) {
+        if (scraping.passEndTime > 0 && scraping.passEndTime >= scraping.passStartTime) {
+            return FILLING_FRAME;
+        }
+        float done = scraping.passLength > 0 ? (float) (now - scraping.passStartTime) / scraping.passLength : 1f;
+        return 1 + Math.max(0, Math.min(OPENING_FRAMES - 1, (int) (done * OPENING_FRAMES)));
     }
 }

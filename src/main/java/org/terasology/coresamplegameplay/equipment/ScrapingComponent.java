@@ -11,7 +11,7 @@ import org.terasology.gestalt.entitysystem.component.Component;
  * How far a shovel has scraped a soil block. Lives on the block entity while someone scrapes it, and keeps that
  * entity from being cleaned up as temporary in the meantime.
  * <p>
- * Everything is replicated: the client draws the marks, and moves the shovel of whoever is scraping.
+ * Everything is replicated: the client draws the holes, and moves the shovel of whoever is scraping.
  */
 @ForceBlockActive
 public class ScrapingComponent implements Component<ScrapingComponent> {
@@ -19,12 +19,17 @@ public class ScrapingComponent implements Component<ScrapingComponent> {
     @Replicate
     public int progress;
 
+    /** What a pass takes with this tool: the block's hardness, times the tool's slowness at scraping. */
     @Replicate
     public int hardness;
 
-    /** Game time the scraping began, without letting go: the holes open from there. */
+    /** Game time the current pass began. */
     @Replicate
-    public long startTime;
+    public long passStartTime;
+
+    /** How long the current pass lasts, from its first use to the one that completes it. */
+    @Replicate
+    public long passLength;
 
     /** Game time of the last use on this block, pauses included. */
     @Replicate
@@ -41,7 +46,8 @@ public class ScrapingComponent implements Component<ScrapingComponent> {
     public void copyFrom(ScrapingComponent other) {
         this.progress = other.progress;
         this.hardness = other.hardness;
-        this.startTime = other.startTime;
+        this.passStartTime = other.passStartTime;
+        this.passLength = other.passLength;
         this.lastScrapeTime = other.lastScrapeTime;
         this.passEndTime = other.passEndTime;
         this.scraper = other.scraper;
