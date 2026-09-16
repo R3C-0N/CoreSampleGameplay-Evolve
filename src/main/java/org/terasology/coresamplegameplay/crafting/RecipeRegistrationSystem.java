@@ -63,6 +63,10 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
     private static final List<String> TOOL_GRADES = List.of("bois", "silex", "cuivre", "bronze", "fer", "acier",
             "métal fantastique", "étherium");
 
+    /** Where a recipe is made, said in full: tying the label to the type keeps a second station honest. */
+    private static final Map<String, String> STATION_LABELS = Map.of(
+            "workbench", "à l'établi", "lapidary", "à la tour de lapidaire");
+
     private static final Map<String, String> WEAPON_TYPES = Map.ofEntries(
             Map.entry("oneHandedSword", "Épée à une main"), Map.entry("shield", "Bouclier"),
             Map.entry("warHammer", "Marteau de combat"), Map.entry("club", "Gourdin"),
@@ -170,7 +174,7 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
 
         String resultName = resultItem != null ? prefabName(resultItem, component.result) : resultBlock.getDisplayName();
         definition.name = component.count > 1 ? resultName + " ×" + component.count : resultName;
-        definition.description = describe(resultItem, component.station != null);
+        definition.description = describe(resultItem, component.station);
         return definition;
     }
 
@@ -231,7 +235,7 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
         return shared == 0 ? names.get(0) : String.join(" ", Arrays.copyOf(first, shared));
     }
 
-    private static String describe(Prefab resultItem, boolean atStation) {
+    private static String describe(Prefab resultItem, String station) {
         String kind;
         WeaponComponent weapon = resultItem == null ? null : resultItem.getComponent(WeaponComponent.class);
         ArmorComponent armor = resultItem == null ? null : resultItem.getComponent(ArmorComponent.class);
@@ -251,7 +255,10 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
         } else {
             kind = "Matériau";
         }
-        return atStation ? kind + " · à l'établi" : kind;
+        if (station == null) {
+            return kind;
+        }
+        return kind + " · " + STATION_LABELS.getOrDefault(station, "en atelier");
     }
 
     private static final class Definition {

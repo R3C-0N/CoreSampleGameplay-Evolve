@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:SteelIngot",
+            "2*CoreAssets:RawDiamond",
+            "4*CoreAssets:HardStone"
+        ],
+        "result": "CoreSampleGameplay:LapidaryTower",
+        "station": "workbench"
+    }
+}

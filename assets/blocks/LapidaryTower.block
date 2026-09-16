@@ -1,0 +1,14 @@
+/**
+ * The lapidary tower: where a rough gem becomes a cut one. Activating it lists
+ * what can be shaped there, from what the player carries.
+ *
+ * TODO texture: A stone pillar with a diamond-tipped wheel, a gem set on top.
+ * The tiles are cooled copies of Workbench.
+ */
+{
+    "basedOn": "CoreAssets:wood",
+    "displayName": "Tour de lapidaire",
+    "entity": {
+        "prefab": "CoreSampleGameplay:LapidaryTowerEntity"
+    }
+}

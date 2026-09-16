@@ -1,0 +1,9 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:RawDiamond"
+        ],
+        "result": "CoreAssets:Diamond",
+        "station": "lapidary"
+    }
+}

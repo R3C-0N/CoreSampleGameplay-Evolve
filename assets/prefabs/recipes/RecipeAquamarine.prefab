@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:AquamarineOre"
+        ],
+        "result": "CoreAssets:Aquamarine",
+        "count": 2,
+        "station": "lapidary"
+    }
+}

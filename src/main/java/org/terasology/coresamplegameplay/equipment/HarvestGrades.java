@@ -24,10 +24,18 @@ public final class HarvestGrades {
 
     private static final Map<String, String> FAMILY_BY_CATEGORY = Map.of("rock", "pickaxe", "mineral", "pickaxe");
 
-    /** Tin comes out with copper tools, iron with bronze ones; every other stone asks for flint. */
+    /**
+     * Tin comes out with copper tools, iron with bronze ones, and the gems only from steel on — they sit in
+     * the deep layers. Every other stone asks for flint.
+     */
     private static final Map<BlockUri, Integer> GRADE_BY_BLOCK = Map.of(
             new BlockUri("CoreAssets:TinOre"), COPPER,
-            new BlockUri("CoreAssets:IronOre"), BRONZE);
+            new BlockUri("CoreAssets:IronOre"), BRONZE,
+            new BlockUri("CoreAssets:DiamondOre"), STEEL,
+            new BlockUri("CoreAssets:LapisOre"), STEEL,
+            new BlockUri("CoreAssets:TopazOre"), STEEL,
+            new BlockUri("CoreAssets:AquamarineOre"), STEEL,
+            new BlockUri("CoreAssets:AmberOre"), STEEL);
 
     private HarvestGrades() {
     }

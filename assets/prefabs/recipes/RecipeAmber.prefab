@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:AmberOre"
+        ],
+        "result": "CoreAssets:Amber",
+        "count": 2,
+        "station": "lapidary"
+    }
+}
