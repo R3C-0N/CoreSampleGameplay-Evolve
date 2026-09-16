@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:MithrilIngot",
+            "4*CoreAssets:OrichalcumIngot",
+            "4*CoreAssets:AdamantineIngot",
+            "8*CoreAssets:VoidShard"
+        ],
+        "result": "CoreSampleGameplay:UltimateAstralForge",
+        "station": "astralforge"
+    }
+}

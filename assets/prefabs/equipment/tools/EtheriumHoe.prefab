@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumHoe",
+        "stackId": "CoreSampleGameplay:EtheriumHoe",
+        "maxStackSize": 1,
+        "baseDamage": 7
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 7
+    }
+}

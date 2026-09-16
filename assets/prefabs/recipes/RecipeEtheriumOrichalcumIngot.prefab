@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:OrichalcumIngot",
+            "1*CoreAssets:VoidShard"
+        ],
+        "result": "CoreAssets:EtheriumOrichalcumIngot",
+        "station": "ultimateforge"
+    }
+}

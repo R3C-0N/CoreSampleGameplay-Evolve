@@ -1,0 +1,15 @@
+/**
+ * The ultimate astral forge: where a fantastic metal is transmuted into
+ * etherium. Built at the astral forge, from all three metals and void shards.
+ *
+ * TODO texture: The astral forge turned inside out, the veins running white and
+ * the gem ring hanging unsupported. The tiles are brightened copies of
+ * AstralForge.
+ */
+{
+    "basedOn": "CoreAssets:wood",
+    "displayName": "Forge astrale ultime",
+    "entity": {
+        "prefab": "CoreSampleGameplay:UltimateAstralForgeEntity"
+    }
+}

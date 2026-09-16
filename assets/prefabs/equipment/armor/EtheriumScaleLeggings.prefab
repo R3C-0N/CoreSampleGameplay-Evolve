@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières à écailles d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumScaleLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 25
+    }
+}

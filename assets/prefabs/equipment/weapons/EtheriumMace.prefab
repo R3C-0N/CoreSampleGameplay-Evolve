@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMace",
+        "stackId": "CoreSampleGameplay:EtheriumMace",
+        "maxStackSize": 1,
+        "baseDamage": 28,
+        "cooldownTime": 340
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

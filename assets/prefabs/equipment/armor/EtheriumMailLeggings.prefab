@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses de mailles d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMailLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 24
+    }
+}

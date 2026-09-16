@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuirasse d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumPlateChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumPlateChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 38
+    }
+}

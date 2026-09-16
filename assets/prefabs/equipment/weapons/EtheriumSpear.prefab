@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Lance d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumSpear",
+        "stackId": "CoreSampleGameplay:EtheriumSpear",
+        "maxStackSize": 1,
+        "baseDamage": 28,
+        "cooldownTime": 375
+    },
+    "Weapon": {
+        "type": "spear",
+        "hands": 2
+    }
+}

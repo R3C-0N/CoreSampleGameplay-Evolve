@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:VoidStone"
+        ],
+        "result": "CoreAssets:VoidShard",
+        "count": 2,
+        "station": "astralforge"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "5*CoreAssets:EtheriumMithrilIngot|CoreAssets:EtheriumOrichalcumIngot|CoreAssets:EtheriumAdamantineIngot",
+            "2*CoreAssets:Stick",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:EtheriumBattleAxe",
+        "station": "ultimateforge"
+    }
+}

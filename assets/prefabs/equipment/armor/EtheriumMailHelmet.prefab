@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Coiffe de mailles d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMailHelmet",
+        "stackId": "CoreSampleGameplay:EtheriumMailHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "head",
+        "protection": 18
+    }
+}

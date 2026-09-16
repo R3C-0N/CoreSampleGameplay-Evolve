@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumFocus",
+        "stackId": "CoreSampleGameplay:EtheriumFocus",
+        "maxStackSize": 1,
+        "baseDamage": 20,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}

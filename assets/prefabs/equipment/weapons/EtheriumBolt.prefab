@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumBolt",
+        "stackId": "CoreSampleGameplay:EtheriumBolt",
+        "maxStackSize": 99,
+        "baseDamage": 18
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

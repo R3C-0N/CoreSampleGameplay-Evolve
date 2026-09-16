@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:MithrilIngot",
+            "1*CoreAssets:VoidShard"
+        ],
+        "result": "CoreAssets:EtheriumMithrilIngot",
+        "station": "ultimateforge"
+    }
+}

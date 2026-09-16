@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMailChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 33
+    }
+}

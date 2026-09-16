@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumSabre",
+        "stackId": "CoreSampleGameplay:EtheriumSabre",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 190
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

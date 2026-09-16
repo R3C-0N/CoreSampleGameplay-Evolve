@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Heaume d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumPlateHelmet",
+        "stackId": "CoreSampleGameplay:EtheriumPlateHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 21
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuissards d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumPlateLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumPlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 28
+    }
+}

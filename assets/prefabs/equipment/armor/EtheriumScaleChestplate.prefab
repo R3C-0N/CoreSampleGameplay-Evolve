@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron à écailles d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumScaleChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 35
+    }
+}

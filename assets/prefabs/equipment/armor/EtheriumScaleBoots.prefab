@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Solerets à écailles d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumScaleBoots",
+        "stackId": "CoreSampleGameplay:EtheriumScaleBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 13
+    }
+}

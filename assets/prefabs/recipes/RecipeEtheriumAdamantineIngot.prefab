@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:AdamantineIngot",
+            "1*CoreAssets:VoidShard"
+        ],
+        "result": "CoreAssets:EtheriumAdamantineIngot",
+        "station": "ultimateforge"
+    }
+}

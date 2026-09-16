@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMallet",
+        "stackId": "CoreSampleGameplay:EtheriumMallet",
+        "maxStackSize": 1,
+        "baseDamage": 27,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}
