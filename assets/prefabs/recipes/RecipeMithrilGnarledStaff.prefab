@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:SteelGnarledStaff",
+            "3*CoreAssets:MithrilIngot",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:MithrilGnarledStaff",
+        "station": "astralforge"
+    }
+}

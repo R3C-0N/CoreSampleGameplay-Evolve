@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilBolt",
+        "stackId": "CoreSampleGameplay:MithrilBolt",
+        "maxStackSize": 99,
+        "baseDamage": 11
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

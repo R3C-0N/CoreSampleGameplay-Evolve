@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilShovel",
+        "stackId": "CoreSampleGameplay:MithrilShovel",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "damageType": "CoreAssets:shovelTier4Damage"
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 6
+    }
+}

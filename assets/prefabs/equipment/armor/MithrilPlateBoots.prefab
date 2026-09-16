@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilPlateBoots",
+        "stackId": "CoreSampleGameplay:MithrilPlateBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 8
+    }
+}

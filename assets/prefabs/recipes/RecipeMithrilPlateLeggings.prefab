@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "8*CoreAssets:MithrilIngot",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:MithrilPlateLeggings",
+        "station": "astralforge"
+    }
+}

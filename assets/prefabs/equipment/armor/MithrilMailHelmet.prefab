@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Coiffe de mailles de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilMailHelmet",
+        "stackId": "CoreSampleGameplay:MithrilMailHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "head",
+        "protection": 16
+    }
+}

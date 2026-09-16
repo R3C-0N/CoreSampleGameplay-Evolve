@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilKnife",
+        "stackId": "CoreSampleGameplay:MithrilKnife",
+        "maxStackSize": 1,
+        "baseDamage": 8
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 6
+    }
+}

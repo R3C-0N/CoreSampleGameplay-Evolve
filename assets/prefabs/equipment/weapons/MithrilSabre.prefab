@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilSabre",
+        "stackId": "CoreSampleGameplay:MithrilSabre",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 190
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

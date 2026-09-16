@@ -1,0 +1,14 @@
+/**
+ * The astral forge: where a common metal becomes a fantastic one. Activating it
+ * lists what can be forged there, from what the player carries.
+ *
+ * TODO texture: Dark basalt shot through with veins of light, a ring of cut gems
+ * turning above the anvil. The tiles are darkened copies of Workbench.
+ */
+{
+    "basedOn": "CoreAssets:wood",
+    "displayName": "Forge astrale",
+    "entity": {
+        "prefab": "CoreSampleGameplay:AstralForgeEntity"
+    }
+}

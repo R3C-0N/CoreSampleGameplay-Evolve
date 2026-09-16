@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "8*CoreAssets:SteelIngot",
+            "2*CoreAssets:Diamond",
+            "4*CoreAssets:Lapis",
+            "4*CoreAssets:HardStone"
+        ],
+        "result": "CoreSampleGameplay:AstralForge",
+        "station": "lapidary"
+    }
+}

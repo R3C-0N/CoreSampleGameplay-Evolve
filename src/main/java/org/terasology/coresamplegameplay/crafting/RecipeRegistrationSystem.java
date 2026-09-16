@@ -65,7 +65,8 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
 
     /** Where a recipe is made, said in full: tying the label to the type keeps a second station honest. */
     private static final Map<String, String> STATION_LABELS = Map.of(
-            "workbench", "à l'établi", "lapidary", "à la tour de lapidaire");
+            "workbench", "à l'établi", "lapidary", "à la tour de lapidaire",
+            "astralforge", "à la forge astrale", "ultimateforge", "à la forge astrale ultime");
 
     private static final Map<String, String> WEAPON_TYPES = Map.ofEntries(
             Map.entry("oneHandedSword", "Épée à une main"), Map.entry("shield", "Bouclier"),

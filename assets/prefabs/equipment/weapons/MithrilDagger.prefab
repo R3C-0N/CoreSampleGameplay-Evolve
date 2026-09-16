@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilDagger",
+        "stackId": "CoreSampleGameplay:MithrilDagger",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 150
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

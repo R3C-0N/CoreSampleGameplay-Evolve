@@ -21,12 +21,15 @@ public final class HarvestGrades {
     public static final int BRONZE = 3;
     public static final int IRON = 4;
     public static final int STEEL = 5;
+    public static final int FANTASTIC = 6;
+    public static final int ETHERIUM = 7;
 
     private static final Map<String, String> FAMILY_BY_CATEGORY = Map.of("rock", "pickaxe", "mineral", "pickaxe");
 
     /**
-     * Tin comes out with copper tools, iron with bronze ones, and the gems only from steel on — they sit in
-     * the deep layers. Every other stone asks for flint.
+     * Tin comes out with copper tools, iron with bronze ones, the gems only from steel on — they sit in the
+     * deep layers — and void stone only from a fantastic metal, which is what opens the abyss. Every other
+     * stone asks for flint.
      */
     private static final Map<BlockUri, Integer> GRADE_BY_BLOCK = Map.of(
             new BlockUri("CoreAssets:TinOre"), COPPER,
@@ -35,7 +38,8 @@ public final class HarvestGrades {
             new BlockUri("CoreAssets:LapisOre"), STEEL,
             new BlockUri("CoreAssets:TopazOre"), STEEL,
             new BlockUri("CoreAssets:AquamarineOre"), STEEL,
-            new BlockUri("CoreAssets:AmberOre"), STEEL);
+            new BlockUri("CoreAssets:AmberOre"), STEEL,
+            new BlockUri("CoreAssets:VoidStone"), FANTASTIC);
 
     private HarvestGrades() {
     }

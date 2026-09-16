@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilScepter",
+        "stackId": "CoreSampleGameplay:MithrilScepter",
+        "maxStackSize": 1,
+        "baseDamage": 11,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

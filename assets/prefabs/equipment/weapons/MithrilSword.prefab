@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilSword",
+        "stackId": "CoreSampleGameplay:MithrilSword",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilHoe",
+        "stackId": "CoreSampleGameplay:MithrilHoe",
+        "maxStackSize": 1,
+        "baseDamage": 5
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 6
+    }
+}

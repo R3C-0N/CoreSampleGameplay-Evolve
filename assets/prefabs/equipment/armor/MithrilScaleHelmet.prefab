@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque à écailles de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilScaleHelmet",
+        "stackId": "CoreSampleGameplay:MithrilScaleHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "head",
+        "protection": 14
+    }
+}

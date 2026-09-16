@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilMailChestplate",
+        "stackId": "CoreSampleGameplay:MithrilMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 29
+    }
+}

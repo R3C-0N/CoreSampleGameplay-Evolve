@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Flèche de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilArrow",
+        "stackId": "CoreSampleGameplay:MithrilArrow",
+        "maxStackSize": 99,
+        "baseDamage": 11
+    },
+    "Weapon": {
+        "type": "arrow",
+        "hands": 0
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses de mailles de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilMailLeggings",
+        "stackId": "CoreSampleGameplay:MithrilMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 21
+    }
+}

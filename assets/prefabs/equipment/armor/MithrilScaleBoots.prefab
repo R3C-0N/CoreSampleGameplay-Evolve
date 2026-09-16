@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Solerets à écailles de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilScaleBoots",
+        "stackId": "CoreSampleGameplay:MithrilScaleBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 9
+    }
+}

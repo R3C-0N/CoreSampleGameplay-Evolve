@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilPickaxe",
+        "stackId": "CoreSampleGameplay:MithrilPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "damageType": "CoreAssets:pickaxeTier4Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 6
+    }
+}

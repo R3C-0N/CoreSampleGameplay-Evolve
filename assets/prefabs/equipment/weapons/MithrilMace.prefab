@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilMace",
+        "stackId": "CoreSampleGameplay:MithrilMace",
+        "maxStackSize": 1,
+        "baseDamage": 18,
+        "cooldownTime": 340
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

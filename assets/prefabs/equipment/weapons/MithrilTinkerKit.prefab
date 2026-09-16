@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilTinkerKit",
+        "stackId": "CoreSampleGameplay:MithrilTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

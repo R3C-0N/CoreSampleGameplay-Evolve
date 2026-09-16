@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilShield",
+        "stackId": "CoreSampleGameplay:MithrilShield",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

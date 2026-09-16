@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache de guerre en mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilBattleAxe",
+        "stackId": "CoreSampleGameplay:MithrilBattleAxe",
+        "maxStackSize": 1,
+        "baseDamage": 19,
+        "cooldownTime": 375
+    },
+    "Weapon": {
+        "type": "battleAxe",
+        "hands": 1
+    }
+}

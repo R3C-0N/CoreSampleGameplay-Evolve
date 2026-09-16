@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilFocus",
+        "stackId": "CoreSampleGameplay:MithrilFocus",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}
