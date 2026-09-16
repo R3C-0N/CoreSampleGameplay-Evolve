@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantinePickaxe",
+        "stackId": "CoreSampleGameplay:AdamantinePickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 9,
+        "damageType": "CoreAssets:pickaxeTier4Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 6
+    }
+}

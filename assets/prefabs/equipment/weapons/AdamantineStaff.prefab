@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineStaff",
+        "stackId": "CoreSampleGameplay:AdamantineStaff",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "elementalStaff",
+        "hands": 2
+    }
+}

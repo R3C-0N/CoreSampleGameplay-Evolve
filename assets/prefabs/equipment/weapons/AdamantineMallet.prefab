@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineMallet",
+        "stackId": "CoreSampleGameplay:AdamantineMallet",
+        "maxStackSize": 1,
+        "baseDamage": 24,
+        "cooldownTime": 480
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineShield",
+        "stackId": "CoreSampleGameplay:AdamantineShield",
+        "maxStackSize": 1,
+        "baseDamage": 9,
+        "cooldownTime": 480
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

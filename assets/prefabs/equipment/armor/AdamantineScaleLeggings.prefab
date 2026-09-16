@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières à écailles d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineScaleLeggings",
+        "stackId": "CoreSampleGameplay:AdamantineScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 20
+    }
+}

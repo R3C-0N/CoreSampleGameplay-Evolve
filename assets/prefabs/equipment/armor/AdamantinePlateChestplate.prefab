@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuirasse d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantinePlateChestplate",
+        "stackId": "CoreSampleGameplay:AdamantinePlateChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 33
+    }
+}

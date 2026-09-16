@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineMace",
+        "stackId": "CoreSampleGameplay:AdamantineMace",
+        "maxStackSize": 1,
+        "baseDamage": 25,
+        "cooldownTime": 540
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

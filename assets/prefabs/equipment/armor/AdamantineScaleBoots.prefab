@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Solerets à écailles d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineScaleBoots",
+        "stackId": "CoreSampleGameplay:AdamantineScaleBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 10
+    }
+}

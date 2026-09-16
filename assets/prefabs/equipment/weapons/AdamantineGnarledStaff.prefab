@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton noueux d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineGnarledStaff",
+        "stackId": "CoreSampleGameplay:AdamantineGnarledStaff",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "druidStaff",
+        "hands": 2
+    }
+}

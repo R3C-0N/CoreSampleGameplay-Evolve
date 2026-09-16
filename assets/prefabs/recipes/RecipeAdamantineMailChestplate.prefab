@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "8*CoreAssets:AdamantineIngot",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:AdamantineMailChestplate",
+        "station": "astralforge"
+    }
+}

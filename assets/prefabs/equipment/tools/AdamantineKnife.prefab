@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineKnife",
+        "stackId": "CoreSampleGameplay:AdamantineKnife",
+        "maxStackSize": 1,
+        "baseDamage": 9
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 6
+    }
+}

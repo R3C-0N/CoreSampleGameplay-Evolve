@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineTinkerKit",
+        "stackId": "CoreSampleGameplay:AdamantineTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

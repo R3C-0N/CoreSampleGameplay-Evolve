@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineBolt",
+        "stackId": "CoreSampleGameplay:AdamantineBolt",
+        "maxStackSize": 99,
+        "baseDamage": 12
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

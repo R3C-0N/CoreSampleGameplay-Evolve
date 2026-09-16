@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuissards d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantinePlateLeggings",
+        "stackId": "CoreSampleGameplay:AdamantinePlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 24
+    }
+}

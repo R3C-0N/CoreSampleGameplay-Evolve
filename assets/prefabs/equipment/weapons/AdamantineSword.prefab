@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineSword",
+        "stackId": "CoreSampleGameplay:AdamantineSword",
+        "maxStackSize": 1,
+        "baseDamage": 18,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

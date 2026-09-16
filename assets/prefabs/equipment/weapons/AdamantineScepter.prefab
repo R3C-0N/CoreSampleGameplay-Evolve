@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineScepter",
+        "stackId": "CoreSampleGameplay:AdamantineScepter",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

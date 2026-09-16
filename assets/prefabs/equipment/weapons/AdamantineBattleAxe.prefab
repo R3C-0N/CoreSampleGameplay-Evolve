@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache de guerre en adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineBattleAxe",
+        "stackId": "CoreSampleGameplay:AdamantineBattleAxe",
+        "maxStackSize": 1,
+        "baseDamage": 24,
+        "cooldownTime": 600
+    },
+    "Weapon": {
+        "type": "battleAxe",
+        "hands": 1
+    }
+}

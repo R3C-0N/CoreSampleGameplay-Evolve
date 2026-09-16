@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineShovel",
+        "stackId": "CoreSampleGameplay:AdamantineShovel",
+        "maxStackSize": 1,
+        "baseDamage": 9,
+        "damageType": "CoreAssets:shovelTier4Damage"
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 6
+    }
+}

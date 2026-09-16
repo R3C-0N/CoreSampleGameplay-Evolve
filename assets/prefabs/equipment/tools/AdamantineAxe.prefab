@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache en adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineAxe",
+        "stackId": "CoreSampleGameplay:AdamantineAxe",
+        "maxStackSize": 1,
+        "baseDamage": 9,
+        "damageType": "CoreAssets:axeTier4Damage"
+    },
+    "Tool": {
+        "family": "axe",
+        "grade": 6
+    }
+}

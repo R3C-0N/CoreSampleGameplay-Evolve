@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineHoe",
+        "stackId": "CoreSampleGameplay:AdamantineHoe",
+        "maxStackSize": 1,
+        "baseDamage": 6
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 6
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineMailChestplate",
+        "stackId": "CoreSampleGameplay:AdamantineMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 22
+    }
+}

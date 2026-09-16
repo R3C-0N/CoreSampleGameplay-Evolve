@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses de mailles d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineMailLeggings",
+        "stackId": "CoreSampleGameplay:AdamantineMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 16
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Flèche d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineArrow",
+        "stackId": "CoreSampleGameplay:AdamantineArrow",
+        "maxStackSize": 99,
+        "baseDamage": 12
+    },
+    "Weapon": {
+        "type": "arrow",
+        "hands": 0
+    }
+}
