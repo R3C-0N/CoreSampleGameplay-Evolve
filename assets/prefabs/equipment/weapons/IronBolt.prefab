@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronBolt",
+        "stackId": "CoreSampleGameplay:IronBolt",
+        "maxStackSize": 99,
+        "baseDamage": 7
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

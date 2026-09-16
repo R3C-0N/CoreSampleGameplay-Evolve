@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque à écailles de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronScaleHelmet",
+        "stackId": "CoreSampleGameplay:IronScaleHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "head",
+        "protection": 8
+    }
+}

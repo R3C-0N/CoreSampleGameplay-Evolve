@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronPlateBoots",
+        "stackId": "CoreSampleGameplay:IronPlateBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 7
+    }
+}

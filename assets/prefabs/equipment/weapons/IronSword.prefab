@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronSword",
+        "stackId": "CoreSampleGameplay:IronSword",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

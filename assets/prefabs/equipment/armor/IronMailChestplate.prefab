@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronMailChestplate",
+        "stackId": "CoreSampleGameplay:IronMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 13
+    }
+}

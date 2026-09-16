@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronStaff",
+        "stackId": "CoreSampleGameplay:IronStaff",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "elementalStaff",
+        "hands": 2
+    }
+}

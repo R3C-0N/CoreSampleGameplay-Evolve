@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes de mailles de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronMailBoots",
+        "stackId": "CoreSampleGameplay:IronMailBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "feet",
+        "protection": 5
+    }
+}

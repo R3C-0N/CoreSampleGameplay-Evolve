@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuirasse de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronPlateChestplate",
+        "stackId": "CoreSampleGameplay:IronPlateChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 19
+    }
+}

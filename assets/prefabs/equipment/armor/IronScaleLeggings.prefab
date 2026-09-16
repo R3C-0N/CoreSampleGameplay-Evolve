@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières à écailles de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronScaleLeggings",
+        "stackId": "CoreSampleGameplay:IronScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 12
+    }
+}

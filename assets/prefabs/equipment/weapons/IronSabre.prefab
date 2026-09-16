@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronSabre",
+        "stackId": "CoreSampleGameplay:IronSabre",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 250
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

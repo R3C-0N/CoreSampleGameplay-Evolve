@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronPickaxe",
+        "stackId": "CoreSampleGameplay:IronPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "damageType": "CoreAssets:pickaxeTier3Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 4
+    }
+}

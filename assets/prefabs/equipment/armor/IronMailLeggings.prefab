@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses de mailles de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronMailLeggings",
+        "stackId": "CoreSampleGameplay:IronMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 9
+    }
+}

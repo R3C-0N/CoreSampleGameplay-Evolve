@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronShield",
+        "stackId": "CoreSampleGameplay:IronShield",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

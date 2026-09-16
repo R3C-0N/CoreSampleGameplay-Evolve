@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronKnife",
+        "stackId": "CoreSampleGameplay:IronKnife",
+        "maxStackSize": 1,
+        "baseDamage": 5
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 4
+    }
+}

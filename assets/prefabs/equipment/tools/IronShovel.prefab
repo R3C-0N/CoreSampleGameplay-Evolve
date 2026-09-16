@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronShovel",
+        "stackId": "CoreSampleGameplay:IronShovel",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "damageType": "CoreAssets:shovelTier3Damage"
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 4
+    }
+}

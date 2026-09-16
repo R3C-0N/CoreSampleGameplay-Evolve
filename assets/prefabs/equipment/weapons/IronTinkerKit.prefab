@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronTinkerKit",
+        "stackId": "CoreSampleGameplay:IronTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

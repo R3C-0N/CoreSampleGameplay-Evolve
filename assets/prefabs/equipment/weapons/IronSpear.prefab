@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Lance de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronSpear",
+        "stackId": "CoreSampleGameplay:IronSpear",
+        "maxStackSize": 1,
+        "baseDamage": 14,
+        "cooldownTime": 500
+    },
+    "Weapon": {
+        "type": "spear",
+        "hands": 2
+    }
+}

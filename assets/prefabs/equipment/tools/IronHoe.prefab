@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronHoe",
+        "stackId": "CoreSampleGameplay:IronHoe",
+        "maxStackSize": 1,
+        "baseDamage": 3
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 4
+    }
+}

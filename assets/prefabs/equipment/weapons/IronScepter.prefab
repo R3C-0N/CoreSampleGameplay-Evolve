@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronScepter",
+        "stackId": "CoreSampleGameplay:IronScepter",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

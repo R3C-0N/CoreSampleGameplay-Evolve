@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton noueux de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronGnarledStaff",
+        "stackId": "CoreSampleGameplay:IronGnarledStaff",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "druidStaff",
+        "hands": 2
+    }
+}

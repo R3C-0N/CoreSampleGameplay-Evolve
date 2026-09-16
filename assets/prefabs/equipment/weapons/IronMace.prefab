@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronMace",
+        "stackId": "CoreSampleGameplay:IronMace",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 450
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

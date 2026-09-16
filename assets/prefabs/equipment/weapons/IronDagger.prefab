@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronDagger",
+        "stackId": "CoreSampleGameplay:IronDagger",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 200
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

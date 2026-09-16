@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuissards de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronPlateLeggings",
+        "stackId": "CoreSampleGameplay:IronPlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 14
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:IronIngot",
+            "1*CoreAssets:Stick"
+        ],
+        "result": "CoreSampleGameplay:IronDagger",
+        "station": "workbench"
+    }
+}

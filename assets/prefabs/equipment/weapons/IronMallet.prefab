@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronMallet",
+        "stackId": "CoreSampleGameplay:IronMallet",
+        "maxStackSize": 1,
+        "baseDamage": 11,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}
