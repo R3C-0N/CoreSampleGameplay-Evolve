@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelMallet",
+        "stackId": "CoreSampleGameplay:SteelMallet",
+        "maxStackSize": 1,
+        "baseDamage": 14,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

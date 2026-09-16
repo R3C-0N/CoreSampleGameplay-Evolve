@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelFocus",
+        "stackId": "CoreSampleGameplay:SteelFocus",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}

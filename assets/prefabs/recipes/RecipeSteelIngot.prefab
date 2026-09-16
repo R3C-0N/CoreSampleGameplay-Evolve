@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:IronIngot",
+            "1*CoreAssets:Coal"
+        ],
+        "result": "CoreAssets:SteelIngot",
+        "station": "workbench"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Solerets à écailles d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelScaleBoots",
+        "stackId": "CoreSampleGameplay:SteelScaleBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 7
+    }
+}

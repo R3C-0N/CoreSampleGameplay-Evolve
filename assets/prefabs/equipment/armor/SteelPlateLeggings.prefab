@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuissards d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelPlateLeggings",
+        "stackId": "CoreSampleGameplay:SteelPlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 18
+    }
+}

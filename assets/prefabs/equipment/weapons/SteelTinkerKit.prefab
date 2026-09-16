@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelTinkerKit",
+        "stackId": "CoreSampleGameplay:SteelTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

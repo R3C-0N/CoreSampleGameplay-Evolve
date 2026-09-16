@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache en acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelAxe",
+        "stackId": "CoreSampleGameplay:SteelAxe",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "damageType": "CoreAssets:axeTier3Damage"
+    },
+    "Tool": {
+        "family": "axe",
+        "grade": 5
+    }
+}

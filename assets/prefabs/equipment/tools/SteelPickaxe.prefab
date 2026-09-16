@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelPickaxe",
+        "stackId": "CoreSampleGameplay:SteelPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "damageType": "CoreAssets:pickaxeTier3Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 5
+    }
+}

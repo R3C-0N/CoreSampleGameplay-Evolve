@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:SteelIngot",
+            "1*CoreAssets:Stick",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:SteelKnife",
+        "station": "workbench"
+    }
+}

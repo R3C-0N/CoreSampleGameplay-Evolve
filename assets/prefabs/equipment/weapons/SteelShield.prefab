@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelShield",
+        "stackId": "CoreSampleGameplay:SteelShield",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

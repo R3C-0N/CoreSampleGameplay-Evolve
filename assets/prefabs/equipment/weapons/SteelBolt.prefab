@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelBolt",
+        "stackId": "CoreSampleGameplay:SteelBolt",
+        "maxStackSize": 99,
+        "baseDamage": 9
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

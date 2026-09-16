@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelSabre",
+        "stackId": "CoreSampleGameplay:SteelSabre",
+        "maxStackSize": 1,
+        "baseDamage": 13,
+        "cooldownTime": 250
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

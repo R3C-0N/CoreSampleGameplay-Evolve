@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelDagger",
+        "stackId": "CoreSampleGameplay:SteelDagger",
+        "maxStackSize": 1,
+        "baseDamage": 13,
+        "cooldownTime": 200
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

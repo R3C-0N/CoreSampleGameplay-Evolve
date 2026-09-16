@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:IronGnarledStaff",
+            "3*CoreAssets:SteelIngot",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:SteelGnarledStaff",
+        "station": "workbench"
+    }
+}

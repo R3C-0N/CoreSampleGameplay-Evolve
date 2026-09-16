@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:CoalOre"
+        ],
+        "result": "CoreAssets:Coal",
+        "count": 2,
+        "station": "workbench"
+    }
+}
