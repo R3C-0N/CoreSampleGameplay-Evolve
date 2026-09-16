@@ -1,0 +1,190 @@
+{
+    "type": "CoreSampleGameplay:CreativeScreen",
+    "skin": "CoreSampleGameplay:characterScreen",
+    "contents": {
+        "type": "relativeLayout",
+        "contents": [
+            {
+                "type": "UISpace",
+                "id": "frame",
+                "layoutInfo": {
+                    "width": 1220,
+                    "height": 700,
+                    "position-horizontal-center": {},
+                    "position-top": { "offset": 46 }
+                }
+            },
+
+            {
+                "type": "RowLayout",
+                "id": "tabs",
+                "horizontalSpacing": 4,
+                "contents": [
+                    { "type": "UIButton", "id": "tabCONSTRUCTION", "family": "tab-bar", "text": "Construction",
+                      "layoutInfo": { "relativeWidth": 0.130 } },
+                    { "type": "UIButton", "id": "tabCOLORES", "family": "tab-bar", "text": "Colorés",
+                      "layoutInfo": { "relativeWidth": 0.090 } },
+                    { "type": "UIButton", "id": "tabDECORATION", "family": "tab-bar", "text": "Nature",
+                      "layoutInfo": { "relativeWidth": 0.085 } },
+                    { "type": "UIButton", "id": "tabMECANISMES", "family": "tab-bar", "text": "Mécanismes",
+                      "layoutInfo": { "relativeWidth": 0.120 } },
+                    { "type": "UIButton", "id": "tabEQUIPEMENT", "family": "tab-bar", "text": "Équipement",
+                      "layoutInfo": { "relativeWidth": 0.120 } },
+                    { "type": "UIButton", "id": "tabCONSOMMABLES", "family": "tab-bar", "text": "Consommables",
+                      "layoutInfo": { "relativeWidth": 0.145 } },
+                    { "type": "UIButton", "id": "tabGENERATION", "family": "tab-bar", "text": "Créatures",
+                      "layoutInfo": { "relativeWidth": 0.110 } },
+                    { "type": "UIButton", "id": "tabMATERIAUX", "family": "tab-bar", "text": "Matériaux",
+                      "layoutInfo": { "relativeWidth": 0.115 } },
+                    { "type": "UIButton", "id": "tabTOUT", "family": "tab-bar", "text": "Tout",
+                      "layoutInfo": { "relativeWidth": 0.085 } }
+                ],
+                "layoutInfo": {
+                    "width": 1220,
+                    "height": 44,
+                    "position-left": { "widget": "frame", "target": "LEFT" },
+                    "position-top": { "widget": "frame", "target": "TOP" }
+                }
+            },
+
+            {
+                "type": "UIBox",
+                "id": "cataloguePanel",
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT" },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 56 },
+                    "width": 1220,
+                    "height": 476
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "tabTitle",
+                "family": "item-name",
+                "text": "",
+                "layoutInfo": {
+                    "position-left": { "widget": "cataloguePanel", "target": "LEFT", "offset": 40 },
+                    "position-top": { "widget": "cataloguePanel", "target": "TOP", "offset": 30 },
+                    "width": 560,
+                    "height": 30
+                }
+            },
+            {
+                "type": "ResettableUIText",
+                "id": "search",
+                "layoutInfo": {
+                    "position-left": { "widget": "cataloguePanel", "target": "LEFT", "offset": 880 },
+                    "position-top": { "widget": "cataloguePanel", "target": "TOP", "offset": 28 },
+                    "width": 300,
+                    "height": 34
+                }
+            },
+            {
+                "type": "CoreSampleGameplay:CatalogGrid",
+                "id": "catalogue",
+                "layoutInfo": {
+                    "position-left": { "widget": "cataloguePanel", "target": "LEFT", "offset": 40 },
+                    "position-top": { "widget": "cataloguePanel", "target": "TOP", "offset": 76 },
+                    "width": 1140,
+                    "height": 364
+                }
+            },
+
+            {
+                "type": "UILabel",
+                "id": "tabCount",
+                "family": "small-muted",
+                "text": "",
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT", "offset": 40 },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 542 },
+                    "width": 400,
+                    "height": 24
+                }
+            },
+
+            {
+                "type": "UILabel",
+                "id": "equipLabel",
+                "family": "caps",
+                "text": "ÉQUIPEMENT",
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT", "offset": 40 },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 574 },
+                    "width": 240,
+                    "height": 18
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "equipment",
+                "columns": 8,
+                "horizontalSpacing": 4,
+                "contents": [
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "head", "targetSlot": 46 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "chest", "targetSlot": 47 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "legs", "targetSlot": 48 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "feet", "targetSlot": 49 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "cape", "targetSlot": 50 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "amulet", "targetSlot": 51 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "ring1", "targetSlot": 52 },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "ring2", "targetSlot": 53 }
+                ],
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT", "offset": 40 },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 596 },
+                    "width": 412,
+                    "height": 48
+                }
+            },
+
+            {
+                "type": "UILabel",
+                "id": "barLabel",
+                "family": "caps",
+                "text": "BARRE RAPIDE",
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT", "offset": 500 },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 574 },
+                    "width": 240,
+                    "height": 18
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "toolbar",
+                "columns": 10,
+                "horizontalSpacing": 4,
+                "contents": [
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar1", "targetSlot": 0, "hotkey": "1" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar2", "targetSlot": 1, "hotkey": "2" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar3", "targetSlot": 2, "hotkey": "3" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar4", "targetSlot": 3, "hotkey": "4" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar5", "targetSlot": 4, "hotkey": "5" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar6", "targetSlot": 5, "hotkey": "6" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar7", "targetSlot": 6, "hotkey": "7" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar8", "targetSlot": 7, "hotkey": "8" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar9", "targetSlot": 8, "hotkey": "9" },
+                    { "type": "CoreSampleGameplay:SlotCell", "id": "bar0", "targetSlot": 9, "hotkey": "0" }
+                ],
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT", "offset": 500 },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 596 },
+                    "width": 516,
+                    "height": 48
+                }
+            },
+
+            {
+                "type": "CoreSampleGameplay:TrashCell",
+                "id": "trash",
+                "layoutInfo": {
+                    "position-left": { "widget": "frame", "target": "LEFT", "offset": 1064 },
+                    "position-top": { "widget": "frame", "target": "TOP", "offset": 596 },
+                    "width": 48,
+                    "height": 48
+                }
+            }
+        ]
+    }
+}

@@ -67,6 +67,42 @@
                 }
             }
         },
+        "CatalogCell": {
+            "background": "engine:slot",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+            },
+            "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "fixed-width": 48,
+            "fixed-height": 48
+        },
+        "TrashCell": {
+            "background": "engine:slot",
+            "background-scale-mode": "tiled",
+            "background-border": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+            },
+            "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "fixed-width": 48,
+            "fixed-height": 48
+        },
         "ItemIcon": {
             "fixed-width": 36,
             "fixed-height": 36,
