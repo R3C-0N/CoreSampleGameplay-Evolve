@@ -4,7 +4,7 @@
         "name": "Plastron de cuir"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#HideChestplate",
+        "icon": "CoreSampleGameplay:HideChestplate",
         "stackId": "CoreSampleGameplay:HideChestplate",
         "maxStackSize": 1
     },

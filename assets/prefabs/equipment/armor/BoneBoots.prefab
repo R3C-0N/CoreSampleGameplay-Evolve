@@ -4,7 +4,7 @@
         "name": "Bottes d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneBoots",
+        "icon": "CoreSampleGameplay:BoneBoots",
         "stackId": "CoreSampleGameplay:BoneBoots",
         "maxStackSize": 1
     },

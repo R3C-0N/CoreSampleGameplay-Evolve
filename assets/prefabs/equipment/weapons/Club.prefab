@@ -4,7 +4,7 @@
         "name": "Gourdin"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#Club",
+        "icon": "CoreSampleGameplay:Club",
         "stackId": "CoreSampleGameplay:Club",
         "maxStackSize": 1,
         "baseDamage": 5,

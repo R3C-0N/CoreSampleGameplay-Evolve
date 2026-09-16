@@ -4,7 +4,7 @@
         "name": "Plastron en rondins"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#LogChestplate",
+        "icon": "CoreSampleGameplay:LogChestplate",
         "stackId": "CoreSampleGameplay:LogChestplate",
         "maxStackSize": 1
     },

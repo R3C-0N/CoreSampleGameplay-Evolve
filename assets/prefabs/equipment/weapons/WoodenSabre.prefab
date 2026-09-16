@@ -4,7 +4,7 @@
         "name": "Sabre en bois"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WoodenSabre",
+        "icon": "CoreSampleGameplay:WoodenSabre",
         "stackId": "CoreSampleGameplay:WoodenSabre",
         "maxStackSize": 1,
         "baseDamage": 3,

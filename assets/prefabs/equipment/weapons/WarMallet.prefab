@@ -4,7 +4,7 @@
         "name": "Maillet de combat"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WarMallet",
+        "icon": "CoreSampleGameplay:WarMallet",
         "stackId": "CoreSampleGameplay:WarMallet",
         "maxStackSize": 1,
         "baseDamage": 4,

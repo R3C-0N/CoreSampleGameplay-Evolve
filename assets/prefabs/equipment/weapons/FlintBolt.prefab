@@ -4,7 +4,7 @@
         "name": "Carreau en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintBolt",
+        "icon": "CoreSampleGameplay:FlintBolt",
         "stackId": "CoreSampleGameplay:FlintBolt",
         "maxStackSize": 99,
         "baseDamage": 3

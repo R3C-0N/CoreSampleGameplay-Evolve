@@ -4,7 +4,7 @@
         "name": "Arc court"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#ShortBow",
+        "icon": "CoreSampleGameplay:ShortBow",
         "stackId": "CoreSampleGameplay:ShortBow",
         "maxStackSize": 1,
         "baseDamage": 2,

@@ -4,7 +4,7 @@
         "name": "Plastron en planches"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#PlankChestplate",
+        "icon": "CoreSampleGameplay:PlankChestplate",
         "stackId": "CoreSampleGameplay:PlankChestplate",
         "maxStackSize": 1
     },

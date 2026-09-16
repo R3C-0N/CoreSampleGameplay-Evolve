@@ -4,7 +4,7 @@
         "name": "Casque d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneHelmet",
+        "icon": "CoreSampleGameplay:BoneHelmet",
         "stackId": "CoreSampleGameplay:BoneHelmet",
         "maxStackSize": 1
     },

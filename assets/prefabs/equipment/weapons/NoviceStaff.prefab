@@ -4,7 +4,7 @@
         "name": "Bâton de novice"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#NoviceStaff",
+        "icon": "CoreSampleGameplay:NoviceStaff",
         "stackId": "CoreSampleGameplay:NoviceStaff",
         "maxStackSize": 1,
         "baseDamage": 2,

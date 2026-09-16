@@ -4,7 +4,7 @@
         "name": "Jambières en planches"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#PlankLeggings",
+        "icon": "CoreSampleGameplay:PlankLeggings",
         "stackId": "CoreSampleGameplay:PlankLeggings",
         "maxStackSize": 1
     },

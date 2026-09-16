@@ -4,7 +4,7 @@
         "name": "Flèche en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintArrow",
+        "icon": "CoreSampleGameplay:FlintArrow",
         "stackId": "CoreSampleGameplay:FlintArrow",
         "maxStackSize": 99,
         "baseDamage": 3

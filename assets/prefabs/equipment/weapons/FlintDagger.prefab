@@ -4,7 +4,7 @@
         "name": "Dague en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintDagger",
+        "icon": "CoreSampleGameplay:FlintDagger",
         "stackId": "CoreSampleGameplay:FlintDagger",
         "maxStackSize": 1,
         "baseDamage": 4,

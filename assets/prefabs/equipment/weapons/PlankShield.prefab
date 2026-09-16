@@ -4,7 +4,7 @@
         "name": "Bouclier en planches"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#PlankShield",
+        "icon": "CoreSampleGameplay:PlankShield",
         "stackId": "CoreSampleGameplay:PlankShield",
         "maxStackSize": 1,
         "baseDamage": 1,

@@ -4,7 +4,7 @@
         "name": "Bottes cloutées d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneStuddedBoots",
+        "icon": "CoreSampleGameplay:BoneStuddedBoots",
         "stackId": "CoreSampleGameplay:BoneStuddedBoots",
         "maxStackSize": 1
     },

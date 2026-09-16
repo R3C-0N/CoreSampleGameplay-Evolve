@@ -4,7 +4,7 @@
         "name": "Bottes en rondins"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#LogBoots",
+        "icon": "CoreSampleGameplay:LogBoots",
         "stackId": "CoreSampleGameplay:LogBoots",
         "maxStackSize": 1
     },

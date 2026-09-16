@@ -4,7 +4,7 @@
         "name": "Bâton à pointe de silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintStaff",
+        "icon": "CoreSampleGameplay:FlintStaff",
         "stackId": "CoreSampleGameplay:FlintStaff",
         "maxStackSize": 1,
         "baseDamage": 4,

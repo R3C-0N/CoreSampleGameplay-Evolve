@@ -4,7 +4,7 @@
         "name": "Plastron en osier"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WickerChestplate",
+        "icon": "CoreSampleGameplay:WickerChestplate",
         "stackId": "CoreSampleGameplay:WickerChestplate",
         "maxStackSize": 1
     },

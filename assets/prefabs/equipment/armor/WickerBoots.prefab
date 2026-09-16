@@ -4,7 +4,7 @@
         "name": "Bottes en osier"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WickerBoots",
+        "icon": "CoreSampleGameplay:WickerBoots",
         "stackId": "CoreSampleGameplay:WickerBoots",
         "maxStackSize": 1
     },

@@ -4,7 +4,7 @@
         "name": "Focus d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneFocus",
+        "icon": "CoreSampleGameplay:BoneFocus",
         "stackId": "CoreSampleGameplay:BoneFocus",
         "maxStackSize": 1,
         "baseDamage": 3,

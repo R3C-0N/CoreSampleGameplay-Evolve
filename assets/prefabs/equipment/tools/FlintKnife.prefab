@@ -4,7 +4,7 @@
         "name": "Couteau en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintKnife",
+        "icon": "CoreSampleGameplay:FlintKnife",
         "stackId": "CoreSampleGameplay:FlintKnife",
         "maxStackSize": 1,
         "baseDamage": 2

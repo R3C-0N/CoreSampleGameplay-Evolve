@@ -4,7 +4,7 @@
         "name": "Jambières d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneLeggings",
+        "icon": "CoreSampleGameplay:BoneLeggings",
         "stackId": "CoreSampleGameplay:BoneLeggings",
         "maxStackSize": 1
     },

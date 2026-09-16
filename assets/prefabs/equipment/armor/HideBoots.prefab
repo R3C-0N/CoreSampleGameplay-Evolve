@@ -4,7 +4,7 @@
         "name": "Bottes de cuir"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#HideBoots",
+        "icon": "CoreSampleGameplay:HideBoots",
         "stackId": "CoreSampleGameplay:HideBoots",
         "maxStackSize": 1
     },

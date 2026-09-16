@@ -4,7 +4,7 @@
         "name": "Trousse du bricoleur"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#TinkerKit",
+        "icon": "CoreSampleGameplay:TinkerKit",
         "stackId": "CoreSampleGameplay:TinkerKit",
         "maxStackSize": 1,
         "baseDamage": 1,

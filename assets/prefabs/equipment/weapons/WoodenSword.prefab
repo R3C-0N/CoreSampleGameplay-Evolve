@@ -4,7 +4,7 @@
         "name": "Épée en bois"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WoodenSword",
+        "icon": "CoreSampleGameplay:WoodenSword",
         "stackId": "CoreSampleGameplay:WoodenSword",
         "maxStackSize": 1,
         "baseDamage": 3,

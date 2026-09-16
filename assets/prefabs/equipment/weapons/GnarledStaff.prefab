@@ -4,7 +4,7 @@
         "name": "Bâton noueux"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#GnarledStaff",
+        "icon": "CoreSampleGameplay:GnarledStaff",
         "stackId": "CoreSampleGameplay:GnarledStaff",
         "maxStackSize": 1,
         "baseDamage": 2,

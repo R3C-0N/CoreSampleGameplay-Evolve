@@ -4,7 +4,7 @@
         "name": "Hache en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintAxe",
+        "icon": "CoreSampleGameplay:FlintAxe",
         "stackId": "CoreSampleGameplay:FlintAxe",
         "maxStackSize": 1,
         "baseDamage": 2,

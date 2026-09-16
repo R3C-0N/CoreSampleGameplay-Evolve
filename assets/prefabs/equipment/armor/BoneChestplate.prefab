@@ -4,7 +4,7 @@
         "name": "Plastron d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneChestplate",
+        "icon": "CoreSampleGameplay:BoneChestplate",
         "stackId": "CoreSampleGameplay:BoneChestplate",
         "maxStackSize": 1
     },

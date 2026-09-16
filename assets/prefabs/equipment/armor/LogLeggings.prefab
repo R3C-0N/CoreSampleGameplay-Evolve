@@ -4,7 +4,7 @@
         "name": "Jambières en rondins"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#LogLeggings",
+        "icon": "CoreSampleGameplay:LogLeggings",
         "stackId": "CoreSampleGameplay:LogLeggings",
         "maxStackSize": 1
     },

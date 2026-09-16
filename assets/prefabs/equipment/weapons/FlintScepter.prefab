@@ -4,7 +4,7 @@
         "name": "Sceptre de silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintScepter",
+        "icon": "CoreSampleGameplay:FlintScepter",
         "stackId": "CoreSampleGameplay:FlintScepter",
         "maxStackSize": 1,
         "baseDamage": 2,

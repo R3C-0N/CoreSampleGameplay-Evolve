@@ -4,7 +4,7 @@
         "name": "Hache de guerre en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintBattleAxe",
+        "icon": "CoreSampleGameplay:FlintBattleAxe",
         "stackId": "CoreSampleGameplay:FlintBattleAxe",
         "maxStackSize": 1,
         "baseDamage": 6,

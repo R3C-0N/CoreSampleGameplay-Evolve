@@ -4,7 +4,7 @@
         "name": "Casque de cuir"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#HideHelmet",
+        "icon": "CoreSampleGameplay:HideHelmet",
         "stackId": "CoreSampleGameplay:HideHelmet",
         "maxStackSize": 1
     },

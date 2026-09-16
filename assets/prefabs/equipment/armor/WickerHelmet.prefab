@@ -4,7 +4,7 @@
         "name": "Casque en osier"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WickerHelmet",
+        "icon": "CoreSampleGameplay:WickerHelmet",
         "stackId": "CoreSampleGameplay:WickerHelmet",
         "maxStackSize": 1
     },

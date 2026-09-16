@@ -4,7 +4,7 @@
         "name": "Pioche en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintPickaxe",
+        "icon": "CoreSampleGameplay:FlintPickaxe",
         "stackId": "CoreSampleGameplay:FlintPickaxe",
         "maxStackSize": 1,
         "baseDamage": 2,

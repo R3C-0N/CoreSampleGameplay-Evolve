@@ -4,7 +4,7 @@
         "name": "Houe en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintHoe",
+        "icon": "CoreSampleGameplay:FlintHoe",
         "stackId": "CoreSampleGameplay:FlintHoe",
         "maxStackSize": 1,
         "baseDamage": 1

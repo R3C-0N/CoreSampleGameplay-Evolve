@@ -4,7 +4,7 @@
         "name": "Pelle en bois"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WoodenShovel",
+        "icon": "CoreSampleGameplay:WoodenShovel",
         "stackId": "CoreSampleGameplay:WoodenShovel",
         "maxStackSize": 1,
         "damageType": "CoreAssets:shovelDamage",

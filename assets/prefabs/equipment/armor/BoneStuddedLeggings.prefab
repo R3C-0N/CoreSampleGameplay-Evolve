@@ -4,7 +4,7 @@
         "name": "Jambières cloutées d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneStuddedLeggings",
+        "icon": "CoreSampleGameplay:BoneStuddedLeggings",
         "stackId": "CoreSampleGameplay:BoneStuddedLeggings",
         "maxStackSize": 1
     },

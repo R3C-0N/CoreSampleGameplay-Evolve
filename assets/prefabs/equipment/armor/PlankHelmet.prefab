@@ -4,7 +4,7 @@
         "name": "Casque en planches"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#PlankHelmet",
+        "icon": "CoreSampleGameplay:PlankHelmet",
         "stackId": "CoreSampleGameplay:PlankHelmet",
         "maxStackSize": 1
     },

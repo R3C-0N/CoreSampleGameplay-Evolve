@@ -4,7 +4,7 @@
         "name": "Jambières en osier"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#WickerLeggings",
+        "icon": "CoreSampleGameplay:WickerLeggings",
         "stackId": "CoreSampleGameplay:WickerLeggings",
         "maxStackSize": 1
     },

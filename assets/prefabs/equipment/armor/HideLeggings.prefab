@@ -4,7 +4,7 @@
         "name": "Jambières de cuir"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#HideLeggings",
+        "icon": "CoreSampleGameplay:HideLeggings",
         "stackId": "CoreSampleGameplay:HideLeggings",
         "maxStackSize": 1
     },

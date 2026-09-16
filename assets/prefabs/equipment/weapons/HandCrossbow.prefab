@@ -4,7 +4,7 @@
         "name": "Arbalète de poing"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#HandCrossbow",
+        "icon": "CoreSampleGameplay:HandCrossbow",
         "stackId": "CoreSampleGameplay:HandCrossbow",
         "maxStackSize": 1,
         "baseDamage": 2,

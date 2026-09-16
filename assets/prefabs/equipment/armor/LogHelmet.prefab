@@ -4,7 +4,7 @@
         "name": "Casque en rondins"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#LogHelmet",
+        "icon": "CoreSampleGameplay:LogHelmet",
         "stackId": "CoreSampleGameplay:LogHelmet",
         "maxStackSize": 1
     },

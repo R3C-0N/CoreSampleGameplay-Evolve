@@ -4,7 +4,7 @@
         "name": "Plastron clouté d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneStuddedChestplate",
+        "icon": "CoreSampleGameplay:BoneStuddedChestplate",
         "stackId": "CoreSampleGameplay:BoneStuddedChestplate",
         "maxStackSize": 1
     },

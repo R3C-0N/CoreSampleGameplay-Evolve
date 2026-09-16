@@ -4,7 +4,7 @@
         "name": "Lance en silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintSpear",
+        "icon": "CoreSampleGameplay:FlintSpear",
         "stackId": "CoreSampleGameplay:FlintSpear",
         "maxStackSize": 1,
         "baseDamage": 7,

@@ -4,7 +4,7 @@
         "name": "Bâton noueux de silex"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#FlintGnarledStaff",
+        "icon": "CoreSampleGameplay:FlintGnarledStaff",
         "stackId": "CoreSampleGameplay:FlintGnarledStaff",
         "maxStackSize": 1,
         "baseDamage": 4,

@@ -4,7 +4,7 @@
         "name": "Casque clouté d'os"
     },
     "Item": {
-        "icon": "CoreSampleGameplay:equipment#BoneStuddedHelmet",
+        "icon": "CoreSampleGameplay:BoneStuddedHelmet",
         "stackId": "CoreSampleGameplay:BoneStuddedHelmet",
         "maxStackSize": 1
     },
