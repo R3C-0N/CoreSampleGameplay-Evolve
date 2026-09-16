@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières à écailles d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumScaleLeggings",
+        "stackId": "CoreSampleGameplay:OrichalcumScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 21
+    }
+}

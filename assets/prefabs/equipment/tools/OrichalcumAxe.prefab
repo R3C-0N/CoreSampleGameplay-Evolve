@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache en orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumAxe",
+        "stackId": "CoreSampleGameplay:OrichalcumAxe",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "damageType": "CoreAssets:axeTier4Damage"
+    },
+    "Tool": {
+        "family": "axe",
+        "grade": 6
+    }
+}

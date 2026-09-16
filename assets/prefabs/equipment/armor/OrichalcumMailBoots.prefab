@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes de mailles d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumMailBoots",
+        "stackId": "CoreSampleGameplay:OrichalcumMailBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "feet",
+        "protection": 8
+    }
+}

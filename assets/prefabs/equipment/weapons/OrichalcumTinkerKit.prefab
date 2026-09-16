@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumTinkerKit",
+        "stackId": "CoreSampleGameplay:OrichalcumTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 9,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

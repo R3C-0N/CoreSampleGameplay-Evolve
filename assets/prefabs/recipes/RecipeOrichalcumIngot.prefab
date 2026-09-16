@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:BronzeIngot",
+            "1*CoreAssets:Topaz"
+        ],
+        "result": "CoreAssets:OrichalcumIngot",
+        "station": "astralforge"
+    }
+}

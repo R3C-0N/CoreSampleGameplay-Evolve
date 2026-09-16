@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumMailChestplate",
+        "stackId": "CoreSampleGameplay:OrichalcumMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 23
+    }
+}

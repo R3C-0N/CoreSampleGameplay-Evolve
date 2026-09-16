@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Flèche d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumArrow",
+        "stackId": "CoreSampleGameplay:OrichalcumArrow",
+        "maxStackSize": 99,
+        "baseDamage": 15
+    },
+    "Weapon": {
+        "type": "arrow",
+        "hands": 0
+    }
+}

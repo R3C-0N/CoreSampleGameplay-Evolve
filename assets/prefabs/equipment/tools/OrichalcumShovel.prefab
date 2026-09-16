@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumShovel",
+        "stackId": "CoreSampleGameplay:OrichalcumShovel",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "damageType": "CoreAssets:shovelTier4Damage"
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 6
+    }
+}

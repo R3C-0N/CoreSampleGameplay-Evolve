@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumPlateBoots",
+        "stackId": "CoreSampleGameplay:OrichalcumPlateBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 10
+    }
+}

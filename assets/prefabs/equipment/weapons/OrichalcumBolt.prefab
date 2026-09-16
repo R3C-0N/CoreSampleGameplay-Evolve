@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumBolt",
+        "stackId": "CoreSampleGameplay:OrichalcumBolt",
+        "maxStackSize": 99,
+        "baseDamage": 15
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

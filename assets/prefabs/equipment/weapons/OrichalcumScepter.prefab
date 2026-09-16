@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumScepter",
+        "stackId": "CoreSampleGameplay:OrichalcumScepter",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

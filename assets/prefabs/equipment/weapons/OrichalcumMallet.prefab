@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumMallet",
+        "stackId": "CoreSampleGameplay:OrichalcumMallet",
+        "maxStackSize": 1,
+        "baseDamage": 20,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

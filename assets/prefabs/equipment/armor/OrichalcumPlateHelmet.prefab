@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Heaume d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumPlateHelmet",
+        "stackId": "CoreSampleGameplay:OrichalcumPlateHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 15
+    }
+}

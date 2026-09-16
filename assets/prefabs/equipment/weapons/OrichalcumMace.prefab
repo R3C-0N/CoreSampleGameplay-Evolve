@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumMace",
+        "stackId": "CoreSampleGameplay:OrichalcumMace",
+        "maxStackSize": 1,
+        "baseDamage": 21,
+        "cooldownTime": 450
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumPickaxe",
+        "stackId": "CoreSampleGameplay:OrichalcumPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "damageType": "CoreAssets:pickaxeTier4Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 6
+    }
+}

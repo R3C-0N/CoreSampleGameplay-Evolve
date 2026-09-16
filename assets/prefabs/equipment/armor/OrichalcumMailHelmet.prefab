@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Coiffe de mailles d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumMailHelmet",
+        "stackId": "CoreSampleGameplay:OrichalcumMailHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "head",
+        "protection": 13
+    }
+}

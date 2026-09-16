@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron à écailles d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumScaleChestplate",
+        "stackId": "CoreSampleGameplay:OrichalcumScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 29
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumShield",
+        "stackId": "CoreSampleGameplay:OrichalcumShield",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

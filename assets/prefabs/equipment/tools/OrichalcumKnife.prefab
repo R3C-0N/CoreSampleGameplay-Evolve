@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumKnife",
+        "stackId": "CoreSampleGameplay:OrichalcumKnife",
+        "maxStackSize": 1,
+        "baseDamage": 7
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 6
+    }
+}

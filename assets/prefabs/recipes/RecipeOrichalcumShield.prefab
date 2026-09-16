@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:OrichalcumIngot",
+            "2*CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:OrichalcumShield",
+        "station": "astralforge"
+    }
+}

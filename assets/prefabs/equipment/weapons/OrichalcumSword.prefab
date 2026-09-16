@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumSword",
+        "stackId": "CoreSampleGameplay:OrichalcumSword",
+        "maxStackSize": 1,
+        "baseDamage": 19,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

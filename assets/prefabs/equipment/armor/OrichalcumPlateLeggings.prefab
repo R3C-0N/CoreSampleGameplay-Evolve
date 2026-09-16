@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuissards d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumPlateLeggings",
+        "stackId": "CoreSampleGameplay:OrichalcumPlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 19
+    }
+}

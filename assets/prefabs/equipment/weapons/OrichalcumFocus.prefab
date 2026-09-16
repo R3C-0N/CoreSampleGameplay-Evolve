@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumFocus",
+        "stackId": "CoreSampleGameplay:OrichalcumFocus",
+        "maxStackSize": 1,
+        "baseDamage": 17,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}

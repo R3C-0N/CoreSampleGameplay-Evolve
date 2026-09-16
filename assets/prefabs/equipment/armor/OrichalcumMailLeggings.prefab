@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses de mailles d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumMailLeggings",
+        "stackId": "CoreSampleGameplay:OrichalcumMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 17
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumHoe",
+        "stackId": "CoreSampleGameplay:OrichalcumHoe",
+        "maxStackSize": 1,
+        "baseDamage": 4
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 6
+    }
+}
