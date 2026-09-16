@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeStaff",
+        "stackId": "CoreSampleGameplay:BronzeStaff",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "elementalStaff",
+        "hands": 2
+    }
+}

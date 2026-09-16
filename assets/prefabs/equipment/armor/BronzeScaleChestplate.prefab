@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron à écailles de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeScaleChestplate",
+        "stackId": "CoreSampleGameplay:BronzeScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 12
+    }
+}

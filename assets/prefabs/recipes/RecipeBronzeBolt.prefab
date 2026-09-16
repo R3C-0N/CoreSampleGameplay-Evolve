@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:BronzeIngot",
+            "1*CoreAssets:Stick",
+            "1*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:BronzeBolt",
+        "count": 6,
+        "station": "workbench"
+    }
+}

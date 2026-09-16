@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeShovel",
+        "stackId": "CoreSampleGameplay:BronzeShovel",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "damageType": "CoreAssets:shovelTier2Damage"
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 3
+    }
+}

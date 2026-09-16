@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton noueux de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeGnarledStaff",
+        "stackId": "CoreSampleGameplay:BronzeGnarledStaff",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "druidStaff",
+        "hands": 2
+    }
+}

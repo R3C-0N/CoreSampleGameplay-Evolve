@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeHoe",
+        "stackId": "CoreSampleGameplay:BronzeHoe",
+        "maxStackSize": 1,
+        "baseDamage": 3
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 3
+    }
+}

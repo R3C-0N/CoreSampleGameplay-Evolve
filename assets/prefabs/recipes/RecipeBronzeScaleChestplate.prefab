@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "6*CoreAssets:BronzeIngot",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:BronzeScaleChestplate",
+        "station": "workbench"
+    }
+}

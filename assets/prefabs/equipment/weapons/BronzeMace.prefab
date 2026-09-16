@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeMace",
+        "stackId": "CoreSampleGameplay:BronzeMace",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 450
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

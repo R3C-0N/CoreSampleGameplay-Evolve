@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Flèche de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeArrow",
+        "stackId": "CoreSampleGameplay:BronzeArrow",
+        "maxStackSize": 99,
+        "baseDamage": 6
+    },
+    "Weapon": {
+        "type": "arrow",
+        "hands": 0
+    }
+}

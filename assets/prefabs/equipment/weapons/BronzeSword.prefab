@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeSword",
+        "stackId": "CoreSampleGameplay:BronzeSword",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

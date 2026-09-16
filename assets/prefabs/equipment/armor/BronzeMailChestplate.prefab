@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeMailChestplate",
+        "stackId": "CoreSampleGameplay:BronzeMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 10
+    }
+}

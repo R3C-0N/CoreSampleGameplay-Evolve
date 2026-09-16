@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses de mailles de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeMailLeggings",
+        "stackId": "CoreSampleGameplay:BronzeMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 7
+    }
+}

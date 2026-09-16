@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzePickaxe",
+        "stackId": "CoreSampleGameplay:BronzePickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "damageType": "CoreAssets:pickaxeTier2Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 3
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuissards de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzePlateLeggings",
+        "stackId": "CoreSampleGameplay:BronzePlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 11
+    }
+}

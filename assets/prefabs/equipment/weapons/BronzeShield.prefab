@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeShield",
+        "stackId": "CoreSampleGameplay:BronzeShield",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

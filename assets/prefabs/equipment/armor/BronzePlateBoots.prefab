@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzePlateBoots",
+        "stackId": "CoreSampleGameplay:BronzePlateBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 6
+    }
+}

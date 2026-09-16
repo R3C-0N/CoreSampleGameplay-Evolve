@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Heaume de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzePlateHelmet",
+        "stackId": "CoreSampleGameplay:BronzePlateHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 8
+    }
+}

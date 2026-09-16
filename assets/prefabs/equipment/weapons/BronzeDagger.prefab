@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeDagger",
+        "stackId": "CoreSampleGameplay:BronzeDagger",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 200
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

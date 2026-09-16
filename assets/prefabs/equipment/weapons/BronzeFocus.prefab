@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeFocus",
+        "stackId": "CoreSampleGameplay:BronzeFocus",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}

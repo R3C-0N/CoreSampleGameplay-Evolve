@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières à écailles de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeScaleLeggings",
+        "stackId": "CoreSampleGameplay:BronzeScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 9
+    }
+}

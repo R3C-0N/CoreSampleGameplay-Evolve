@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:BronzeIngot",
+            "2*CoreAssets:Stick"
+        ],
+        "result": "CoreSampleGameplay:BronzeShovel",
+        "station": "workbench"
+    }
+}

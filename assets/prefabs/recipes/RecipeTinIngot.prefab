@@ -1,0 +1,9 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:TinOre"
+        ],
+        "result": "CoreAssets:TinIngot",
+        "station": "workbench"
+    }
+}

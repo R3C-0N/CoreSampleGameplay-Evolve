@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuirasse de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzePlateChestplate",
+        "stackId": "CoreSampleGameplay:BronzePlateChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 14
+    }
+}

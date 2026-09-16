@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeKnife",
+        "stackId": "CoreSampleGameplay:BronzeKnife",
+        "maxStackSize": 1,
+        "baseDamage": 4
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 3
+    }
+}

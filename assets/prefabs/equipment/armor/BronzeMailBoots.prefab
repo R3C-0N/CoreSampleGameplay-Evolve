@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes de mailles de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeMailBoots",
+        "stackId": "CoreSampleGameplay:BronzeMailBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "feet",
+        "protection": 4
+    }
+}

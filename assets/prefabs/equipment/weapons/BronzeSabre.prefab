@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeSabre",
+        "stackId": "CoreSampleGameplay:BronzeSabre",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 250
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}
