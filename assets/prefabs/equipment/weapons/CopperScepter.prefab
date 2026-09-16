@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperScepter",
+        "stackId": "CoreSampleGameplay:CopperScepter",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

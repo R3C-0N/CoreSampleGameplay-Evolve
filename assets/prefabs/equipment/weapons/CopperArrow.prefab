@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Flèche de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperArrow",
+        "stackId": "CoreSampleGameplay:CopperArrow",
+        "maxStackSize": 99,
+        "baseDamage": 5
+    },
+    "Weapon": {
+        "type": "arrow",
+        "hands": 0
+    }
+}

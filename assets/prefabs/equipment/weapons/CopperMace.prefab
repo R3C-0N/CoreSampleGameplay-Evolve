@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperMace",
+        "stackId": "CoreSampleGameplay:CopperMace",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 450
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

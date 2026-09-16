@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Heaume de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperPlateHelmet",
+        "stackId": "CoreSampleGameplay:CopperPlateHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 6
+    }
+}

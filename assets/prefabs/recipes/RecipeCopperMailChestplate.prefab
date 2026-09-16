@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "4*CoreAssets:CopperIngot",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:CopperMailChestplate",
+        "station": "workbench"
+    }
+}

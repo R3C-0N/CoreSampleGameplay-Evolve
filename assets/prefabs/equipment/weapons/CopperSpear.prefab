@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Lance de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperSpear",
+        "stackId": "CoreSampleGameplay:CopperSpear",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 500
+    },
+    "Weapon": {
+        "type": "spear",
+        "hands": 2
+    }
+}

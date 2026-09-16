@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperTinkerKit",
+        "stackId": "CoreSampleGameplay:CopperTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

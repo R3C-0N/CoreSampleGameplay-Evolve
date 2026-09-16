@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pelle en cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperShovel",
+        "stackId": "CoreSampleGameplay:CopperShovel",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "damageType": "CoreAssets:shovelTier2Damage"
+    },
+    "Tool": {
+        "family": "shovel",
+        "grade": 2
+    }
+}

@@ -19,6 +19,8 @@ public final class HarvestGrades {
     public static final int FLINT = 1;
     public static final int COPPER = 2;
     public static final int BRONZE = 3;
+    public static final int IRON = 4;
+    public static final int STEEL = 5;
 
     private static final Map<String, String> FAMILY_BY_CATEGORY = Map.of("rock", "pickaxe", "mineral", "pickaxe");
 

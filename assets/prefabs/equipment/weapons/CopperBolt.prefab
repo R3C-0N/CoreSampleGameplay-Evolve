@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperBolt",
+        "stackId": "CoreSampleGameplay:CopperBolt",
+        "maxStackSize": 99,
+        "baseDamage": 5
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

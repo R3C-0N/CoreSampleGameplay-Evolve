@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Jambières à écailles de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperScaleLeggings",
+        "stackId": "CoreSampleGameplay:CopperScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 6
+    }
+}

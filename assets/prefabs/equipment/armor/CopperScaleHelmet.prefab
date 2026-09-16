@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Casque à écailles de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperScaleHelmet",
+        "stackId": "CoreSampleGameplay:CopperScaleHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "head",
+        "protection": 5
+    }
+}

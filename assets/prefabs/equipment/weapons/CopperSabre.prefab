@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperSabre",
+        "stackId": "CoreSampleGameplay:CopperSabre",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 250
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

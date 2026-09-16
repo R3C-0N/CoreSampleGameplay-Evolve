@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Focus de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperFocus",
+        "stackId": "CoreSampleGameplay:CopperFocus",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "necromancerFocus",
+        "hands": 2
+    }
+}

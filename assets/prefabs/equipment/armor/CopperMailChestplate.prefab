@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cotte de mailles de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperMailChestplate",
+        "stackId": "CoreSampleGameplay:CopperMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 7
+    }
+}

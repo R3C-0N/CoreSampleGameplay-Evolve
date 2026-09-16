@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperMallet",
+        "stackId": "CoreSampleGameplay:CopperMallet",
+        "maxStackSize": 1,
+        "baseDamage": 7,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

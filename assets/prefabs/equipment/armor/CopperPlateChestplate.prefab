@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuirasse de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperPlateChestplate",
+        "stackId": "CoreSampleGameplay:CopperPlateChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 11
+    }
+}

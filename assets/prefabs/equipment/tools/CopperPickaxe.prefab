@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperPickaxe",
+        "stackId": "CoreSampleGameplay:CopperPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "damageType": "CoreAssets:pickaxeTier2Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 2
+    }
+}

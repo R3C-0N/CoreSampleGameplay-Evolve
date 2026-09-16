@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperSword",
+        "stackId": "CoreSampleGameplay:CopperSword",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

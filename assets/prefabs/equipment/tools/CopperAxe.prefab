@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache en cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperAxe",
+        "stackId": "CoreSampleGameplay:CopperAxe",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "damageType": "CoreAssets:axeTier2Damage"
+    },
+    "Tool": {
+        "family": "axe",
+        "grade": 2
+    }
+}

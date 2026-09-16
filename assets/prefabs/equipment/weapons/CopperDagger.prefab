@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperDagger",
+        "stackId": "CoreSampleGameplay:CopperDagger",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 200
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

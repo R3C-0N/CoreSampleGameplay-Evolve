@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperKnife",
+        "stackId": "CoreSampleGameplay:CopperKnife",
+        "maxStackSize": 1,
+        "baseDamage": 3
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 2
+    }
+}

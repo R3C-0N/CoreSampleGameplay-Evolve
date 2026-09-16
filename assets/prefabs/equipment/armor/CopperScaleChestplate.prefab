@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Plastron à écailles de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperScaleChestplate",
+        "stackId": "CoreSampleGameplay:CopperScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 9
+    }
+}

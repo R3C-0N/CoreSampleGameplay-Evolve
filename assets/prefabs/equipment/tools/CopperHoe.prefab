@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperHoe",
+        "stackId": "CoreSampleGameplay:CopperHoe",
+        "maxStackSize": 1,
+        "baseDamage": 2
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 2
+    }
+}

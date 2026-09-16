@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Solerets à écailles de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperScaleBoots",
+        "stackId": "CoreSampleGameplay:CopperScaleBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 4
+    }
+}

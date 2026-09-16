@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperPlateBoots",
+        "stackId": "CoreSampleGameplay:CopperPlateBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 5
+    }
+}
