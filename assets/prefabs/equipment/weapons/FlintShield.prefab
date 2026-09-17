@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier renforcé de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintShield",
+        "stackId": "CoreSampleGameplay:FlintShield",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

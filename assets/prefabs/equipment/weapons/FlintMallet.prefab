@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Maillet à tête de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintMallet",
+        "stackId": "CoreSampleGameplay:FlintMallet",
+        "maxStackSize": 1,
+        "baseDamage": 5,
+        "cooldownTime": 400
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

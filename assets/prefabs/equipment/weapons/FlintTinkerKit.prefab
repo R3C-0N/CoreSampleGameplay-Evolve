@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse de tailleur de pierre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintTinkerKit",
+        "stackId": "CoreSampleGameplay:FlintTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

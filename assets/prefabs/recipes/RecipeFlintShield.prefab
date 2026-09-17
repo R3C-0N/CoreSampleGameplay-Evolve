@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:Flint",
+            "4*CoreAssets:Plank",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:FlintShield",
+        "station": "workbench"
+    }
+}

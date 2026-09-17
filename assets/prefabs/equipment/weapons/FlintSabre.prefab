@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre serti de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintSabre",
+        "stackId": "CoreSampleGameplay:FlintSabre",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 250
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

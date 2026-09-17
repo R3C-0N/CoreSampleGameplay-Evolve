@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Glaive en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintSword",
+        "stackId": "CoreSampleGameplay:FlintSword",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}
