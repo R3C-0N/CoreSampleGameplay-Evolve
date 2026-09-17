@@ -1,7 +1,7 @@
 {
     "Recipe": {
         "ingredients": [
-            "1*CoreSampleGameplay:FlintGnarledStaff",
+            "1*CoreSampleGameplay:FlintStaff",
             "3*CoreAssets:CopperIngot",
             "2*CoreAssets:Fibre"
         ],

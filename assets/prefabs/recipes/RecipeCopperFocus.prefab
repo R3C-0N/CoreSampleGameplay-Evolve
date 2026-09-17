@@ -1,7 +1,7 @@
 {
     "Recipe": {
         "ingredients": [
-            "1*CoreSampleGameplay:BoneFocus",
+            "1*CoreSampleGameplay:FlintStaff",
             "3*CoreAssets:CopperIngot",
             "1*CoreAssets:Rope"
         ],

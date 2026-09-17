@@ -11,7 +11,7 @@
         "cooldownTime": 300
     },
     "Weapon": {
-        "type": "elementalStaff",
+        "type": "mageStaff",
         "hands": 2
     }
 }
