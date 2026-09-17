@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperTotem",
+        "stackId": "CoreSampleGameplay:CopperTotem",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

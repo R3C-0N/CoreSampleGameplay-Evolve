@@ -73,9 +73,8 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
             Map.entry("warHammer", "Marteau de combat"), Map.entry("club", "Gourdin"),
             Map.entry("windBlade", "Lame du vent"), Map.entry("bow", "Arc"),
             Map.entry("handCrossbow", "Arbalète à une main"), Map.entry("engineerKit", "Trousse d'ingénieur"),
-            Map.entry("healingScepter", "Sceptre de soin"), Map.entry("mageStaff", "Bâton de mage"),
-            Map.entry("elementalStaff", "Bâton élémentaire"),
-            Map.entry("druidStaff", "Bâton druidique"), Map.entry("necromancerFocus", "Focus nécromantique"),
+            Map.entry("healingScepter", "Sceptre de soin"), Map.entry("runicGauntlet", "Gantelet runique"),
+            Map.entry("totem", "Totem"), Map.entry("soulStaff", "Bâton d'âmes"),
             Map.entry("battleAxe", "Hache de guerre"), Map.entry("dagger", "Dague"), Map.entry("spear", "Lance"),
             Map.entry("arrow", "Flèche"), Map.entry("bolt", "Carreau"));
     private static final Map<String, String> ARMOR_WEIGHTS = Map.of("light", "légère", "medium", "moyenne", "heavy", "lourde");

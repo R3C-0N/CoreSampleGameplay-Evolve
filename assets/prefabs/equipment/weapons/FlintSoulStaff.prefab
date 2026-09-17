@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'âmes à pointe de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintSoulStaff",
+        "stackId": "CoreSampleGameplay:FlintSoulStaff",
+        "maxStackSize": 1,
+        "baseDamage": 3,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "soulStaff",
+        "hands": 2
+    }
+}

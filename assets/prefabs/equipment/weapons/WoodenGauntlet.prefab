@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet d'apprenti"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:WoodenGauntlet",
+        "stackId": "CoreSampleGameplay:WoodenGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

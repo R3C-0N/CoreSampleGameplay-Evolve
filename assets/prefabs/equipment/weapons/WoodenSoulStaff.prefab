@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'âmes en bois"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:WoodenSoulStaff",
+        "stackId": "CoreSampleGameplay:WoodenSoulStaff",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "soulStaff",
+        "hands": 2
+    }
+}

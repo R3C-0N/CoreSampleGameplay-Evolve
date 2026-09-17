@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumGauntlet",
+        "stackId": "CoreSampleGameplay:OrichalcumGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 20,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

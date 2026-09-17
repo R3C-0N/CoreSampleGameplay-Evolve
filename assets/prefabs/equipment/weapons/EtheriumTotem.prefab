@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem d'étherium"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumTotem",
+        "stackId": "CoreSampleGameplay:EtheriumTotem",
+        "maxStackSize": 1,
+        "baseDamage": 21,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

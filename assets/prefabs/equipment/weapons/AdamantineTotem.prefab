@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineTotem",
+        "stackId": "CoreSampleGameplay:AdamantineTotem",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

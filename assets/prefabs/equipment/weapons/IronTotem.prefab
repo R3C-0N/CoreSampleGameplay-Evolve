@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronTotem",
+        "stackId": "CoreSampleGameplay:IronTotem",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

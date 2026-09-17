@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilTotem",
+        "stackId": "CoreSampleGameplay:MithrilTotem",
+        "maxStackSize": 1,
+        "baseDamage": 17,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

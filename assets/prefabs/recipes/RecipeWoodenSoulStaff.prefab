@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreAssets:Stick",
+            "2*CoreAssets:Fibre",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:WoodenSoulStaff",
+        "station": "workbench"
+    }
+}

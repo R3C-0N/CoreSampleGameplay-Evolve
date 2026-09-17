@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'âmes de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronSoulStaff",
+        "stackId": "CoreSampleGameplay:IronSoulStaff",
+        "maxStackSize": 1,
+        "baseDamage": 9,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "soulStaff",
+        "hands": 2
+    }
+}

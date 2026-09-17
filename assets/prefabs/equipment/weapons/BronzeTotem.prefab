@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeTotem",
+        "stackId": "CoreSampleGameplay:BronzeTotem",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

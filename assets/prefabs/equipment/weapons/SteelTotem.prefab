@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelTotem",
+        "stackId": "CoreSampleGameplay:SteelTotem",
+        "maxStackSize": 1,
+        "baseDamage": 13,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

@@ -19,13 +19,15 @@ import org.terasology.gestalt.entitysystem.component.Component;
  *     <li>{@code handCrossbow} — Thief, Ranger (one per hand), Monster Hunter</li>
  *     <li>{@code engineerKit} — Engineer</li>
  *     <li>{@code healingScepter} — Chaplain, Warrior Priest</li>
- *     <li>{@code mageStaff} — Elemental Sorcerer, Druid and Necromancer, at the wood and flint tiers only:
- *     one staff for the three, because at those tiers the three had the same numbers</li>
- *     <li>from copper on, that staff splits into {@code elementalStaff} — Elemental Sorcerer,
- *     {@code druidStaff} — Druid, {@code necromancerFocus} — Necromancer</li>
+ *     <li>{@code runicGauntlet} — Elemental Sorcerer</li>
+ *     <li>{@code totem} — Druid</li>
+ *     <li>{@code soulStaff} — Necromancer</li>
  *     <li>from flint on: {@code battleAxe} — Berserker and Soldier, {@code dagger} and
  *     {@code spear} — Soldier</li>
  * </ul>
+ * The four magic lines each run the full ten tiers, one shape per class: the sorcerer's gauntlet, the
+ * druid's totem, the necromancer's soul staff, the chaplain's scepter. They carry the numbers the old
+ * staff, gnarled staff and focus carried — only the identity changed.
  * A weapon strengthens a class, it never unlocks it: every class casts its powers bare-handed.
  */
 public class WeaponComponent implements Component<WeaponComponent> {

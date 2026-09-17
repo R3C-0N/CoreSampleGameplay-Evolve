@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique d'adamantine"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:AdamantineGauntlet",
+        "stackId": "CoreSampleGameplay:AdamantineGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 360
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

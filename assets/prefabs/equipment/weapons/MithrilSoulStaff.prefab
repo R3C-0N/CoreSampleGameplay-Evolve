@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'âmes de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilSoulStaff",
+        "stackId": "CoreSampleGameplay:MithrilSoulStaff",
+        "maxStackSize": 1,
+        "baseDamage": 16,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "soulStaff",
+        "hands": 2
+    }
+}

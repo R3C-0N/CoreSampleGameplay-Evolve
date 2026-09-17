@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem d'orichalque"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:OrichalcumTotem",
+        "stackId": "CoreSampleGameplay:OrichalcumTotem",
+        "maxStackSize": 1,
+        "baseDamage": 18,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

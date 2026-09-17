@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem de bois"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:WoodenTotem",
+        "stackId": "CoreSampleGameplay:WoodenTotem",
+        "maxStackSize": 1,
+        "baseDamage": 2,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

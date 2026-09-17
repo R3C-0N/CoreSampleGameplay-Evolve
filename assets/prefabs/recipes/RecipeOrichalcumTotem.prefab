@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:SteelTotem",
+            "3*CoreAssets:OrichalcumIngot",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:OrichalcumTotem",
+        "station": "astralforge"
+    }
+}

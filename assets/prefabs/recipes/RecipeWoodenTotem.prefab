@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:OakTrunk|CoreAssets:BirchTrunk|CoreAssets:PineTrunk",
+            "6*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:WoodenTotem",
+        "station": "workbench"
+    }
+}

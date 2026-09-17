@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'âmes d'acier"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:SteelSoulStaff",
+        "stackId": "CoreSampleGameplay:SteelSoulStaff",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "soulStaff",
+        "hands": 2
+    }
+}

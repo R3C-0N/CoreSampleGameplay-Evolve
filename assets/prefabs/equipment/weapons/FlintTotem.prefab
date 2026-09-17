@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem de silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintTotem",
+        "stackId": "CoreSampleGameplay:FlintTotem",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

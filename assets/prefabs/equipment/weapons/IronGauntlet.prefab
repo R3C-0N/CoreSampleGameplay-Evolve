@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique de fer"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:IronGauntlet",
+        "stackId": "CoreSampleGameplay:IronGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 10,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

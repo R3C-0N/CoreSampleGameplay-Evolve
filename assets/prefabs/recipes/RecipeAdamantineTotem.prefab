@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:SteelTotem",
+            "3*CoreAssets:AdamantineIngot",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:AdamantineTotem",
+        "station": "astralforge"
+    }
+}

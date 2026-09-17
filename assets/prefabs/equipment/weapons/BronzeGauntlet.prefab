@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique de bronze"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:BronzeGauntlet",
+        "stackId": "CoreSampleGameplay:BronzeGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 8,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

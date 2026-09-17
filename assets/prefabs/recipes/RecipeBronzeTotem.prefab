@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:CopperTotem",
+            "3*CoreAssets:BronzeIngot",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:BronzeTotem",
+        "station": "workbench"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique de cuivre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:CopperGauntlet",
+        "stackId": "CoreSampleGameplay:CopperGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 6,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

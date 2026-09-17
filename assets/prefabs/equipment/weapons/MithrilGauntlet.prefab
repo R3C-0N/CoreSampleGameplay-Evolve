@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique de mithril"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:MithrilGauntlet",
+        "stackId": "CoreSampleGameplay:MithrilGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 17,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

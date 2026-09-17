@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique en silex"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:FlintGauntlet",
+        "stackId": "CoreSampleGameplay:FlintGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 4,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}
