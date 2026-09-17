@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles d'acier"
+        "name": "Bottes d'acier"
     },
     "Item": {
         "icon": "CoreSampleGameplay:SteelScaleBoots",

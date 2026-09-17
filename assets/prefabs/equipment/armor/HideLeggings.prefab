@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Jambières de cuir"
+        "name": "Braies de cuir"
     },
     "Item": {
         "icon": "CoreSampleGameplay:HideLeggings",

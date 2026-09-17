@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cuissards de cuivre"
+        "name": "Grèves de cuivre"
     },
     "Item": {
         "icon": "CoreSampleGameplay:CopperPlateLeggings",

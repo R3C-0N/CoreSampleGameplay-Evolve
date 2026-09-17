@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cuissards de bronze"
+        "name": "Grèves de bronze"
     },
     "Item": {
         "icon": "CoreSampleGameplay:BronzePlateLeggings",

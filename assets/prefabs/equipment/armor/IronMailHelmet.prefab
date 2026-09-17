@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Coiffe de mailles de fer"
+        "name": "Capuche de fer"
     },
     "Item": {
         "icon": "CoreSampleGameplay:IronMailHelmet",

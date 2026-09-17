@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Grèves d'adamantine"
+        "name": "Solerets d'adamantine"
     },
     "Item": {
         "icon": "CoreSampleGameplay:AdamantinePlateBoots",

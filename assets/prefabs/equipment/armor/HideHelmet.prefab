@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Casque de cuir"
+        "name": "Capuche de cuir"
     },
     "Item": {
         "icon": "CoreSampleGameplay:HideHelmet",

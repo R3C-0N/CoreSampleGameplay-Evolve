@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cotte de mailles de cuivre"
+        "name": "Pourpoint de cuivre"
     },
     "Item": {
         "icon": "CoreSampleGameplay:CopperMailChestplate",

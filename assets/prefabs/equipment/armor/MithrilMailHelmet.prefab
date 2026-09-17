@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Coiffe de mailles de mithril"
+        "name": "Capuche de mithril"
     },
     "Item": {
         "icon": "CoreSampleGameplay:MithrilMailHelmet",

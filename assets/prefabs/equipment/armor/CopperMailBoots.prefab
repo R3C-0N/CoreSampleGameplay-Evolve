@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Bottes de mailles de cuivre"
+        "name": "Bottines de cuivre"
     },
     "Item": {
         "icon": "CoreSampleGameplay:CopperMailBoots",

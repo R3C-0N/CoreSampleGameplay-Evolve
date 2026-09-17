@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Bottes d'os"
+        "name": "Solerets d'os"
     },
     "Item": {
         "icon": "CoreSampleGameplay:BoneBoots",

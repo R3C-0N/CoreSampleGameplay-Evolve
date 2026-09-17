@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Casque à écailles d'adamantine"
+        "name": "Camail d'adamantine"
     },
     "Item": {
         "icon": "CoreSampleGameplay:AdamantineScaleHelmet",

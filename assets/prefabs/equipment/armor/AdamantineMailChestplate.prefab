@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cotte de mailles d'adamantine"
+        "name": "Pourpoint d'adamantine"
     },
     "Item": {
         "icon": "CoreSampleGameplay:AdamantineMailChestplate",

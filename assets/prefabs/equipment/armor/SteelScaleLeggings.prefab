@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Jambières à écailles d'acier"
+        "name": "Chausses d'acier"
     },
     "Item": {
         "icon": "CoreSampleGameplay:SteelScaleLeggings",

@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Casque à écailles d'orichalque"
+        "name": "Camail d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumScaleHelmet",

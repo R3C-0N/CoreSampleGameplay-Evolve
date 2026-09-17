@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Casque clouté d'os"
+        "name": "Camail de silex"
     },
     "Item": {
         "icon": "CoreSampleGameplay:BoneStuddedHelmet",

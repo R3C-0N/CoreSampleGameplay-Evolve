@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Bottes de mailles d'acier"
+        "name": "Bottines d'acier"
     },
     "Item": {
         "icon": "CoreSampleGameplay:SteelMailBoots",

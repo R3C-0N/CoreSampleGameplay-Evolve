@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Grèves de mithril"
+        "name": "Solerets de mithril"
     },
     "Item": {
         "icon": "CoreSampleGameplay:MithrilPlateBoots",

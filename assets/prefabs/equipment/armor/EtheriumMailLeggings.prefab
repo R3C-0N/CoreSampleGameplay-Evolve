@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Chausses de mailles d'étherium"
+        "name": "Braies d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumMailLeggings",

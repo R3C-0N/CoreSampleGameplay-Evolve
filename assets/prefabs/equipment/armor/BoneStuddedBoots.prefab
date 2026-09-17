@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Bottes cloutées d'os"
+        "name": "Bottes de silex"
     },
     "Item": {
         "icon": "CoreSampleGameplay:BoneStuddedBoots",

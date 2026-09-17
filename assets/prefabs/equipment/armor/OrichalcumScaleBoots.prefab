@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles d'orichalque"
+        "name": "Bottes d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumScaleBoots",

@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles de cuivre"
+        "name": "Bottes de cuivre"
     },
     "Item": {
         "icon": "CoreSampleGameplay:CopperScaleBoots",

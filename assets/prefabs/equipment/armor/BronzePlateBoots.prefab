@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Grèves de bronze"
+        "name": "Solerets de bronze"
     },
     "Item": {
         "icon": "CoreSampleGameplay:BronzePlateBoots",

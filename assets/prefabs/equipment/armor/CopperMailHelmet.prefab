@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Coiffe de mailles de cuivre"
+        "name": "Capuche de cuivre"
     },
     "Item": {
         "icon": "CoreSampleGameplay:CopperMailHelmet",

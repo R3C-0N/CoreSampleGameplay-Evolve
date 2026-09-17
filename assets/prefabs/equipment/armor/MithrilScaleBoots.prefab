@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles de mithril"
+        "name": "Bottes de mithril"
     },
     "Item": {
         "icon": "CoreSampleGameplay:MithrilScaleBoots",

@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Coiffe de mailles d'étherium"
+        "name": "Capuche d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumMailHelmet",

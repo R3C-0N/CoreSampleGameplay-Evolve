@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles de fer"
+        "name": "Bottes de fer"
     },
     "Item": {
         "icon": "CoreSampleGameplay:IronScaleBoots",

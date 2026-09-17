@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Jambières à écailles d'orichalque"
+        "name": "Chausses d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumScaleLeggings",

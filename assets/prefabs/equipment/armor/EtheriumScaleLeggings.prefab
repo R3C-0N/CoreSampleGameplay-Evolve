@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Jambières à écailles d'étherium"
+        "name": "Chausses d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumScaleLeggings",

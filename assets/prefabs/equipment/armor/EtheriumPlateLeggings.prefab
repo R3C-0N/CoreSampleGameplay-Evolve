@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cuissards d'étherium"
+        "name": "Grèves d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumPlateLeggings",

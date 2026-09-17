@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Plastron à écailles d'adamantine"
+        "name": "Brigandine d'adamantine"
     },
     "Item": {
         "icon": "CoreSampleGameplay:AdamantineScaleChestplate",

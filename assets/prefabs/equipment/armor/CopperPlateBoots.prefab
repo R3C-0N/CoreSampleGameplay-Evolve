@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Grèves de cuivre"
+        "name": "Solerets de cuivre"
     },
     "Item": {
         "icon": "CoreSampleGameplay:CopperPlateBoots",

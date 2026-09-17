@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Jambières à écailles de fer"
+        "name": "Chausses de fer"
     },
     "Item": {
         "icon": "CoreSampleGameplay:IronScaleLeggings",

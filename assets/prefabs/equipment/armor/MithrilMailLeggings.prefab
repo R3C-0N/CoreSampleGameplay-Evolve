@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Chausses de mailles de mithril"
+        "name": "Braies de mithril"
     },
     "Item": {
         "icon": "CoreSampleGameplay:MithrilMailLeggings",

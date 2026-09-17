@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Casque à écailles d'acier"
+        "name": "Camail d'acier"
     },
     "Item": {
         "icon": "CoreSampleGameplay:SteelScaleHelmet",

@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Grèves d'orichalque"
+        "name": "Solerets d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumPlateBoots",

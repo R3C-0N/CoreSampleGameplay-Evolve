@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles d'adamantine"
+        "name": "Bottes d'adamantine"
     },
     "Item": {
         "icon": "CoreSampleGameplay:AdamantineScaleBoots",

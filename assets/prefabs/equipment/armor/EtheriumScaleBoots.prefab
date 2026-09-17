@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Solerets à écailles d'étherium"
+        "name": "Bottes d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumScaleBoots",

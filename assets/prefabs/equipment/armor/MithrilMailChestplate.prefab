@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cotte de mailles de mithril"
+        "name": "Pourpoint de mithril"
     },
     "Item": {
         "icon": "CoreSampleGameplay:MithrilMailChestplate",

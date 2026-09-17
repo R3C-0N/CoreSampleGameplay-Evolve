@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Bottes de mailles de fer"
+        "name": "Bottines de fer"
     },
     "Item": {
         "icon": "CoreSampleGameplay:IronMailBoots",

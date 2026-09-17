@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Casque à écailles d'étherium"
+        "name": "Camail d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumScaleHelmet",

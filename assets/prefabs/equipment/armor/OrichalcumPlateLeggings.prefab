@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cuissards d'orichalque"
+        "name": "Grèves d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumPlateLeggings",

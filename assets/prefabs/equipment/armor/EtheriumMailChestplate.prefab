@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cotte de mailles d'étherium"
+        "name": "Pourpoint d'étherium"
     },
     "Item": {
         "icon": "CoreSampleGameplay:EtheriumMailChestplate",

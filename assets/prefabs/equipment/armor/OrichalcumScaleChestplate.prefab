@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Plastron à écailles d'orichalque"
+        "name": "Brigandine d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumScaleChestplate",

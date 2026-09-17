@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Grèves d'acier"
+        "name": "Solerets d'acier"
     },
     "Item": {
         "icon": "CoreSampleGameplay:SteelPlateBoots",

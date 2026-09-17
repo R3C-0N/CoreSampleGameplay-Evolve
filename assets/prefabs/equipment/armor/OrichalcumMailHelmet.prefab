@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Coiffe de mailles d'orichalque"
+        "name": "Capuche d'orichalque"
     },
     "Item": {
         "icon": "CoreSampleGameplay:OrichalcumMailHelmet",

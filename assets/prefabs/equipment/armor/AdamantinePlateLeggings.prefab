@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Cuissards d'adamantine"
+        "name": "Grèves d'adamantine"
     },
     "Item": {
         "icon": "CoreSampleGameplay:AdamantinePlateLeggings",

@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Plastron de cuir"
+        "name": "Pourpoint de cuir"
     },
     "Item": {
         "icon": "CoreSampleGameplay:HideChestplate",

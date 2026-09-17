@@ -1,7 +1,7 @@
 {
     "parent": "engine:iconItem",
     "DisplayName": {
-        "name": "Chausses de mailles de bronze"
+        "name": "Braies de bronze"
     },
     "Item": {
         "icon": "CoreSampleGameplay:BronzeMailLeggings",
