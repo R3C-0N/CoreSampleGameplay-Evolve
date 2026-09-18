@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Totem d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumTotem",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumTotem",
+        "maxStackSize": 1,
+        "baseDamage": 21,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "totem",
+        "hands": 2
+    }
+}

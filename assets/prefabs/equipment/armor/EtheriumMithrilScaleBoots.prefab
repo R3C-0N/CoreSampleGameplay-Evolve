@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottes d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilScaleBoots",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilScaleBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "feet",
+        "protection": 13
+    }
+}

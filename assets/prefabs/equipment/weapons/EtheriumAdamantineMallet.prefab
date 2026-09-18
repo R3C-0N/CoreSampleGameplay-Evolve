@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineMallet",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineMallet",
+        "maxStackSize": 1,
+        "baseDamage": 27,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

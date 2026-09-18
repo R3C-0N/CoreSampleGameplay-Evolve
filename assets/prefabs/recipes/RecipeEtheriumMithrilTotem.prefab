@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:MithrilTotem|CoreSampleGameplay:OrichalcumTotem|CoreSampleGameplay:AdamantineTotem",
+            "3*CoreAssets:EtheriumMithrilIngot",
+            "2*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:EtheriumMithrilTotem",
+        "station": "ultimateforge"
+    }
+}

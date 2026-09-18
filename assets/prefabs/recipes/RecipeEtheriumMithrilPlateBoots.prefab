@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "6*CoreAssets:EtheriumMithrilIngot",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:EtheriumMithrilPlateBoots",
+        "station": "ultimateforge"
+    }
+}

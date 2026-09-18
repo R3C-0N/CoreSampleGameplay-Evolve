@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Flèche d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumArrow",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumArrow",
+        "maxStackSize": 99,
+        "baseDamage": 18
+    },
+    "Weapon": {
+        "type": "arrow",
+        "hands": 0
+    }
+}

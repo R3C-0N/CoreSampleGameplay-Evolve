@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Capuche d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilMailHelmet",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilMailHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "head",
+        "protection": 18
+    }
+}

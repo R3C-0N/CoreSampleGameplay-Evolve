@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Braies d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumMailLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 24
+    }
+}

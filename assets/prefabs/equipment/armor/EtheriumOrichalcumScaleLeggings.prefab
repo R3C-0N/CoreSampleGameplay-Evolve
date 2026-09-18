@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumScaleLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 25
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Couteau en étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineKnife",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineKnife",
+        "maxStackSize": 1,
+        "baseDamage": 11
+    },
+    "Tool": {
+        "family": "knife",
+        "grade": 7
+    }
+}

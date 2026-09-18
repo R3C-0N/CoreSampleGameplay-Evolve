@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Heaume d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilPlateHelmet",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilPlateHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "head",
+        "protection": 21
+    }
+}

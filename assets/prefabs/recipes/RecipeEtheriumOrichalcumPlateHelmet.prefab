@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "7*CoreAssets:EtheriumOrichalcumIngot",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:EtheriumOrichalcumPlateHelmet",
+        "station": "ultimateforge"
+    }
+}

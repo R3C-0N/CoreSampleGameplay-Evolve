@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Brigandine d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilScaleChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 35
+    }
+}

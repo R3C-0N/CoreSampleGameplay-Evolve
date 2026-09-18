@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Braies d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineMailLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineMailLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "legs",
+        "protection": 24
+    }
+}

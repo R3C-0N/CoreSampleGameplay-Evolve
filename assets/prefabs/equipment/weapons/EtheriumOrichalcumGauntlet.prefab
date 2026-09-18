@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumGauntlet",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 23,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

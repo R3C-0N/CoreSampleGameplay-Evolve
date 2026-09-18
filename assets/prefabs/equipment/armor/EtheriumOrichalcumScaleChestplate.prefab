@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Brigandine d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumScaleChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 35
+    }
+}

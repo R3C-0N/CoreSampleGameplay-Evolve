@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gantelet runique d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineGauntlet",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineGauntlet",
+        "maxStackSize": 1,
+        "baseDamage": 23,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "runicGauntlet",
+        "hands": 2
+    }
+}

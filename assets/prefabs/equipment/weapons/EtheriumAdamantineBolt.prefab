@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineBolt",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineBolt",
+        "maxStackSize": 99,
+        "baseDamage": 18
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

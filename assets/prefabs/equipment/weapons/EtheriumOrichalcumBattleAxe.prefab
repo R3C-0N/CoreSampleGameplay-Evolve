@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache de guerre en étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumBattleAxe",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumBattleAxe",
+        "maxStackSize": 1,
+        "baseDamage": 27,
+        "cooldownTime": 375
+    },
+    "Weapon": {
+        "type": "battleAxe",
+        "hands": 1
+    }
+}

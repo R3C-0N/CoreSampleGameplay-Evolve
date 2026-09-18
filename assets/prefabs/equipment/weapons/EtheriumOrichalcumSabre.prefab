@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sabre d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumSabre",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumSabre",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 190
+    },
+    "Weapon": {
+        "type": "windBlade",
+        "hands": 1
+    }
+}

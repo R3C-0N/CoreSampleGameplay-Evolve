@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pourpoint d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumMailChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 33
+    }
+}

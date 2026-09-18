@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bottines d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumMailBoots",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumMailBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "feet",
+        "protection": 12
+    }
+}

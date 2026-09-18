@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Brigandine d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineScaleChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineScaleChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "chest",
+        "protection": 35
+    }
+}

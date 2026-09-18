@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineScaleLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 25
+    }
+}

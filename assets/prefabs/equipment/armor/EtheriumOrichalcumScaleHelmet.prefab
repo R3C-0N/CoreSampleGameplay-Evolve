@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Camail d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumScaleHelmet",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumScaleHelmet",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "head",
+        "protection": 19
+    }
+}

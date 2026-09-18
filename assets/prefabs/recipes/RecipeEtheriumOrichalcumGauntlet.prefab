@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:MithrilGauntlet|CoreSampleGameplay:OrichalcumGauntlet|CoreSampleGameplay:AdamantineGauntlet",
+            "3*CoreAssets:EtheriumOrichalcumIngot",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:EtheriumOrichalcumGauntlet",
+        "station": "ultimateforge"
+    }
+}

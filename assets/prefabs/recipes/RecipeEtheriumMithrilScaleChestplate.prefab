@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "11*CoreAssets:EtheriumMithrilIngot",
+            "2*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:EtheriumMithrilScaleChestplate",
+        "station": "ultimateforge"
+    }
+}

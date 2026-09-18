@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantinePlateLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantinePlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 28
+    }
+}

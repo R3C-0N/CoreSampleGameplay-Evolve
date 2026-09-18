@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumDagger",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumDagger",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 150
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

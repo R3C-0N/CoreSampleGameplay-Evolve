@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Lance d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineSpear",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineSpear",
+        "maxStackSize": 1,
+        "baseDamage": 28,
+        "cooldownTime": 375
+    },
+    "Weapon": {
+        "type": "spear",
+        "hands": 2
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumSword",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumSword",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

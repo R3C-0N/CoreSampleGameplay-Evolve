@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:EtheriumOrichalcumIngot",
+            "2*CoreAssets:Stick",
+            "1*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:EtheriumOrichalcumArrow",
+        "count": 8,
+        "station": "ultimateforge"
+    }
+}

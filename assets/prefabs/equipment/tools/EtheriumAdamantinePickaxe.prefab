@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantinePickaxe",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantinePickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 11,
+        "damageType": "CoreAssets:pickaxeTier4Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 7
+    }
+}

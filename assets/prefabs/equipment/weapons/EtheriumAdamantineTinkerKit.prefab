@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineTinkerKit",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

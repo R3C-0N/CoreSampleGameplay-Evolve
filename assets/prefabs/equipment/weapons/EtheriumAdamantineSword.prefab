@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineSword",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineSword",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

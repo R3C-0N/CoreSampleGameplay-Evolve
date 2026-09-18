@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreAssets:EtheriumMithrilIngot",
+            "1*CoreAssets:Stick",
+            "1*CoreAssets:Fibre"
+        ],
+        "result": "CoreSampleGameplay:EtheriumMithrilBolt",
+        "count": 6,
+        "station": "ultimateforge"
+    }
+}

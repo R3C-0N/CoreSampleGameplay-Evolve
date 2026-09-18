@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pourpoint d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilMailChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilMailChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "light",
+        "slot": "chest",
+        "protection": 33
+    }
+}

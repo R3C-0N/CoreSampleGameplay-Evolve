@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Dague d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineDagger",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineDagger",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 150
+    },
+    "Weapon": {
+        "type": "dagger",
+        "hands": 1
+    }
+}

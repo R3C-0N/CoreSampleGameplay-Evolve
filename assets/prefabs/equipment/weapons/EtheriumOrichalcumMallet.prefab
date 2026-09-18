@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Marteau d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumMallet",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumMallet",
+        "maxStackSize": 1,
+        "baseDamage": 27,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "warHammer",
+        "hands": 1
+    }
+}

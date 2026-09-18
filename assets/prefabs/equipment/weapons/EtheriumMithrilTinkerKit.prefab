@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trousse d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilTinkerKit",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilTinkerKit",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "engineerKit",
+        "hands": 1
+    }
+}

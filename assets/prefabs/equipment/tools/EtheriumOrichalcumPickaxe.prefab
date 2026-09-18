@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumPickaxe",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 11,
+        "damageType": "CoreAssets:pickaxeTier4Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 7
+    }
+}

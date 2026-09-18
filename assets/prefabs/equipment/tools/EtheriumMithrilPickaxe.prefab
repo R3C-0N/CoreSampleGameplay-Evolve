@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pioche en étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilPickaxe",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilPickaxe",
+        "maxStackSize": 1,
+        "baseDamage": 11,
+        "damageType": "CoreAssets:pickaxeTier4Damage"
+    },
+    "Tool": {
+        "family": "pickaxe",
+        "grade": 7
+    }
+}

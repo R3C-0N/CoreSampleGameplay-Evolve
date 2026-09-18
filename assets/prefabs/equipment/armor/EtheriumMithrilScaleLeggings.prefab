@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Chausses d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilScaleLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilScaleLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "medium",
+        "slot": "legs",
+        "protection": 25
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bouclier d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumShield",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumShield",
+        "maxStackSize": 1,
+        "baseDamage": 12,
+        "cooldownTime": 300
+    },
+    "Weapon": {
+        "type": "shield",
+        "hands": 1
+    }
+}

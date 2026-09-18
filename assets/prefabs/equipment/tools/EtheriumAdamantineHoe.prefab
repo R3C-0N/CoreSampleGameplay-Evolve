@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Houe en étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineHoe",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineHoe",
+        "maxStackSize": 1,
+        "baseDamage": 7
+    },
+    "Tool": {
+        "family": "hoe",
+        "grade": 7
+    }
+}

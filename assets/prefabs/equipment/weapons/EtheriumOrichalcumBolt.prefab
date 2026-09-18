@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carreau d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumBolt",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumBolt",
+        "maxStackSize": 99,
+        "baseDamage": 18
+    },
+    "Weapon": {
+        "type": "bolt",
+        "hands": 0
+    }
+}

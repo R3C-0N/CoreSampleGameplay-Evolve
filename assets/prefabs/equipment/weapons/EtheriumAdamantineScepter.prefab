@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Sceptre d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantineScepter",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantineScepter",
+        "maxStackSize": 1,
+        "baseDamage": 15,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "healingScepter",
+        "hands": 1
+    }
+}

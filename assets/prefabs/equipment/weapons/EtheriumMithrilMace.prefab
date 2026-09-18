@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Masse d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilMace",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilMace",
+        "maxStackSize": 1,
+        "baseDamage": 28,
+        "cooldownTime": 340
+    },
+    "Weapon": {
+        "type": "club",
+        "hands": 1
+    }
+}

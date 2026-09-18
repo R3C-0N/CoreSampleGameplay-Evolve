@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Épée d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilSword",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilSword",
+        "maxStackSize": 1,
+        "baseDamage": 22,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "oneHandedSword",
+        "hands": 1
+    }
+}

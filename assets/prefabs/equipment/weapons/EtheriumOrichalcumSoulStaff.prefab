@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bâton d'âmes d'étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumSoulStaff",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumSoulStaff",
+        "maxStackSize": 1,
+        "baseDamage": 20,
+        "cooldownTime": 225
+    },
+    "Weapon": {
+        "type": "soulStaff",
+        "hands": 2
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "10*CoreAssets:EtheriumAdamantineIngot",
+            "1*CoreAssets:Rope"
+        ],
+        "result": "CoreSampleGameplay:EtheriumAdamantinePlateLeggings",
+        "station": "ultimateforge"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Solerets d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantinePlateBoots",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantinePlateBoots",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "feet",
+        "protection": 14
+    }
+}

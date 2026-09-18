@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache de guerre en étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilBattleAxe",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilBattleAxe",
+        "maxStackSize": 1,
+        "baseDamage": 27,
+        "cooldownTime": 375
+    },
+    "Weapon": {
+        "type": "battleAxe",
+        "hands": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Cuirasse d'étherium (adamantine)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumAdamantinePlateChestplate",
+        "stackId": "CoreSampleGameplay:EtheriumAdamantinePlateChestplate",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "chest",
+        "protection": 38
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Grèves d'étherium (mithril)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumMithrilPlateLeggings",
+        "stackId": "CoreSampleGameplay:EtheriumMithrilPlateLeggings",
+        "maxStackSize": 1
+    },
+    "Armor": {
+        "weight": "heavy",
+        "slot": "legs",
+        "protection": 28
+    }
+}

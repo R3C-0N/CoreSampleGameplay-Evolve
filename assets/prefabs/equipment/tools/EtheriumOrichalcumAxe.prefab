@@ -1,0 +1,17 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hache en étherium (orichalque)"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:EtheriumOrichalcumAxe",
+        "stackId": "CoreSampleGameplay:EtheriumOrichalcumAxe",
+        "maxStackSize": 1,
+        "baseDamage": 11,
+        "damageType": "CoreAssets:axeTier4Damage"
+    },
+    "Tool": {
+        "family": "axe",
+        "grade": 7
+    }
+}
