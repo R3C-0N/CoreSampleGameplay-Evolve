@@ -23,6 +23,10 @@
             "maxVersion": "3.0.0"
         },
         {
+            "id": "CubeWorlds",
+            "minVersion": "1.0.0"
+        },
+        {
             "id": "Drops",
             "minVersion": "1.0.0"
         },
@@ -40,5 +44,5 @@
         }
     ],
     "isGameplay": "true",
-    "defaultWorldGenerator": "CoreWorlds:FacetedSimplex"
+    "defaultWorldGenerator": "CubeWorlds:cubeworld"
 }
