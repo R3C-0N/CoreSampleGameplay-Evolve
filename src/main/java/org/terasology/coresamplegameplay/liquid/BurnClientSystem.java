@@ -2,6 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 package org.terasology.coresamplegameplay.liquid;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.terasology.engine.entitySystem.systems.BaseComponentSystem;
 import org.terasology.engine.entitySystem.systems.RegisterMode;
 import org.terasology.engine.entitySystem.systems.RegisterSystem;
@@ -15,11 +17,19 @@ import org.terasology.engine.rendering.nui.NUIManager;
 @RegisterSystem(RegisterMode.CLIENT)
 public class BurnClientSystem extends BaseComponentSystem {
 
+    private static final String OVERLAY = "CoreSampleGameplay:burnOverlay";
+    private static final Logger logger = LoggerFactory.getLogger(BurnClientSystem.class);
+
     @In
     private NUIManager nuiManager;
 
     @Override
     public void initialise() {
-        nuiManager.getHUD().addHUDElement("CoreSampleGameplay:burnOverlay");
+        // addHUDElement returns null and says nothing at all when the asset will not load or its root
+        // widget is of the wrong kind, which is a long way to look for a veil that never appears.
+        if (nuiManager.getHUD().addHUDElement(OVERLAY) == null) {
+            logger.warn("The burning overlay {} did not attach to the HUD; nobody will see themselves burn.",
+                    OVERLAY);
+        }
     }
 }

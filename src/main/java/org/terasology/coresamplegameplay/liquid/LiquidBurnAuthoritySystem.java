@@ -96,8 +96,10 @@ public class LiquidBurnAuthoritySystem extends BaseComponentSystem implements Up
     /**
      * The warmth of the hottest liquid the character is standing in, nought if it is standing in none.
      * <p>
-     * The two heights sampled are the ones the mover itself uses to decide on swimming, so a character is
-     * burnt by exactly the liquid it is swimming in.
+     * Three heights are sampled, not the mover's two. The mover asks at {@code +0.5} and {@code -0.25} of
+     * the height, and for a character standing in a pool one block deep those two straddle it: the lower
+     * lands in the ground beneath and the upper in the air above, and the lava between them burns nobody.
+     * The character's own height is therefore sampled as well.
      */
     private int hottestLiquidAt(EntityRef character) {
         LocationComponent location = character.getComponent(LocationComponent.class);
@@ -110,6 +112,7 @@ public class LiquidBurnAuthoritySystem extends BaseComponentSystem implements Up
             return 0;
         }
         int warmth = warmthAt(position.x, position.y + 0.5f * movement.height, position.z);
+        warmth = Math.max(warmth, warmthAt(position.x, position.y, position.z));
         return Math.max(warmth, warmthAt(position.x, position.y - 0.25f * movement.height, position.z));
     }
 
