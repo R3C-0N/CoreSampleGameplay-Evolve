@@ -1,0 +1,46 @@
+/**
+ * The flames on a character standing in something hotter than twelve.
+ * There is no flame texture anywhere in the code base, so this is the smoke sprite recoloured: bright
+ * orange fading to a dark red, rising and thinning. It emits until it is destroyed rather than in one
+ * puff, which is what separates it from scrapeBurst.
+ */
+{
+    "location": {},
+    "particleDataSprite": {
+        "texture": "CoreAssets:fx_smoke"
+    },
+    "energyRangeGenerator": {
+        "minEnergy": 0.4,
+        "maxEnergy": 0.9
+    },
+    "colorRangeGenerator": {
+        "minColorComponents": [0.6, 0.12, 0.02, 0.7],
+        "maxColorComponents": [1.0, 0.65, 0.15, 1.0]
+    },
+    "velocityRangeGenerator": {
+        "minVelocity": [-0.35, 0.9, -0.35],
+        "maxVelocity": [0.35, 2.1, 0.35]
+    },
+    "scaleRangeGenerator": {
+        "minScale": [0.18, 0.18, 0.18],
+        "maxScale": [0.34, 0.34, 0.34]
+    },
+    "positionRangeGenerator": {
+        "minPosition": [-0.35, -0.6, -0.35],
+        "maxPosition": [0.35, 0.6, 0.35]
+    },
+    "accelerationAffector": {
+        "acceleration": [0, 1.4, 0]
+    },
+    "velocityAffector": {},
+    "particleEmitter": {
+        "lifeTime": -1,
+        "spawnRateMin": 26,
+        "spawnRateMax": 34,
+        "particleSpawnsLeft": -1,
+        "maxParticles": 48,
+        "particleCollision": false,
+        "destroyEntityWhenDead": true
+    },
+    "network": {}
+}

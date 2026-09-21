@@ -1,0 +1,11 @@
+/**
+ * What a liquid hotter than seven does to whoever stands in it.
+ * The prefab's own name is the key a DamageResistComponent would use, so a resistance to fire costs
+ * nothing to add later. It is deliberately absent from the EngineDamageTypes enum - supportRemovedDamage
+ * already works that way.
+ */
+{
+    "damageSound": {
+        "sounds": ["CoreAssets:FuseBurning"]
+    }
+}

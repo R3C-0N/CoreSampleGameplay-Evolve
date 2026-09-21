@@ -1,0 +1,7 @@
+{
+    "type": "CoreSampleGameplay:BurnOverlay",
+    "contents": {
+        "type": "relativeLayout",
+        "contents": []
+    }
+}
