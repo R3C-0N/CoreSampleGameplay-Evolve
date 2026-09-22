@@ -30,6 +30,19 @@ import org.terasology.module.health.events.BeforeDamagedEvent;
 @RegisterSystem(RegisterMode.AUTHORITY)
 public class CreativeAuthoritySystem extends BaseComponentSystem {
 
+    /**
+     * How long a creative character waits between one action and the next, in milliseconds.
+     * <p>
+     * Two places this does not reach, both in the engine and neither worth a change there. An empty hand never
+     * raises the event at all - {@code CharacterSystem.onItemUse} adds a flat 200 ms when nothing is held and
+     * asks nobody - so clearing blocks bare-handed runs a shade quicker than this; the fifty milliseconds are
+     * not a difference anyone can feel, and the pause is there either way. And in multiplayer this system is
+     * authority only while that engine method runs on both sides, so a remote client works out the item's own
+     * cooldown while the server works out this one, and a click landing between the two is quietly dropped
+     * rather than acted on. Single player is its own authority, so the two cannot disagree there.
+     */
+    public static final float ACTION_DELAY_MS = 250f;
+
     /** Fall damage comes through this event too, so nothing else is needed to survive a drop. */
     @Priority(EventPriority.PRIORITY_CRITICAL)
     @ReceiveEvent(components = CreativeModeComponent.class)
@@ -37,11 +50,23 @@ public class CreativeAuthoritySystem extends BaseComponentSystem {
         event.consume();
     }
 
-    /** Breaking a block has no cooldown, so blocks can be cleared as fast as the button is clicked. */
+    /**
+     * A fixed pause between one action and the next, whatever is in hand.
+     * <p>
+     * Creative used to wait for nothing at all, and a held button laid a wall or cleared a hillside faster than
+     * anyone could see what they were doing. A quarter of a second is the lightest brake that is felt: it costs
+     * nothing to someone building deliberately, and it ends the accidental burst of a double click.
+     * <p>
+     * The multiplier throws the item's own cooldown away and the flat addition puts this one in its place, so
+     * the pace is the character's rather than whatever happens to be held - a hand has a rhythm, not a tool.
+     * That also means one timer for both buttons, since the engine keeps a single
+     * {@code nextItemUseTime}: no breaking a block the instant after placing one, and none the other way round.
+     */
     @Priority(EventPriority.PRIORITY_HIGH)
     @ReceiveEvent(components = CreativeModeComponent.class)
-    public void useWithoutWaiting(AffectItemUseCooldownTimeEvent event, EntityRef character) {
+    public void actAtASteadyPace(AffectItemUseCooldownTimeEvent event, EntityRef character) {
         event.multiply(0f);
+        event.postAdd(ACTION_DELAY_MS);
     }
 
     /**
