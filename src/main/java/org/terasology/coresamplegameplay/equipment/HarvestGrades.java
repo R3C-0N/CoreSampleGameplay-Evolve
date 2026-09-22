@@ -28,8 +28,9 @@ public final class HarvestGrades {
 
     /**
      * Tin comes out with copper tools, iron with bronze ones, the gems only from steel on — they sit in the
-     * deep layers — and void stone only from a fantastic metal, which is what opens the abyss. Every other
-     * stone asks for flint.
+     * deep layers — and void stone only from a fantastic metal, which is what opens the abyss. Obsidian is a
+     * steel job too: it is not found, it is made, by turning water on a spring of lava, and a player who can
+     * do that safely has steel. Every other stone asks for flint.
      */
     private static final Map<BlockUri, Integer> GRADE_BY_BLOCK = Map.of(
             new BlockUri("CoreAssets:TinOre"), COPPER,
@@ -39,6 +40,7 @@ public final class HarvestGrades {
             new BlockUri("CoreAssets:TopazOre"), STEEL,
             new BlockUri("CoreAssets:AquamarineOre"), STEEL,
             new BlockUri("CoreAssets:AmberOre"), STEEL,
+            new BlockUri("CoreAssets:Obsidian"), STEEL,
             new BlockUri("CoreAssets:VoidStone"), FANTASTIC);
 
     private HarvestGrades() {
