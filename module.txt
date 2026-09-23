@@ -6,6 +6,10 @@
     "description": "Minimal gameplay template. Little content but a few starting items.",
     "dependencies": [
         {
+            "id": "Bestiaire",
+            "minVersion": "1.0.0"
+        },
+        {
             "id": "CoreAdvancedAssets",
             "minVersion": "1.0.0"
         },
