@@ -16,11 +16,12 @@ import org.terasology.engine.logic.health.EngineDamageTypes;
 import org.terasology.engine.world.block.BlockComponent;
 import org.terasology.engine.world.block.entity.CreateBlockDropsEvent;
 import org.terasology.engine.world.block.items.BlockItemComponent;
+import org.terasology.bestiaire.BeforeHuntedEvent;
 import org.terasology.gestalt.entitysystem.event.ReceiveEvent;
 import org.terasology.module.health.events.BeforeDamagedEvent;
 
 /**
- * The five rules of creative mode, each one slotted into an existing consumable event.
+ * The six rules of creative mode, each one slotted into an existing consumable event.
  * <p>
  * Priorities run {@code CRITICAL 200 > HIGH 150 > NORMAL 100 > LOW 50 > TRIVIAL 0}, and a consumed event stops
  * being propagated — which is the whole mechanism here. Two of the five events are received on the character,
@@ -47,6 +48,21 @@ public class CreativeAuthoritySystem extends BaseComponentSystem {
     @Priority(EventPriority.PRIORITY_CRITICAL)
     @ReceiveEvent(components = CreativeModeComponent.class)
     public void takeNoDamage(BeforeDamagedEvent event, EntityRef character) {
+        event.consume();
+    }
+
+    /**
+     * Nothing hunts a builder.
+     * <p>
+     * Invulnerability alone would have left the wolves circling: they would come, they would bite, and the
+     * blows would land on nothing — a fight with no stakes played out on top of whatever was being built.
+     * The bestiary asks before it settles on a prey, and this is the answer. It is the only consumer of that
+     * question today, and it is the reason the question exists rather than a component the wolf reads: the
+     * mode is declared here, in a module that depends on the bestiary, so the bestiary cannot see it.
+     */
+    @Priority(EventPriority.PRIORITY_CRITICAL)
+    @ReceiveEvent(components = CreativeModeComponent.class)
+    public void goUnnoticed(BeforeHuntedEvent event, EntityRef character) {
         event.consume();
     }
 
