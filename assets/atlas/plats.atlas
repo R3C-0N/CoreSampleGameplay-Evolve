@@ -1,0 +1,71 @@
+{
+    "texture": "CoreSampleGameplay:plats",
+    "textureSize": [
+        128,
+        96
+    ],
+    "grid": {
+        "tileSize": [
+            16,
+            16
+        ],
+        "gridDimensions": [
+            8,
+            6
+        ],
+        "gridOffset": [
+            0,
+            0
+        ],
+        "tileNames": [
+            "ble",
+            "pain",
+            "tourteDeGibier",
+            "tourteAuTofu",
+            "pateDeLapinEnCroute",
+            "pateDeTofuEnCroute",
+            "painAuxOignons",
+            "pommeDeTerre",
+            "pommeDeTerreAuFour",
+            "hachisDOurs",
+            "hachisDeTofu",
+            "gratinDeSanglier",
+            "gratinDeTofu",
+            "pureeDeCarottes",
+            "carotte",
+            "carottesRoties",
+            "ragoutDeVache",
+            "ragoutDeTofu",
+            "lapinAuxCarottes",
+            "tofuAuxCarottes",
+            "soupeDeLegumes",
+            "oignon",
+            "oignonsConfits",
+            "soupeALOignon",
+            "brochetteDeMouflon",
+            "brochetteDeTofu",
+            "faisanFarci",
+            "tofuFarci",
+            "riz",
+            "rizCuit",
+            "rizSauteAuLezard",
+            "rizSauteAuTofu",
+            "boulettesDeLoup",
+            "boulettesDeTofu",
+            "galettesDeRizAuxCarottes",
+            "courge",
+            "courgeRotie",
+            "velouteDeCourge",
+            "tarteALaCourge",
+            "courgeFarcie",
+            "courgeFarcieAuTofu",
+            "soja",
+            "tofu",
+            "edamameGrilles",
+            "tofuGrille",
+            "soupeMiso",
+            "tofuSauteAuxLegumes",
+            ""
+        ]
+    }
+}

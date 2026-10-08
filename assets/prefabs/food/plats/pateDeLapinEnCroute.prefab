@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pâté de lapin en croûte",
+        "description": "Se mange au clic droit. Rassasie de 42."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#pateDeLapinEnCroute",
+        "stackId": "CoreSampleGameplay:pateDeLapinEnCroute",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 42
+    }
+}

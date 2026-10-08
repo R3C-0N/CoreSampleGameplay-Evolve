@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Purée de carottes",
+        "description": "Se mange au clic droit. Rassasie de 24."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#pureeDeCarottes",
+        "stackId": "CoreSampleGameplay:pureeDeCarottes",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 24
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Carotte",
+        "description": "Se mange au clic droit. Rassasie de 4."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#carotte",
+        "stackId": "CoreSampleGameplay:carotte",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 4
+    }
+}

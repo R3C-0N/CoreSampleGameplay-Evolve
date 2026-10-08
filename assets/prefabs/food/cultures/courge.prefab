@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Courge",
+        "description": "Se mange au clic droit. Rassasie de 5."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#courge",
+        "stackId": "CoreSampleGameplay:courge",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 5
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:oignon",
+            "1*CoreSampleGameplay:tofu",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:brochetteDeTofu",
+        "station": "furnace"
+    }
+}

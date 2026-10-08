@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Boulettes de loup",
+        "description": "Se mange au clic droit. Rassasie de 52."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#boulettesDeLoup",
+        "stackId": "CoreSampleGameplay:boulettesDeLoup",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 52
+    }
+}

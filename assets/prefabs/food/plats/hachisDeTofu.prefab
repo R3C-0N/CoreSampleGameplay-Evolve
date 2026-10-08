@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hachis de tofu",
+        "description": "Se mange au clic droit. Rassasie de 65."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#hachisDeTofu",
+        "stackId": "CoreSampleGameplay:hachisDeTofu",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 65
+    }
+}

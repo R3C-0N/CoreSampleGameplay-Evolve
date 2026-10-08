@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:riz",
+            "1*Bestiaire:viandeLezard",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:rizSauteAuLezard",
+        "station": "furnace"
+    }
+}

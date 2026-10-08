@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Oignon",
+        "description": "Se mange au clic droit. Rassasie de 2."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#oignon",
+        "stackId": "CoreSampleGameplay:oignon",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 2
+    }
+}

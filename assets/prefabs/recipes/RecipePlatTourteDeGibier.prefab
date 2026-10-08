@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:ble",
+            "1*Bestiaire:viandeCerf",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:tourteDeGibier",
+        "station": "furnace"
+    }
+}

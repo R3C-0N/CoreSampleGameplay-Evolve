@@ -1,0 +1,11 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:courge",
+            "1*CoreSampleGameplay:carotte",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:velouteDeCourge",
+        "station": "furnace"
+    }
+}

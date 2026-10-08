@@ -1,0 +1,11 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Riz"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#riz",
+        "stackId": "CoreSampleGameplay:riz",
+        "maxStackSize": 99
+    }
+}

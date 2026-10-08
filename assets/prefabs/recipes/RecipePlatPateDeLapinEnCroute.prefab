@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:ble",
+            "1*Bestiaire:viandeLapin",
+            "1*CoreSampleGameplay:oignon",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:pateDeLapinEnCroute",
+        "station": "furnace"
+    }
+}

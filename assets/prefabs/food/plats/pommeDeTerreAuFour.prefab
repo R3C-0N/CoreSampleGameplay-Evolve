@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pomme de terre au four",
+        "description": "Se mange au clic droit. Rassasie de 10."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#pommeDeTerreAuFour",
+        "stackId": "CoreSampleGameplay:pommeDeTerreAuFour",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 10
+    }
+}

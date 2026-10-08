@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Boulettes de tofu",
+        "description": "Se mange au clic droit. Rassasie de 52."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#boulettesDeTofu",
+        "stackId": "CoreSampleGameplay:boulettesDeTofu",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 52
+    }
+}

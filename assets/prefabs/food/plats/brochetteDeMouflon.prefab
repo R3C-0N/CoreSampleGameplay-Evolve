@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Brochette de mouflon",
+        "description": "Se mange au clic droit. Rassasie de 40."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#brochetteDeMouflon",
+        "stackId": "CoreSampleGameplay:brochetteDeMouflon",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 40
+    }
+}
