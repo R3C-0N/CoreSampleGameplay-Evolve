@@ -2,9 +2,10 @@
     "Recipe": {
         "ingredients": [
             "3*CoreAssets:CopperIngot",
-            "1*CoreAssets:TinIngot"
+            "1*CoreAssets:TinIngot",
+            "1*CoreAssets:Coal"
         ],
         "result": "CoreAssets:BronzeIngot",
-        "station": "workbench"
+        "station": "furnace"
     }
 }
