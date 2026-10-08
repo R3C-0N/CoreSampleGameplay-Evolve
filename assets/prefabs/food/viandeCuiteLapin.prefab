@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Viande cuite de lapin",
+        "description": "Se mange au clic droit. Rassasie de 15."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:cuisine#viandeLapin",
+        "stackId": "CoreSampleGameplay:viandeCuiteLapin",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 15
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Viande cuite de mouflon",
+        "description": "Se mange au clic droit. Rassasie de 25."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:cuisine#viandeMouflon",
+        "stackId": "CoreSampleGameplay:viandeCuiteMouflon",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 25
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Viande cuite d'ours",
+        "description": "Se mange au clic droit. Rassasie de 45."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:cuisine#viandeOurs",
+        "stackId": "CoreSampleGameplay:viandeCuiteOurs",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 45
+    }
+}

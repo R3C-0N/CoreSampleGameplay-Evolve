@@ -1,0 +1,6 @@
+/**
+ * What an empty stomach does. Like fireDamage, the prefab's own name is the key a DamageResistComponent would
+ * use, and it stays out of the EngineDamageTypes enum.
+ */
+{
+}

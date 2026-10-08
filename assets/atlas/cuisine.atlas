@@ -1,0 +1,35 @@
+{
+    "texture": "CoreSampleGameplay:cuisine",
+    "textureSize": [
+        128,
+        32
+    ],
+    "grid": {
+        "tileSize": [
+            16,
+            16
+        ],
+        "gridDimensions": [
+            8,
+            2
+        ],
+        "gridOffset": [
+            0,
+            0
+        ],
+        "tileNames": [
+            "viandeLoup",
+            "viandeSanglier",
+            "viandeOurs",
+            "viandeCerf",
+            "viandeMouflon",
+            "viandeLapin",
+            "viandeVache",
+            "viandeFaisan",
+            "viandeLezard",
+            "viandePure",
+            "",
+            ""
+        ]
+    }
+}

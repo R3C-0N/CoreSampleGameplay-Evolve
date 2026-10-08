@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Viande grillée de cerf de cristal",
+        "description": "Se mange au clic droit. Rassasie de 35."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:cuisine#viandePure",
+        "stackId": "CoreSampleGameplay:viandeCuitePure",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 35
+    }
+}

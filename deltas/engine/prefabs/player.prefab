@@ -6,5 +6,6 @@
     "items": [
       { "uri": "CoreAssets:Torch", "quantity": 20 }
     ]
-  }
+  },
+  "Hunger": {}
 }

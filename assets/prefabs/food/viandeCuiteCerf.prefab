@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Viande cuite de cerf",
+        "description": "Se mange au clic droit. Rassasie de 30."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:cuisine#viandeCerf",
+        "stackId": "CoreSampleGameplay:viandeCuiteCerf",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 30
+    }
+}
