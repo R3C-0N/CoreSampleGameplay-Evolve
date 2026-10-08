@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "healingScepter",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 0.9
     }
 }

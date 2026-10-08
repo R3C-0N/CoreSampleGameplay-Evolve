@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "windBlade",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 0.8
     }
 }

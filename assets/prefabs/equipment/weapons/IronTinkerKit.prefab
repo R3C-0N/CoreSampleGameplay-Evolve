@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "engineerKit",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 0.7
     }
 }

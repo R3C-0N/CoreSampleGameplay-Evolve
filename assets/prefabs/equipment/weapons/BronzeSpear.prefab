@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "spear",
         "hands": 2
+    },
+    "Impact": {
+        "amplification": 1.2
     }
 }

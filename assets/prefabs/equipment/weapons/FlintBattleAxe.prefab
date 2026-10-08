@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "battleAxe",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 1.4
     }
 }

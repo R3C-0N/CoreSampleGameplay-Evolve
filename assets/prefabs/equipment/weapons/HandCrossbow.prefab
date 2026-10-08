@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "handCrossbow",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 0.5
     }
 }

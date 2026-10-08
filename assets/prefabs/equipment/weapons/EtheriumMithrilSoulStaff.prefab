@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "soulStaff",
         "hands": 2
+    },
+    "Impact": {
+        "amplification": 0.9
     }
 }
