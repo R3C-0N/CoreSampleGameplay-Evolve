@@ -153,28 +153,28 @@ public class FarmingAuthoritySystem extends BaseComponentSystem implements Updat
         crops.forEach(crop -> grow(crop, elapsed));
     }
 
-    private void water(EntityRef soil, long elapsed) {
-        if (!soil.exists() || !soil.hasComponent(TilledSoilComponent.class)) {
+    private void water(EntityRef entity, long elapsed) {
+        Vector3i position = currentAt(entity);
+        if (position == null || !isTilled(worldProvider.getBlock(position))) {
             return;
         }
-        Vector3ic position = soil.getComponent(BlockComponent.class).getPosition();
-        Block block = worldProvider.getBlock(position);
-        boolean wet = isWet(block);
-        if (waterNear(position)) {
-            if (!wet) {
-                worldProvider.setBlock(position, blockManager.getBlock(WET_SOIL));
-            }
-            TilledSoilComponent tilled = soil.getComponent(TilledSoilComponent.class);
+        boolean watered = waterNear(position);
+        if (watered != isWet(worldProvider.getBlock(position))) {
+            worldProvider.setBlock(position, blockManager.getBlock(watered ? WET_SOIL : DRY_SOIL));
+        }
+        // Read again from the registry: changing the block may have handed the position a new entity.
+        EntityRef soil = blockEntityRegistry.getBlockEntityAt(position);
+        TilledSoilComponent tilled = soil.getComponent(TilledSoilComponent.class);
+        if (tilled == null) {
+            return;
+        }
+        if (watered) {
             if (tilled.dry != 0) {
                 tilled.dry = 0;
                 soil.saveComponent(tilled);
             }
             return;
         }
-        if (wet) {
-            worldProvider.setBlock(position, blockManager.getBlock(DRY_SOIL));
-        }
-        TilledSoilComponent tilled = soil.getComponent(TilledSoilComponent.class);
         tilled.dry += elapsed;
         if (tilled.dry < DRY_OUT_MS) {
             soil.saveComponent(tilled);
@@ -191,14 +191,11 @@ public class FarmingAuthoritySystem extends BaseComponentSystem implements Updat
     }
 
     private void grow(EntityRef plant, long elapsed) {
-        if (!plant.exists()) {
-            return;
-        }
-        CropComponent crop = plant.getComponent(CropComponent.class);
+        Vector3i position = currentAt(plant);
+        CropComponent crop = position == null ? null : plant.getComponent(CropComponent.class);
         if (crop == null || crop.next.isEmpty()) {
             return;
         }
-        Vector3ic position = plant.getComponent(BlockComponent.class).getPosition();
         if (crop.needed == 0) {
             crop.needed = STAGE_MIN_MS + (long) (random.nextFloat() * (STAGE_MAX_MS - STAGE_MIN_MS));
         }
@@ -213,6 +210,19 @@ public class FarmingAuthoritySystem extends BaseComponentSystem implements Updat
             }
         }
         plant.saveComponent(crop);
+    }
+
+    /**
+     * Where this block entity stands, if it is still the one the world holds there. A block change can leave the
+     * previous entity of a position behind for a while, still carrying its block component; it is not tended.
+     */
+    private Vector3i currentAt(EntityRef entity) {
+        BlockComponent block = entity.exists() ? entity.getComponent(BlockComponent.class) : null;
+        if (block == null) {
+            return null;
+        }
+        Vector3i position = new Vector3i(block.getPosition());
+        return entity.equals(blockEntityRegistry.getExistingBlockEntityAt(position)) ? position : null;
     }
 
     private boolean canGrow(Vector3ic position) {

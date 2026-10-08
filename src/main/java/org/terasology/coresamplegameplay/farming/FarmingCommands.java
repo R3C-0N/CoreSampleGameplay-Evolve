@@ -3,7 +3,7 @@
 package org.terasology.coresamplegameplay.farming;
 
 import org.joml.Vector3f;
-import org.joml.Vector3ic;
+import org.joml.Vector3i;
 import org.terasology.engine.entitySystem.entity.EntityManager;
 import org.terasology.engine.entitySystem.entity.EntityRef;
 import org.terasology.engine.entitySystem.systems.BaseComponentSystem;
@@ -15,13 +15,14 @@ import org.terasology.engine.logic.location.LocationComponent;
 import org.terasology.engine.logic.permission.PermissionManager;
 import org.terasology.engine.network.ClientComponent;
 import org.terasology.engine.registry.In;
+import org.terasology.engine.world.BlockEntityRegistry;
 import org.terasology.engine.world.WorldProvider;
 import org.terasology.engine.world.block.Block;
 import org.terasology.engine.world.block.BlockComponent;
 import org.terasology.engine.world.block.BlockManager;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Growing the plants nearby by hand, to try a harvest without waiting a quarter of an hour.
@@ -37,6 +38,8 @@ public class FarmingCommands extends BaseComponentSystem {
     private WorldProvider worldProvider;
     @In
     private BlockManager blockManager;
+    @In
+    private BlockEntityRegistry blockEntityRegistry;
 
     @Command(shortDescription = "Fait pousser les plants proches",
             helpText = "Fait avancer d'autant de stades les plants à moins de seize blocs, jusqu'à maturité sans valeur.",
@@ -52,18 +55,19 @@ public class FarmingCommands extends BaseComponentSystem {
         Vector3f here = location.getWorldPosition(new Vector3f());
         int steps = stages == null ? RIPE : Math.max(0, stages);
 
-        List<EntityRef> near = new ArrayList<>();
+        // Positions, not entities: changing a block may hand its position a new entity.
+        Set<Vector3i> near = new HashSet<>();
         for (EntityRef plant : entityManager.getEntitiesWith(CropComponent.class, BlockComponent.class)) {
-            if (new Vector3f(plant.getComponent(BlockComponent.class).getPosition()).distance(here) <= REACH) {
-                near.add(plant);
+            Vector3i position = new Vector3i(plant.getComponent(BlockComponent.class).getPosition());
+            if (new Vector3f(position).distance(here) <= REACH) {
+                near.add(position);
             }
         }
         int grown = 0;
-        for (EntityRef plant : near) {
-            Vector3ic position = plant.getComponent(BlockComponent.class).getPosition();
+        for (Vector3i position : near) {
             boolean moved = false;
             for (int i = 0; i < steps; i++) {
-                CropComponent crop = plant.getComponent(CropComponent.class);
+                CropComponent crop = blockEntityRegistry.getBlockEntityAt(position).getComponent(CropComponent.class);
                 Block next = crop == null || crop.next.isEmpty() ? null : blockManager.getBlock(crop.next);
                 if (next == null) {
                     break;
