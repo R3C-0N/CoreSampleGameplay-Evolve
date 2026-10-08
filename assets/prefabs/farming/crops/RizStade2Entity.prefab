@@ -1,0 +1,11 @@
+{
+    "Crop": {
+        "next": "CoreSampleGameplay:RizStade3",
+        "seed": "CoreSampleGameplay:grainesRiz"
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "1*CoreSampleGameplay:grainesRiz"
+        ]
+    }
+}

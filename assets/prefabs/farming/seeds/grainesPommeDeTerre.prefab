@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Germes de pomme de terre"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesPommeDeTerre",
+        "stackId": "CoreSampleGameplay:grainesPommeDeTerre",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:PommeDeTerreStade1"
+    }
+}

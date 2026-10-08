@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Pomme de terre — plant",
+    "tile": "CoreSampleGameplay:PommeDeTerreStade3",
+    "entity": {
+        "prefab": "CoreSampleGameplay:PommeDeTerreStade3Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

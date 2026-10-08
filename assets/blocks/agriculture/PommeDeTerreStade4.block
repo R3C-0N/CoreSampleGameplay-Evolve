@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Pomme de terre — mûr",
+    "tile": "CoreSampleGameplay:PommeDeTerreStade4",
+    "entity": {
+        "prefab": "CoreSampleGameplay:PommeDeTerreStade4Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

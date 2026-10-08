@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Graines de courge"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesCourge",
+        "stackId": "CoreSampleGameplay:grainesCourge",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:CourgeStade1"
+    }
+}

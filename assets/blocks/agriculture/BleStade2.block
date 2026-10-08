@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Blé — jeune pousse",
+    "tile": "CoreSampleGameplay:BleStade2",
+    "entity": {
+        "prefab": "CoreSampleGameplay:BleStade2Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

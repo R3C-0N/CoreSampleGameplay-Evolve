@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Blé — semis",
+    "tile": "CoreSampleGameplay:BleStade1",
+    "entity": {
+        "prefab": "CoreSampleGameplay:BleStade1Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

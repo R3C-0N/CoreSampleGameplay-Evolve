@@ -1,0 +1,12 @@
+{
+    "Crop": {
+        "next": "",
+        "seed": "CoreSampleGameplay:grainesBle"
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "1-3*CoreSampleGameplay:ble",
+            "1-2*CoreSampleGameplay:grainesBle"
+        ]
+    }
+}

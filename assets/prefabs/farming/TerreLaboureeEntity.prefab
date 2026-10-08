@@ -1,0 +1,8 @@
+{
+    "TilledSoil": {},
+    "DropGrammar": {
+        "blockDrops": [
+            "CoreAssets:Dirt"
+        ]
+    }
+}

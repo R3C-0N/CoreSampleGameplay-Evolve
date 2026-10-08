@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Blé — mûr",
+    "tile": "CoreSampleGameplay:BleStade4",
+    "entity": {
+        "prefab": "CoreSampleGameplay:BleStade4Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

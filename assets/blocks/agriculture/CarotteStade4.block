@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Carotte — mûr",
+    "tile": "CoreSampleGameplay:CarotteStade4",
+    "entity": {
+        "prefab": "CoreSampleGameplay:CarotteStade4Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

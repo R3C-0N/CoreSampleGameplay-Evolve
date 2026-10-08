@@ -1,0 +1,9 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Riz — mûr",
+    "tile": "CoreSampleGameplay:RizStade4",
+    "entity": {
+        "prefab": "CoreSampleGameplay:RizStade4Entity",
+        "keepActive": true
+    }
+}

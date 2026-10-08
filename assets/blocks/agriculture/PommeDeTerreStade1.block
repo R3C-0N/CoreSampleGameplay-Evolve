@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Pomme de terre — semis",
+    "tile": "CoreSampleGameplay:PommeDeTerreStade1",
+    "entity": {
+        "prefab": "CoreSampleGameplay:PommeDeTerreStade1Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

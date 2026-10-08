@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.terasology.coresamplegameplay.equipment.ArmorComponent;
 import org.terasology.coresamplegameplay.equipment.ToolComponent;
 import org.terasology.coresamplegameplay.equipment.WeaponComponent;
+import org.terasology.coresamplegameplay.farming.SeedComponent;
 import org.terasology.coresamplegameplay.food.FoodComponent;
 import org.terasology.engine.entitySystem.prefab.Prefab;
 import org.terasology.engine.entitySystem.prefab.PrefabManager;
@@ -168,6 +169,9 @@ public class CatalogSystem extends BaseComponentSystem implements Catalog {
         }
         if (prefab.hasComponent(FoodComponent.class)) {
             return CatalogTab.CONSOMMABLES;
+        }
+        if (prefab.hasComponent(SeedComponent.class)) {
+            return CatalogTab.DECORATION;
         }
         String name = prefab.getUrn().getResourceName().toString().toLowerCase(Locale.ROOT);
         if (UPSTREAM_TOOLS.contains(name)) {

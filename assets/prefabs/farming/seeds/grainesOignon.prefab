@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Bulbilles d'oignon"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesOignon",
+        "stackId": "CoreSampleGameplay:grainesOignon",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:OignonStade1"
+    }
+}

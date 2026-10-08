@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Graines de blé"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesBle",
+        "stackId": "CoreSampleGameplay:grainesBle",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:BleStade1"
+    }
+}
