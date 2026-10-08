@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Riz sauté au lézard",
+        "description": "Se mange au clic droit. Rassasie de 36."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#rizSauteAuLezard",
+        "stackId": "CoreSampleGameplay:rizSauteAuLezard",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 36
+    }
+}

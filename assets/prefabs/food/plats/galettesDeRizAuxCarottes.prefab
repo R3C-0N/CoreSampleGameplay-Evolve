@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Galettes de riz aux carottes",
+        "description": "Se mange au clic droit. Rassasie de 24."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#galettesDeRizAuxCarottes",
+        "stackId": "CoreSampleGameplay:galettesDeRizAuxCarottes",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 24
+    }
+}

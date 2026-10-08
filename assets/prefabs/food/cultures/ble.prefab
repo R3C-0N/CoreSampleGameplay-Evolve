@@ -1,0 +1,11 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Blé"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#ble",
+        "stackId": "CoreSampleGameplay:ble",
+        "maxStackSize": 99
+    }
+}

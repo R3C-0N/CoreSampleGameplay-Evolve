@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Soupe à l'oignon",
+        "description": "Se mange au clic droit. Rassasie de 26."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#soupeALOignon",
+        "stackId": "CoreSampleGameplay:soupeALOignon",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 26
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Tofu farci",
+        "description": "Se mange au clic droit. Rassasie de 40."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#tofuFarci",
+        "stackId": "CoreSampleGameplay:tofuFarci",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 40
+    }
+}

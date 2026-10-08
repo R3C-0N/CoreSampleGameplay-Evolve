@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreSampleGameplay:ble",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:pain",
+        "station": "furnace"
+    }
+}

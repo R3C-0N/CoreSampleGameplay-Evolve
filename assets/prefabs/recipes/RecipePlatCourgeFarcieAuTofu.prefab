@@ -1,0 +1,12 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*CoreSampleGameplay:courge",
+            "1*CoreSampleGameplay:tofu",
+            "1*CoreSampleGameplay:riz",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:courgeFarcieAuTofu",
+        "station": "furnace"
+    }
+}

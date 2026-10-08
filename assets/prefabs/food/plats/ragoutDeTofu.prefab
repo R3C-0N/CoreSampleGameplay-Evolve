@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Ragoût de tofu",
+        "description": "Se mange au clic droit. Rassasie de 72."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#ragoutDeTofu",
+        "stackId": "CoreSampleGameplay:ragoutDeTofu",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 72
+    }
+}

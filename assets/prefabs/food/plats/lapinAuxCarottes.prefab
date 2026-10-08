@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Lapin aux carottes",
+        "description": "Se mange au clic droit. Rassasie de 30."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#lapinAuxCarottes",
+        "stackId": "CoreSampleGameplay:lapinAuxCarottes",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 30
+    }
+}

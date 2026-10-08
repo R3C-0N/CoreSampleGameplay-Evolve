@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Tourte de gibier",
+        "description": "Se mange au clic droit. Rassasie de 50."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#tourteDeGibier",
+        "stackId": "CoreSampleGameplay:tourteDeGibier",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 50
+    }
+}

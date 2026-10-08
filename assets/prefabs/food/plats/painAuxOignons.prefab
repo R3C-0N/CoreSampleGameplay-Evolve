@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Pain aux oignons",
+        "description": "Se mange au clic droit. Rassasie de 24."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#painAuxOignons",
+        "stackId": "CoreSampleGameplay:painAuxOignons",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 24
+    }
+}

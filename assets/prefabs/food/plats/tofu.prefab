@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Tofu",
+        "description": "Se mange au clic droit. Rassasie de 12."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#tofu",
+        "stackId": "CoreSampleGameplay:tofu",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 12
+    }
+}

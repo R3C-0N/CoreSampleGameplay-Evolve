@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Velouté de courge",
+        "description": "Se mange au clic droit. Rassasie de 26."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#velouteDeCourge",
+        "stackId": "CoreSampleGameplay:velouteDeCourge",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 26
+    }
+}

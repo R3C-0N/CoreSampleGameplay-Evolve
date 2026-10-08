@@ -1,0 +1,11 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Soja"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#soja",
+        "stackId": "CoreSampleGameplay:soja",
+        "maxStackSize": 99
+    }
+}

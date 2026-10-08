@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Soupe miso",
+        "description": "Se mange au clic droit. Rassasie de 34."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#soupeMiso",
+        "stackId": "CoreSampleGameplay:soupeMiso",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 34
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Tofu sauté aux légumes",
+        "description": "Se mange au clic droit. Rassasie de 58."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#tofuSauteAuxLegumes",
+        "stackId": "CoreSampleGameplay:tofuSauteAuxLegumes",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 58
+    }
+}

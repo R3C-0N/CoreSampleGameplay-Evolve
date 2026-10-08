@@ -1,0 +1,8 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "2*CoreSampleGameplay:soja"
+        ],
+        "result": "CoreSampleGameplay:tofu"
+    }
+}

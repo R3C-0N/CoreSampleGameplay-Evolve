@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Soupe de légumes",
+        "description": "Se mange au clic droit. Rassasie de 36."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#soupeDeLegumes",
+        "stackId": "CoreSampleGameplay:soupeDeLegumes",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 36
+    }
+}

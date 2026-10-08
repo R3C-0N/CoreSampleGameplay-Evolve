@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Gratin de tofu",
+        "description": "Se mange au clic droit. Rassasie de 58."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#gratinDeTofu",
+        "stackId": "CoreSampleGameplay:gratinDeTofu",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 58
+    }
+}

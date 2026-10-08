@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Hachis d'ours",
+        "description": "Se mange au clic droit. Rassasie de 65."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#hachisDOurs",
+        "stackId": "CoreSampleGameplay:hachisDOurs",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 65
+    }
+}

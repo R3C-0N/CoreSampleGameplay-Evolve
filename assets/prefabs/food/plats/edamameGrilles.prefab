@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Edamame grillés",
+        "description": "Se mange au clic droit. Rassasie de 10."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:plats#edamameGrilles",
+        "stackId": "CoreSampleGameplay:edamameGrilles",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 10
+    }
+}
