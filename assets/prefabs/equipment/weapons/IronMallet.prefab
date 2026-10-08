@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "warHammer",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 2.0
     }
 }

@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "shield",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 1.8
     }
 }

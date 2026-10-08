@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "totem",
         "hands": 2
+    },
+    "Impact": {
+        "amplification": 0.9
     }
 }

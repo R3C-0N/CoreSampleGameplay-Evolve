@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "bow",
         "hands": 2
+    },
+    "Impact": {
+        "amplification": 0.5
     }
 }

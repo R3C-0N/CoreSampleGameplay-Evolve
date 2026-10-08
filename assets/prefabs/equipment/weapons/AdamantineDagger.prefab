@@ -13,5 +13,8 @@
     "Weapon": {
         "type": "dagger",
         "hands": 1
+    },
+    "Impact": {
+        "amplification": 0.6
     }
 }
