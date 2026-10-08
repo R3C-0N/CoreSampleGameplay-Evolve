@@ -1,4 +1,5 @@
 {
+    "Network": {},
     "Crop": {
         "next": "CoreSampleGameplay:OignonStade2",
         "seed": "CoreSampleGameplay:grainesOignon"

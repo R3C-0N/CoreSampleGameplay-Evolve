@@ -9,6 +9,11 @@ from PIL import Image
 root = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), "..")
 M = "CoreSampleGameplay:"
 
+# Kept-active block entities need their Network component from the start: the engine only gives one to an entity it
+# creates for a kept-active block, not to the air entity a plant or a soil is set over, and a block entity without one
+# is replaced by a fresh entity at every lookup while the old one, components and all, is left behind.
+NETWORK = {"Network": {}}
+
 # row order of the atlas: (crop item, block prefix, display name, seed name)
 CROPS = [
     ("ble", "Ble", "Blé", "Graines de blé"),
@@ -51,6 +56,7 @@ for row, (crop, block, name, seed_name) in enumerate(CROPS):
         tile(s, row, stage)
         ripe = s == 4
         dump({
+            **NETWORK,
             "Crop": {"next": "" if ripe else f"{M}{block}Stade{s + 1}", "seed": M + seed},
             "DropGrammar": {"itemDrops": [f"1-3*{M}{crop}", f"1-2*{M}{seed}"] if ripe else [f"1*{M}{seed}"]},
         }, "assets/prefabs/farming/crops", stage + "Entity.prefab")
@@ -75,7 +81,7 @@ for col, (soil, name) in enumerate(SOILS):
         "tiles": {"top": M + soil},
         "entity": {"prefab": M + "TerreLaboureeEntity", "keepActive": True},
     }, "assets/blocks/agriculture", soil + ".block")
-dump({"TilledSoil": {}, "DropGrammar": {"blockDrops": ["CoreAssets:Dirt"]}},
+dump({**NETWORK, "TilledSoil": {}, "DropGrammar": {"blockDrops": ["CoreAssets:Dirt"]}},
      "assets/prefabs/farming", "TerreLaboureeEntity.prefab")
 
 dump({"texture": M + "agriculture", "textureSize": list(atlas.size),
