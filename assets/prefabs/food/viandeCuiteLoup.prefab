@@ -1,0 +1,16 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Viande cuite de loup",
+        "description": "Se mange au clic droit. Rassasie de 25."
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:cuisine#viandeLoup",
+        "stackId": "CoreSampleGameplay:viandeCuiteLoup",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 25
+    }
+}

@@ -9,6 +9,7 @@ import org.terasology.coresamplegameplay.equipment.CharacterStats;
 import org.terasology.coresamplegameplay.equipment.EquipmentSlots;
 import org.terasology.coresamplegameplay.equipment.ToolComponent;
 import org.terasology.coresamplegameplay.equipment.WeaponComponent;
+import org.terasology.coresamplegameplay.food.FoodComponent;
 import org.terasology.engine.entitySystem.entity.EntityRef;
 import org.terasology.engine.entitySystem.prefab.Prefab;
 import org.terasology.engine.entitySystem.prefab.PrefabManager;
@@ -242,6 +243,7 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
         ArmorComponent armor = resultItem == null ? null : resultItem.getComponent(ArmorComponent.class);
         ToolComponent tool = resultItem == null ? null : resultItem.getComponent(ToolComponent.class);
         ItemComponent item = resultItem == null ? null : resultItem.getComponent(ItemComponent.class);
+        FoodComponent food = resultItem == null ? null : resultItem.getComponent(FoodComponent.class);
         if (resultItem == null) {
             kind = "Bloc";
         } else if (tool != null) {
@@ -253,6 +255,8 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
         } else if (armor != null) {
             kind = "Armure " + ARMOR_WEIGHTS.getOrDefault(armor.weight, "") + " · " + ARMOR_SLOTS.getOrDefault(armor.slot, "")
                     + " · défense " + armor.protection;
+        } else if (food != null) {
+            kind = "Nourriture · rassasie de " + Math.round(food.nourishment);
         } else {
             kind = "Matériau";
         }

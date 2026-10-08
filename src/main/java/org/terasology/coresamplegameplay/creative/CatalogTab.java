@@ -5,9 +5,9 @@ package org.terasology.coresamplegameplay.creative;
 /**
  * The shelves of the creative catalogue, in the order their buttons appear.
  * <p>
- * Three of them are empty, and not by oversight: the repository holds no coloured block and no dyeing system,
- * no food and no potion, and not one creature — a single prefab in the whole game carries a character. They
- * are shown all the same, so that what is missing is visible rather than merely absent.
+ * Some are thin, and not by oversight: the repository holds no coloured block and no dyeing system, and no
+ * potion — the consumables are the meats, raw and cooked. They are shown all the same, so that what is missing
+ * is visible rather than merely absent.
  */
 public enum CatalogTab {
     CONSTRUCTION("Construction", "Blocs de construction"),

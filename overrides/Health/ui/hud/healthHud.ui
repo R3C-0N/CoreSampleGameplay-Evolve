@@ -57,6 +57,25 @@
                         "offset": 14
                     }
                 }
+            },
+            {
+                "type": "CoreSampleGameplay:ResourceOrb",
+                "id": "hunger",
+                "kind": "hunger",
+                "layoutInfo": {
+                    "use-content-width": true,
+                    "use-content-height": true,
+                    "position-bottom": {
+                        "target": "BOTTOM",
+                        "offset": 20
+                    },
+                    "position-right": {
+                        "widget": "health",
+                        "target": "LEFT",
+                        "offset": 14
+                    }
+                },
+                "small": true
             }
         ]
     }

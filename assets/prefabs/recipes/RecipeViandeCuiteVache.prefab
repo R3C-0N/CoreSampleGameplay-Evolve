@@ -1,0 +1,10 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "1*Bestiaire:viandeVache",
+            "1*CoreAssets:Coal|CoreAssets:Plank"
+        ],
+        "result": "CoreSampleGameplay:viandeCuiteVache",
+        "station": "furnace"
+    }
+}

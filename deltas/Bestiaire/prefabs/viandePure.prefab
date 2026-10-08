@@ -1,0 +1,11 @@
+{
+    "DisplayName": {
+        "description": "Se mange au clic droit. Rassasie de 14, de 35 une fois cuite au fourneau."
+    },
+    "Item": {
+        "consumedOnUse": true
+    },
+    "Food": {
+        "nourishment": 14
+    }
+}

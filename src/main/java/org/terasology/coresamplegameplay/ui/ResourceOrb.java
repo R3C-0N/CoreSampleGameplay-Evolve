@@ -29,12 +29,13 @@ public class ResourceOrb extends CoreWidget {
     private static final Color HEALTH = new Color(0xC13B27FF);
     private static final Color STAMINA = new Color(0x7CC452FF);
     private static final Color MANA = new Color(0x48C8F5FF);
+    private static final Color HUNGER = new Color(0xD08A3CFF);
     private static final Color TEXT = new Color(0xFFF3DCFF);
     private static final Color MUTED = new Color(0xB49E7CFF);
     private static final Color SHADOW = new Color(0x20120AFF);
     private static final int LABEL_GAP = 4;
 
-    /** {@code health}, {@code stamina} or {@code mana}. */
+    /** {@code health}, {@code stamina}, {@code mana} or {@code hunger}. */
     @LayoutConfig
     private String kind = "health";
 
@@ -121,6 +122,8 @@ public class ResourceOrb extends CoreWidget {
                 return STAMINA;
             case "mana":
                 return MANA;
+            case "hunger":
+                return HUNGER;
             default:
                 return HEALTH;
         }
