@@ -1,0 +1,22 @@
+/**
+ * The furnace: where ore becomes metal. Activating it lists what can be smelted
+ * there, from what the player carries; every smelt burns a coal.
+ *
+ * Its tiles are CoreAssets' own furnace art, named here because the naming
+ * convention only looks in this module. Being rock, it gives itself back to a
+ * flint pickaxe and to nothing less.
+ */
+{
+    "basedOn": "CoreAssets:rock",
+    "family": "horizontal",
+    "displayName": "Fourneau",
+    "tiles": {
+        "sides": "CoreAssets:FurnaceSides",
+        "front": "CoreAssets:FurnaceFront",
+        "topBottom": "CoreAssets:FurnaceTopBottom"
+    },
+    "attachmentAllowed": false,
+    "entity": {
+        "prefab": "CoreSampleGameplay:FurnaceEntity"
+    }
+}

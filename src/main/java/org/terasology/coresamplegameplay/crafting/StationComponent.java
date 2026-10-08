@@ -9,7 +9,7 @@ import org.terasology.gestalt.entitysystem.component.Component;
  * nothing is ever put into it, the ingredients come from the player's own inventory.
  */
 public class StationComponent implements Component<StationComponent> {
-    /** Matched against {@link RecipeComponent#station}: {@code "workbench"}, later the furnaces. */
+    /** Matched against {@link RecipeComponent#station}: {@code "workbench"}, {@code "furnace"}, the forges. */
     public String type;
 
     @Override

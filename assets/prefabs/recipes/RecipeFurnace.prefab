@@ -1,0 +1,9 @@
+{
+    "Recipe": {
+        "ingredients": [
+            "8*CoreAssets:Stone|CoreAssets:CobbleStone"
+        ],
+        "result": "CoreSampleGameplay:Furnace",
+        "station": "workbench"
+    }
+}

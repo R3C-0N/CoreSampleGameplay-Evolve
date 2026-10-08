@@ -1,9 +1,10 @@
 {
     "Recipe": {
         "ingredients": [
-            "2*CoreAssets:CopperOre"
+            "2*CoreAssets:CopperOre",
+            "1*CoreAssets:Coal"
         ],
         "result": "CoreAssets:CopperIngot",
-        "station": "workbench"
+        "station": "furnace"
     }
 }
