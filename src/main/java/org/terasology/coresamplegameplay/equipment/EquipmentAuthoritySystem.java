@@ -22,6 +22,12 @@ import org.terasology.module.inventory.events.BeforeItemPutInInventory;
  */
 @RegisterSystem(RegisterMode.AUTHORITY)
 public class EquipmentAuthoritySystem extends BaseComponentSystem {
+    /**
+     * Points of damage absorbed per point of wear. A blow is counted in tens where a block is one: on the scale tools
+     * share, one point per point absorbed broke a lone iron helmet in about 135 blows of 20.
+     */
+    private static final float DAMAGE_PER_WEAR = 4f;
+
     private final Random random = new FastRandom();
 
     /**
@@ -64,7 +70,7 @@ public class EquipmentAuthoritySystem extends BaseComponentSystem {
     }
 
     /**
-     * Armour wears by the damage it takes: what it absorbed, shared between the pieces worn by what each protects.
+     * Armour wears by the damage it takes: one point per {@link #DAMAGE_PER_WEAR} absorbed, shared between the pieces worn by what each protects.
      * Only blows wear it — something struck, not a fall. A share below one point is drawn at random, so that a
      * shower of small blows wears it as much as one heavy blow, on average.
      */
@@ -73,7 +79,7 @@ public class EquipmentAuthoritySystem extends BaseComponentSystem {
             EntityRef item = CharacterStats.itemAt(character, slot);
             int protection = CharacterStats.protection(item);
             if (protection > 0) {
-                float share = absorbed * protection / defense;
+                float share = absorbed / DAMAGE_PER_WEAR * protection / defense;
                 int points = (int) share;
                 if (random.nextFloat() < share - points) {
                     points++;
