@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Graines de carotte"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesCarotte",
+        "stackId": "CoreSampleGameplay:grainesCarotte",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:CarotteStade1"
+    }
+}

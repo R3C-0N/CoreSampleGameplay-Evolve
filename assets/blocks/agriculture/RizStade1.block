@@ -1,0 +1,9 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Riz — semis",
+    "tile": "CoreSampleGameplay:RizStade1",
+    "entity": {
+        "prefab": "CoreSampleGameplay:RizStade1Entity",
+        "keepActive": true
+    }
+}

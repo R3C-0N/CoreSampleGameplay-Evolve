@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Pomme de terre — jeune pousse",
+    "tile": "CoreSampleGameplay:PommeDeTerreStade2",
+    "entity": {
+        "prefab": "CoreSampleGameplay:PommeDeTerreStade2Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

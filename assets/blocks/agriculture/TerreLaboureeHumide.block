@@ -1,0 +1,12 @@
+{
+    "basedOn": "CoreAssets:soil",
+    "displayName": "Terre labourée humide",
+    "tile": "CoreAssets:Dirt",
+    "tiles": {
+        "top": "CoreSampleGameplay:TerreLaboureeHumide"
+    },
+    "entity": {
+        "prefab": "CoreSampleGameplay:TerreLaboureeEntity",
+        "keepActive": true
+    }
+}

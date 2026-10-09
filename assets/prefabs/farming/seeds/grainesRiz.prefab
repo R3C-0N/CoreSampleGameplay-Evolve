@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Graines de riz"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesRiz",
+        "stackId": "CoreSampleGameplay:grainesRiz",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:RizStade1"
+    }
+}

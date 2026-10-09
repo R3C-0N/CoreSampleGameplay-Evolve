@@ -1,0 +1,63 @@
+{
+    "texture": "CoreSampleGameplay:agriculture",
+    "textureSize": [
+        80,
+        128
+    ],
+    "grid": {
+        "tileSize": [
+            16,
+            16
+        ],
+        "gridDimensions": [
+            5,
+            8
+        ],
+        "gridOffset": [
+            0,
+            0
+        ],
+        "tileNames": [
+            "grainesBle",
+            "BleStade1",
+            "BleStade2",
+            "BleStade3",
+            "BleStade4",
+            "grainesPommeDeTerre",
+            "PommeDeTerreStade1",
+            "PommeDeTerreStade2",
+            "PommeDeTerreStade3",
+            "PommeDeTerreStade4",
+            "grainesCarotte",
+            "CarotteStade1",
+            "CarotteStade2",
+            "CarotteStade3",
+            "CarotteStade4",
+            "grainesOignon",
+            "OignonStade1",
+            "OignonStade2",
+            "OignonStade3",
+            "OignonStade4",
+            "grainesRiz",
+            "RizStade1",
+            "RizStade2",
+            "RizStade3",
+            "RizStade4",
+            "grainesCourge",
+            "CourgeStade1",
+            "CourgeStade2",
+            "CourgeStade3",
+            "CourgeStade4",
+            "grainesSoja",
+            "SojaStade1",
+            "SojaStade2",
+            "SojaStade3",
+            "SojaStade4",
+            "TerreLabouree",
+            "TerreLaboureeHumide",
+            "",
+            "",
+            ""
+        ]
+    }
+}

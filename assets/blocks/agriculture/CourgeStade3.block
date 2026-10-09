@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Courge — plant",
+    "tile": "CoreSampleGameplay:CourgeStade3",
+    "entity": {
+        "prefab": "CoreSampleGameplay:CourgeStade3Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

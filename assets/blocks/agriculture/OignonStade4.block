@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Oignon — mûr",
+    "tile": "CoreSampleGameplay:OignonStade4",
+    "entity": {
+        "prefab": "CoreSampleGameplay:OignonStade4Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

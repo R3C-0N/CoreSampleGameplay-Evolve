@@ -1,0 +1,15 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Graines de soja"
+    },
+    "Item": {
+        "icon": "CoreSampleGameplay:agriculture#grainesSoja",
+        "stackId": "CoreSampleGameplay:grainesSoja",
+        "maxStackSize": 99,
+        "consumedOnUse": true
+    },
+    "Seed": {
+        "plant": "CoreSampleGameplay:SojaStade1"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Courge — jeune pousse",
+    "tile": "CoreSampleGameplay:CourgeStade2",
+    "entity": {
+        "prefab": "CoreSampleGameplay:CourgeStade2Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

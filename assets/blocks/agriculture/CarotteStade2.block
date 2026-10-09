@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Carotte — jeune pousse",
+    "tile": "CoreSampleGameplay:CarotteStade2",
+    "entity": {
+        "prefab": "CoreSampleGameplay:CarotteStade2Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

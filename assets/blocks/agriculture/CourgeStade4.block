@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Courge — mûr",
+    "tile": "CoreSampleGameplay:CourgeStade4",
+    "entity": {
+        "prefab": "CoreSampleGameplay:CourgeStade4Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

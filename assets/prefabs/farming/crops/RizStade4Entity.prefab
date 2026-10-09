@@ -1,0 +1,13 @@
+{
+    "Network": {},
+    "Crop": {
+        "next": "",
+        "seed": "CoreSampleGameplay:grainesRiz"
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "1-3*CoreSampleGameplay:riz",
+            "1-2*CoreSampleGameplay:grainesRiz"
+        ]
+    }
+}

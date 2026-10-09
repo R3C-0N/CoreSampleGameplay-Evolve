@@ -1,0 +1,12 @@
+{
+    "Network": {},
+    "Crop": {
+        "next": "CoreSampleGameplay:CarotteStade2",
+        "seed": "CoreSampleGameplay:grainesCarotte"
+    },
+    "DropGrammar": {
+        "itemDrops": [
+            "1*CoreSampleGameplay:grainesCarotte"
+        ]
+    }
+}

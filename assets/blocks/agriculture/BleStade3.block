@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Blé — plant",
+    "tile": "CoreSampleGameplay:BleStade3",
+    "entity": {
+        "prefab": "CoreSampleGameplay:BleStade3Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

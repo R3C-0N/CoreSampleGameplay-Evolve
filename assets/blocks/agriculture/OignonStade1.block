@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Oignon — semis",
+    "tile": "CoreSampleGameplay:OignonStade1",
+    "entity": {
+        "prefab": "CoreSampleGameplay:OignonStade1Entity",
+        "keepActive": true
+    },
+    "waving": true
+}

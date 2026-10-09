@@ -1,0 +1,10 @@
+{
+    "basedOn": "CoreAssets:plant",
+    "displayName": "Soja — jeune pousse",
+    "tile": "CoreSampleGameplay:SojaStade2",
+    "entity": {
+        "prefab": "CoreSampleGameplay:SojaStade2Entity",
+        "keepActive": true
+    },
+    "waving": true
+}
