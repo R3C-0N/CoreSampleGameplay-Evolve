@@ -5,6 +5,9 @@
             "1*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:BronzeScaleLeggings",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "1*CoreAssets:BronzeIngot"
+        ]
     }
 }

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 package org.terasology.coresamplegameplay.crafting;
 
+import com.google.common.base.Predicate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.terasology.coresamplegameplay.equipment.ArmorComponent;
@@ -56,6 +57,9 @@ import java.util.stream.Collectors;
 public class RecipeRegistrationSystem extends BaseComponentSystem implements RecipeBook {
     private static final Logger logger = LoggerFactory.getLogger(RecipeRegistrationSystem.class);
 
+    /** A repair is registered under its recipe's id, with this after it. */
+    private static final String REPAIR_SUFFIX = "#repair";
+
     /** Words that end a shared prefix without naming anything: "Tronc de chêne" and "Tronc de pin" share "Tronc". */
     private static final Set<String> CONNECTORS = Set.of("de", "du", "des", "d'", "en", "à");
 
@@ -97,14 +101,21 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
     public void initialise() {
         for (Prefab prefab : prefabManager.listPrefabs(RecipeComponent.class)) {
             try {
-                Definition definition = parse(prefab.getUrn().toString(), prefab.getComponent(RecipeComponent.class));
-                recipeRegistry.addCraftInHandRecipe(definition.id, definition.recipe);
-                definitions.add(definition);
+                RecipeComponent component = prefab.getComponent(RecipeComponent.class);
+                register(parse(prefab.getUrn().toString(), component));
+                if (!component.repair.isEmpty()) {
+                    register(parseRepair(prefab.getUrn().toString() + REPAIR_SUFFIX, component));
+                }
             } catch (RuntimeException e) {
                 logger.error("Recipe {} skipped: {}", prefab.getUrn(), e.getMessage());
             }
         }
         logger.info("Registered {} recipes", definitions.size());
+    }
+
+    private void register(Definition definition) {
+        recipeRegistry.addCraftInHandRecipe(definition.id, definition.recipe);
+        definitions.add(definition);
     }
 
     @Override
@@ -140,7 +151,7 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
     }
 
     /** Backpack and toolbar only: what is worn is not an ingredient. */
-    private static int countCarried(EntityRef character, UriIngredientPredicate predicate) {
+    private static int countCarried(EntityRef character, Predicate<EntityRef> predicate) {
         int total = 0;
         for (int slot = 0; slot < EquipmentSlots.FIRST; slot++) {
             EntityRef item = CharacterStats.itemAt(character, slot);
@@ -176,6 +187,42 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
 
         String resultName = resultItem != null ? prefabName(resultItem, component.result) : resultBlock.getDisplayName();
         definition.name = component.count > 1 ? resultName + " ×" + component.count : resultName;
+        definition.description = describe(resultItem, component.station);
+        return definition;
+    }
+
+    /**
+     * The same item, made new at the same station from the worn one and a little of its material. It is a recipe
+     * like any other: the worn item is consumed and a new one given, which is all a repair needs to be.
+     */
+    private Definition parseRepair(String id, RecipeComponent component) {
+        Prefab resultItem = prefabManager.getPrefab(component.result);
+        if (resultItem == null) {
+            throw new IllegalArgumentException("repaired '" + component.result + "' is not an item");
+        }
+        String resultName = prefabName(resultItem, component.result);
+        Ingredient worn = new Ingredient();
+        worn.count = 1;
+        worn.label = resultName + " à réparer";
+        worn.predicate = new WornIngredientPredicate(new UriIngredientPredicate(Set.of(resultItem.getUrn())));
+        worn.iconPrefab = resultItem;
+
+        Definition definition = new Definition();
+        definition.id = id;
+        CompositeTypeBasedCraftInHandRecipe recipe = new CompositeTypeBasedCraftInHandRecipe(
+                new ItemRecipeResultFactory(resultItem, 1));
+        List<Ingredient> ingredients = new ArrayList<>();
+        ingredients.add(worn);
+        for (String text : component.repair) {
+            ingredients.add(parseIngredient(text));
+        }
+        for (Ingredient ingredient : ingredients) {
+            recipe.addItemCraftBehaviour(new ConsumeItemCraftBehaviour(ingredient.predicate, ingredient.count,
+                    PlayerInventorySlotResolver.singleton()));
+            definition.ingredients.add(ingredient);
+        }
+        definition.recipe = component.station == null ? recipe : new StationRecipe(recipe, component.station, worldProvider);
+        definition.name = "Réparer : " + resultName;
         definition.description = describe(resultItem, component.station);
         return definition;
     }
@@ -277,7 +324,7 @@ public class RecipeRegistrationSystem extends BaseComponentSystem implements Rec
     private static final class Ingredient {
         private int count;
         private String label;
-        private UriIngredientPredicate predicate;
+        private Predicate<EntityRef> predicate;
         private Prefab iconPrefab;
         private BlockFamily iconBlock;
     }

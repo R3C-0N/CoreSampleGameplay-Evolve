@@ -6,6 +6,9 @@
             "2*CoreAssets:Fibre"
         ],
         "result": "CoreSampleGameplay:IronTotem",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "1*CoreAssets:IronIngot"
+        ]
     }
 }

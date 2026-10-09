@@ -5,6 +5,9 @@
             "2*CoreAssets:Stick"
         ],
         "result": "CoreSampleGameplay:MithrilHoe",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:MithrilIngot"
+        ]
     }
 }

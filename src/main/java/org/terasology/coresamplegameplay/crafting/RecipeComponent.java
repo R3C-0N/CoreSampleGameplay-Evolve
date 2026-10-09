@@ -28,11 +28,19 @@ public class RecipeComponent implements Component<RecipeComponent> {
     /** The {@link StationComponent#type} that must be nearby, or null for a recipe made by hand. */
     public String station;
 
+    /**
+     * What it takes, besides the worn item itself, to make it new again at the same station: {@code "count*uri"}
+     * as in {@link #ingredients}. Empty when it is made again instead — wood, hide, flint. Written by
+     * {@code tools/usure.py}.
+     */
+    public List<String> repair = new ArrayList<>();
+
     @Override
     public void copyFrom(RecipeComponent other) {
         this.ingredients = new ArrayList<>(other.ingredients);
         this.result = other.result;
         this.count = other.count;
         this.station = other.station;
+        this.repair = new ArrayList<>(other.repair);
     }
 }

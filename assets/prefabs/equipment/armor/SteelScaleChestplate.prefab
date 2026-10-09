@@ -12,5 +12,9 @@
         "weight": "medium",
         "slot": "chest",
         "protection": 20
+    },
+    "Durability": {
+        "durability": 2000,
+        "maxDurability": 2000
     }
 }

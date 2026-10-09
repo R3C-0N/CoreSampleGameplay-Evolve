@@ -5,6 +5,9 @@
             "2*CoreAssets:Stick"
         ],
         "result": "CoreSampleGameplay:EtheriumOrichalcumMace",
-        "station": "ultimateforge"
+        "station": "ultimateforge",
+        "repair": [
+            "1*CoreAssets:EtheriumOrichalcumIngot"
+        ]
     }
 }

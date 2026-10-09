@@ -5,6 +5,9 @@
             "2*CoreAssets:Plank"
         ],
         "result": "CoreSampleGameplay:MithrilShield",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:MithrilIngot"
+        ]
     }
 }

@@ -5,6 +5,9 @@
             "1*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:OrichalcumMailBoots",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:OrichalcumIngot"
+        ]
     }
 }

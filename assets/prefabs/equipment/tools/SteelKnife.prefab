@@ -13,5 +13,9 @@
         "family": "knife",
         "grade": 5
     },
-    "Depeceur": {}
+    "Depeceur": {},
+    "Durability": {
+        "durability": 2000,
+        "maxDurability": 2000
+    }
 }

@@ -6,6 +6,7 @@ import org.joml.Vector3f;
 import org.joml.Vector3i;
 import org.joml.Vector3ic;
 import org.terasology.coresamplegameplay.equipment.ToolComponent;
+import org.terasology.coresamplegameplay.equipment.Wear;
 import org.terasology.engine.audio.StaticSound;
 import org.terasology.engine.audio.events.PlaySoundEvent;
 import org.terasology.engine.core.Time;
@@ -81,7 +82,7 @@ public class FarmingAuthoritySystem extends BaseComponentSystem implements Updat
 
     @ReceiveEvent
     public void till(ActivateEvent event, EntityRef item, ToolComponent tool) {
-        if (!"hoe".equals(tool.family)) {
+        if (!"hoe".equals(tool.family) || Wear.isBroken(item)) {
             return;
         }
         BlockComponent target = event.getTarget().getComponent(BlockComponent.class);
@@ -110,6 +111,7 @@ public class FarmingAuthoritySystem extends BaseComponentSystem implements Updat
         }
         worldProvider.setBlock(ground, blockManager.getBlock(DRY_SOIL));
         playDigSound(blockEntityRegistry.getBlockEntityAt(ground), soil);
+        Wear.wear(item, Wear.USE);
     }
 
     /** What grows on the ground and goes with it when it is turned: a replaceable plant, not a crop. */

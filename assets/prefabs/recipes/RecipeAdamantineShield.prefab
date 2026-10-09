@@ -5,6 +5,9 @@
             "2*CoreAssets:Plank"
         ],
         "result": "CoreSampleGameplay:AdamantineShield",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:AdamantineIngot"
+        ]
     }
 }

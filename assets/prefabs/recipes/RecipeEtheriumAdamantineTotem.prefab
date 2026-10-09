@@ -6,6 +6,9 @@
             "2*CoreAssets:Fibre"
         ],
         "result": "CoreSampleGameplay:EtheriumAdamantineTotem",
-        "station": "ultimateforge"
+        "station": "ultimateforge",
+        "repair": [
+            "1*CoreAssets:EtheriumAdamantineIngot"
+        ]
     }
 }

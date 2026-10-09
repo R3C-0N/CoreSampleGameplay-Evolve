@@ -12,5 +12,9 @@
     "Tool": {
         "family": "hoe",
         "grade": 1
+    },
+    "Durability": {
+        "durability": 150,
+        "maxDurability": 150
     }
 }

@@ -5,6 +5,9 @@
             "2*CoreAssets:Plank"
         ],
         "result": "CoreSampleGameplay:EtheriumOrichalcumShield",
-        "station": "ultimateforge"
+        "station": "ultimateforge",
+        "repair": [
+            "1*CoreAssets:EtheriumOrichalcumIngot"
+        ]
     }
 }

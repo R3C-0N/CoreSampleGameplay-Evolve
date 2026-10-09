@@ -6,6 +6,9 @@
             "2*CoreAssets:Fibre"
         ],
         "result": "CoreSampleGameplay:OrichalcumTotem",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:OrichalcumIngot"
+        ]
     }
 }

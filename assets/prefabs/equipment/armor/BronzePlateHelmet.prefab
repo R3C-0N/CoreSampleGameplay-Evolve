@@ -12,5 +12,9 @@
         "weight": "heavy",
         "slot": "head",
         "protection": 8
+    },
+    "Durability": {
+        "durability": 500,
+        "maxDurability": 500
     }
 }

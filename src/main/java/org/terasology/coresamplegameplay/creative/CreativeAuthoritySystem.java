@@ -102,14 +102,14 @@ public class CreativeAuthoritySystem extends BaseComponentSystem {
 
     /**
      * One blow, one block. Destroying it here, above {@code BlockDamageAuthoritySystem}, means the block never
-     * gets the {@code HealthComponent} that would have made it take several hits.
+     * gets the {@code HealthComponent} that would have made it take several hits. The block is destroyed by no
+     * item, so that the Durability module wears none: creative wears nothing.
      */
     @Priority(EventPriority.PRIORITY_HIGH)
     @ReceiveEvent(components = BlockComponent.class)
     public void breakInOneBlow(AttackEvent event, EntityRef blockEntity) {
         if (isCreative(event.getInstigator())) {
-            blockEntity.send(new DestroyEvent(event.getInstigator(), event.getDirectCause(),
-                    EngineDamageTypes.PHYSICAL.get()));
+            blockEntity.send(new DestroyEvent(event.getInstigator(), EntityRef.NULL, EngineDamageTypes.PHYSICAL.get()));
             event.consume();
         }
     }

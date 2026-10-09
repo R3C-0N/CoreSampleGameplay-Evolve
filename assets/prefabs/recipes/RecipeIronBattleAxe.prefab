@@ -6,6 +6,9 @@
             "1*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:IronBattleAxe",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "2*CoreAssets:IronIngot"
+        ]
     }
 }

@@ -16,5 +16,9 @@
     },
     "Impact": {
         "amplification": 2.0
+    },
+    "Durability": {
+        "durability": 900,
+        "maxDurability": 900
     }
 }

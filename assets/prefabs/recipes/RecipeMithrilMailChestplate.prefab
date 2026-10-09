@@ -5,6 +5,9 @@
             "2*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:MithrilMailChestplate",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "3*CoreAssets:MithrilIngot"
+        ]
     }
 }

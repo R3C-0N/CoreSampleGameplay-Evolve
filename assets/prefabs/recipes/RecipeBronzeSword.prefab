@@ -6,6 +6,9 @@
             "1*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:BronzeSword",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "1*CoreAssets:BronzeIngot"
+        ]
     }
 }
