@@ -5,6 +5,9 @@
             "2*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:OrichalcumScaleChestplate",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "3*CoreAssets:OrichalcumIngot"
+        ]
     }
 }

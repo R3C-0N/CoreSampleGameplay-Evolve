@@ -6,6 +6,9 @@
             "2*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:EtheriumOrichalcumTinkerKit",
-        "station": "ultimateforge"
+        "station": "ultimateforge",
+        "repair": [
+            "1*CoreAssets:EtheriumOrichalcumIngot"
+        ]
     }
 }

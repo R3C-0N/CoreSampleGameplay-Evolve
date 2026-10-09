@@ -6,6 +6,9 @@
             "2*CoreAssets:Fibre"
         ],
         "result": "CoreSampleGameplay:MithrilTotem",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:MithrilIngot"
+        ]
     }
 }

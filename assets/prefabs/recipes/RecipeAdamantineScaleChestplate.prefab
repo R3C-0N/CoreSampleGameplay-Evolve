@@ -5,6 +5,9 @@
             "2*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:AdamantineScaleChestplate",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "3*CoreAssets:AdamantineIngot"
+        ]
     }
 }

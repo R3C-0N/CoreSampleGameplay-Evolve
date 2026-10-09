@@ -12,5 +12,9 @@
         "weight": "medium",
         "slot": "legs",
         "protection": 25
+    },
+    "Durability": {
+        "durability": 5000,
+        "maxDurability": 5000
     }
 }

@@ -6,6 +6,9 @@
             "2*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:AdamantineTinkerKit",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:AdamantineIngot"
+        ]
     }
 }

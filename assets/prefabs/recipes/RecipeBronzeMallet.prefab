@@ -5,6 +5,9 @@
             "2*CoreAssets:Stick"
         ],
         "result": "CoreSampleGameplay:BronzeMallet",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "1*CoreAssets:BronzeIngot"
+        ]
     }
 }

@@ -5,6 +5,9 @@
             "1*CoreAssets:Stick"
         ],
         "result": "CoreSampleGameplay:EtheriumMithrilDagger",
-        "station": "ultimateforge"
+        "station": "ultimateforge",
+        "repair": [
+            "1*CoreAssets:EtheriumMithrilIngot"
+        ]
     }
 }

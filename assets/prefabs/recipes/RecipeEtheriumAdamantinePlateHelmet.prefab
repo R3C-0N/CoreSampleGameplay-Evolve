@@ -5,6 +5,9 @@
             "1*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:EtheriumAdamantinePlateHelmet",
-        "station": "ultimateforge"
+        "station": "ultimateforge",
+        "repair": [
+            "2*CoreAssets:EtheriumAdamantineIngot"
+        ]
     }
 }

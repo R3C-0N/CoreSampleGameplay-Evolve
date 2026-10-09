@@ -5,6 +5,9 @@
             "2*CoreAssets:Plank"
         ],
         "result": "CoreSampleGameplay:BronzeShield",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "1*CoreAssets:BronzeIngot"
+        ]
     }
 }

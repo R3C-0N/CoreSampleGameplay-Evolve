@@ -5,6 +5,9 @@
             "2*CoreAssets:Stick"
         ],
         "result": "CoreSampleGameplay:IronShovel",
-        "station": "workbench"
+        "station": "workbench",
+        "repair": [
+            "1*CoreAssets:IronIngot"
+        ]
     }
 }

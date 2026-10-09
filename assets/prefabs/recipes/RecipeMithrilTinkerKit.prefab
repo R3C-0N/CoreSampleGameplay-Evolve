@@ -6,6 +6,9 @@
             "2*CoreAssets:Rope"
         ],
         "result": "CoreSampleGameplay:MithrilTinkerKit",
-        "station": "astralforge"
+        "station": "astralforge",
+        "repair": [
+            "1*CoreAssets:MithrilIngot"
+        ]
     }
 }
