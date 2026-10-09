@@ -70,11 +70,15 @@ public class EquipmentAuthoritySystem extends BaseComponentSystem {
     }
 
     /**
-     * Armour wears by the damage it takes: one point per {@link #DAMAGE_PER_WEAR} absorbed, shared between the pieces worn by what each protects.
-     * Only blows wear it — something struck, not a fall. A share below one point is drawn at random, so that a
-     * shower of small blows wears it as much as one heavy blow, on average.
+     * Armour wears by the damage it takes: one point per {@link #DAMAGE_PER_WEAR} absorbed, shared between the pieces
+     * worn by what each protects, and never less than one point a piece for a blow that landed. Only blows wear it —
+     * something struck, not a fall. Above that one point, a fraction is drawn at random, so that a heavy blow wears as
+     * much as its damage says, on average.
      */
     private void wearArmor(EntityRef character, int defense, float absorbed) {
+        if (absorbed <= 0) {
+            return;
+        }
         for (int slot = EquipmentSlots.FIRST; slot < EquipmentSlots.TOTAL; slot++) {
             EntityRef item = CharacterStats.itemAt(character, slot);
             int protection = CharacterStats.protection(item);
@@ -84,6 +88,7 @@ public class EquipmentAuthoritySystem extends BaseComponentSystem {
                 if (random.nextFloat() < share - points) {
                     points++;
                 }
+                points = Math.max(1, points);
                 Wear.wear(item, points);
             }
         }

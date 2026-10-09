@@ -1,9 +1,9 @@
 """Gives every tool, weapon and piece of armour its durability, and every metal one a repair at its station.
 
 The durability is read from the material the item is named after, the first word of its prefab: one point is one
-block broken with a tool, one blow landed with a weapon, four points of damage absorbed by armour. Wood, hide and flint
-have no repair: they are made again, from what the start of the game gives. Everything forged from an ingot is
-repaired where it is made, with a third of its ingots.
+block broken with a tool, one blow landed with a weapon, four points of damage absorbed by armour — one at least per
+blow. Wood, hide and flint have no repair: they are made again, from what the start of the game gives. Everything
+forged from an ingot is repaired where it is made, with a third of its ingots.
 
 Run it again after adding an item or changing the table: it rewrites the Durability component and the repair list,
 and touches nothing else.
