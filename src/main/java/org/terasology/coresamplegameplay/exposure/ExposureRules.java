@@ -71,17 +71,17 @@ public final class ExposureRules {
 
     /** Notches of thin air at this height, as a negative pressure, nought below {@link #ALTITUDE_START}. */
     public static float altitudePressure(float y) {
-        return -Math.max(0f, (y - ALTITUDE_START) / ALTITUDE_PER_NOTCH);
+        return y <= ALTITUDE_START ? 0f : -(y - ALTITUDE_START) / ALTITUDE_PER_NOTCH;
     }
 
     /**
      * What is left of an intensity once protection is taken off. The sign is kept; the protection never turns
-     * a cold into a heat.
+     * a cold into a heat, and nothing left is a plain nought, never a negative one.
      */
     public static float protect(float intensity, float protection) {
         float shield = Math.max(0f, Math.min(MAX_PROTECTION, protection));
-        float left = Math.max(0f, Math.abs(intensity) - shield);
-        return Math.copySign(left, intensity);
+        float left = Math.abs(intensity) - shield;
+        return left <= 0f ? 0f : Math.copySign(left, intensity);
     }
 
     /**
