@@ -7,5 +7,6 @@
       { "uri": "CoreAssets:Torch", "quantity": 20 }
     ]
   },
-  "Hunger": {}
+  "Hunger": {},
+  "Exposure": {}
 }

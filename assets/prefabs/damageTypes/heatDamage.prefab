@@ -1,0 +1,6 @@
+/**
+ * What a volcano does to a body that stays too long. Like fireDamage, the prefab's own name is the key a
+ * DamageResistComponent would use.
+ */
+{
+}
