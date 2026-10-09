@@ -27,12 +27,15 @@ public final class CharacterStats {
     public static int defense(EntityRef character) {
         int total = 0;
         for (int slot = EquipmentSlots.FIRST; slot < EquipmentSlots.TOTAL; slot++) {
-            ArmorComponent armor = itemAt(character, slot).getComponent(ArmorComponent.class);
-            if (armor != null) {
-                total += armor.protection;
-            }
+            total += protection(itemAt(character, slot));
         }
         return total;
+    }
+
+    /** What a worn item protects: nothing once it is broken. */
+    public static int protection(EntityRef item) {
+        ArmorComponent armor = item.getComponent(ArmorComponent.class);
+        return armor == null || Wear.isBroken(item) ? 0 : armor.protection;
     }
 
     public static float damageFactor(int defense) {
@@ -59,11 +62,13 @@ public final class CharacterStats {
         return inventory.itemSlots.get(slot);
     }
 
+    /** A broken weapon hits like a bare hand, see {@link WearAuthoritySystem}. */
     private static ItemComponent heldItem(EntityRef character) {
         SelectedInventorySlotComponent selected = character.getComponent(SelectedInventorySlotComponent.class);
         if (selected == null) {
             return null;
         }
-        return itemAt(character, selected.slot).getComponent(ItemComponent.class);
+        EntityRef item = itemAt(character, selected.slot);
+        return Wear.isBroken(item) ? null : item.getComponent(ItemComponent.class);
     }
 }

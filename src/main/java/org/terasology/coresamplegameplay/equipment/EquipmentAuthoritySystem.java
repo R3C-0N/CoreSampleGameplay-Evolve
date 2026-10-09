@@ -2,12 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0
 package org.terasology.coresamplegameplay.equipment;
 
+import org.terasology.coresamplegameplay.creative.CreativeModeComponent;
 import org.terasology.engine.entitySystem.entity.EntityRef;
 import org.terasology.engine.entitySystem.entity.lifecycleEvents.OnActivatedComponent;
 import org.terasology.engine.entitySystem.systems.BaseComponentSystem;
 import org.terasology.engine.entitySystem.systems.RegisterMode;
 import org.terasology.engine.entitySystem.systems.RegisterSystem;
 import org.terasology.engine.logic.players.PlayerCharacterComponent;
+import org.terasology.engine.utilities.random.FastRandom;
+import org.terasology.engine.utilities.random.Random;
 import org.terasology.gestalt.entitysystem.event.ReceiveEvent;
 import org.terasology.module.health.events.BeforeDamagedEvent;
 import org.terasology.module.inventory.components.InventoryComponent;
@@ -15,10 +18,11 @@ import org.terasology.module.inventory.events.BeforeItemPutInInventory;
 
 /**
  * What makes the equipment slots more than inventory slots: they only take what fits, and what they hold
- * protects the one wearing it.
+ * protects the one wearing it, and wears for it.
  */
 @RegisterSystem(RegisterMode.AUTHORITY)
 public class EquipmentAuthoritySystem extends BaseComponentSystem {
+    private final Random random = new FastRandom();
 
     /**
      * Characters saved before equipment existed have 40 slots, and the prefab only reaches new ones. Growing
@@ -51,7 +55,31 @@ public class EquipmentAuthoritySystem extends BaseComponentSystem {
     public void absorbDamage(BeforeDamagedEvent event, EntityRef character) {
         int defense = CharacterStats.defense(character);
         if (defense > 0) {
-            event.multiply(CharacterStats.damageFactor(defense));
+            float factor = CharacterStats.damageFactor(defense);
+            event.multiply(factor);
+            if (event.getInstigator().exists() && !character.hasComponent(CreativeModeComponent.class)) {
+                wearArmor(character, defense, event.getBaseValue() * (1 - factor));
+            }
+        }
+    }
+
+    /**
+     * Armour wears by the damage it takes: what it absorbed, shared between the pieces worn by what each protects.
+     * Only blows wear it — something struck, not a fall. A share below one point is drawn at random, so that a
+     * shower of small blows wears it as much as one heavy blow, on average.
+     */
+    private void wearArmor(EntityRef character, int defense, float absorbed) {
+        for (int slot = EquipmentSlots.FIRST; slot < EquipmentSlots.TOTAL; slot++) {
+            EntityRef item = CharacterStats.itemAt(character, slot);
+            int protection = CharacterStats.protection(item);
+            if (protection > 0) {
+                float share = absorbed * protection / defense;
+                int points = (int) share;
+                if (random.nextFloat() < share - points) {
+                    points++;
+                }
+                Wear.wear(item, points);
+            }
         }
     }
 }

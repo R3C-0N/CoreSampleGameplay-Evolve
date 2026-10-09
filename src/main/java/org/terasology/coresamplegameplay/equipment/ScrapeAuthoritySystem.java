@@ -67,7 +67,7 @@ public class ScrapeAuthoritySystem extends BaseComponentSystem implements Update
 
     @ReceiveEvent
     public void scrape(ActivateEvent event, EntityRef item, ToolComponent tool, ItemComponent itemComponent) {
-        if (!"shovel".equals(tool.family)) {
+        if (!"shovel".equals(tool.family) || Wear.isBroken(item)) {
             return;
         }
         EntityRef target = event.getTarget();
@@ -107,6 +107,7 @@ public class ScrapeAuthoritySystem extends BaseComponentSystem implements Update
                 scraping.passEndTime = now;
                 Vector3f face = faceOf(blockComponent, event.getHitNormal());
                 burst(face);
+                Wear.wear(item, Wear.USE);
                 playDigSound(target, block, 0.8f);
                 if (random.nextFloat() < FLINT_CHANCE) {
                     entityManager.create(FLINT).send(new DropItemEvent(feetOf(event.getInstigator(), face)));

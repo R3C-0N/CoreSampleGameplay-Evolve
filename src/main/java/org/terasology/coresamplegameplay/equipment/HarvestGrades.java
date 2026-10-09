@@ -60,7 +60,7 @@ public final class HarvestGrades {
             return true;
         }
         int requiredGrade = GRADE_BY_BLOCK.getOrDefault(family.getURI(), FLINT);
-        ToolComponent tool = heldItem.getComponent(ToolComponent.class);
+        ToolComponent tool = Wear.isBroken(heldItem) ? null : heldItem.getComponent(ToolComponent.class);
         return tool != null && requiredFamily.equals(tool.family) && tool.grade >= requiredGrade;
     }
 }
